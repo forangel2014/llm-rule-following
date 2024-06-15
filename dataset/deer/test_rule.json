@@ -1,0 +1,178 @@
+{
+    "0": {
+        "NL": "If an animal lives in a cold area, then it probably has thick fat or think fur.",
+        "FOL": "Live_in(X, Y) ∧ Cold_area(Y) => Have_thick_fat(X) ∨ Have_thick_fur(X)"
+    },
+    "1": {
+        "NL": "If an animal emits foul smell, then it probaly is protecting itself or marking its territory.",
+        "FOL": "Emit_foul_smell(X) => Protecting(X, X) ∨ (Mark(X, Y) ∧ Belong_to(Y, X))"
+    },
+    "2": {
+        "NL": "If it's a cold place and winter comes, then animals in this place might hibernate.",
+        "FOL": "Cold_place(X) ∧ Winter_come(X) => Might_hibernate(X)"
+    },
+    "3": {
+        "NL": "If an animal has fin, then it probably belongs to aquatic animal.",
+        "FOL": "Have_fin(X) => Belong_to(X, Aquatic_animal)"
+    },
+    "4": {
+        "NL": "If a reptile lays egg under different temperature, then the gender of the eggs probably varies accordingly to the temperature.",
+        "FOL": "Lays_eggs_under_temperture(X, Y) ∧ Reptile(X) => Gender_varies_accordingly(X, Y)"
+    },
+    "5": {
+        "NL": "If an animal has a three-part body and three pairs of joint legs, then it is insect.",
+        "FOL": "Have_three_part_body(X) ∧ Have_three_pairs_joint_legs(X) => Insect(X)"
+    },
+    "6": {
+        "NL": "If a snake has a large and triangle head and has a colorful skin and will curl up and prepare to attack when meet danger, then it probably is venomous.",
+        "FOL": "Snake(X) ∧ Large_triangular_head(X) ∧ Colorful_skin(X) ∧ Curl_up(X) ∧ Prepare_to_attack(X) => Venomous(X)"
+    },
+    "7": {
+        "NL": "If an animal feeds on plant's nectar or fruit, then it can also help the plant's reproduction.",
+        "FOL": "Feed_on(X, Plant_nectar) ∨ Feed_on(X, Plant_fruit) => Helps_plant_reproduction(X)"
+    },
+    "8": {
+        "NL": "If a plant is carnivorous, then it probably has a trapping structure.",
+        "FOL": "Carnivorous_plant(X) => Have_trapping_structure(X)"
+    },
+    "9": {
+        "NL": "If a plant lives in a place which has hot weather and abundant rainfall, then the plant might not drop most of its leaves in winter.",
+        "FOL": "Live_in(X, Y) ∧ Hot(Y) ∧ Abundant_rainfall(Y) => Not_drop_leave_in_winter(X)"
+    },
+    "10": {
+        "NL": "If a mushroom contains red colour and has unpleasant smell, then it probably is toxic.",
+        "FOL": "Mushroom(X) ∧ Contain_color(X, Red) ∧ Have_unpleasant_smell(X) => Toxic(X)"
+    },
+    "11": {
+        "NL": "If a plant has flowers with nectar or has fruit with sweet juice, it probably can benefit from animals' help on its reproduction.",
+        "FOL": "Plant(X) ∧ (Have_flowers_with_nectar(X) ∨ Have_fruit_with_sweet_juice(X)) => Benefits_from_animals_help(X)"
+    },
+    "12": {
+        "NL": "If a plant is a annual plant or biennial plant, then it probably is herbaceous.",
+        "FOL": "Plant(X) ∧ (Is_annual_plant(X) ∨ Is_biennial_plant(X)) => Herbaceous(X)"
+    },
+    "13": {
+        "NL": "If a country has coastal areas, then it probably has cheap seafood.",
+        "FOL": "Country(X) ∧ Have(X, Y) ∧ Coastal_area(Y) => Have(X, Z) ∧ Cheap_seafood(Z)"
+    },
+    "14": {
+        "NL": "If a place is closer to the equator, then the wheat grown in that place is earlier to be harvested.",
+        "FOL": "Place(X) ∧ Closer_to_equator(X) => Wheat_earlier_harvested(X)"
+    },
+    "15": {
+        "NL": "If carbon deposits deep within the earth and are subject to high temperature and pressure, then diamond might form.",
+        "FOL": "Place(X) ∧ Carbon_deposit(X) ∧ Deep_within_earth(X) ∧ Temperature(X,Y) ∧ Pressure(X,Z) ∧ High(Y) ∧ High(Z) => Diamond_might_form(X)"
+    },
+    "16": {
+        "NL": "If a place on earth is in the sea area and two ocean currents meet at the place, then this place probably is abundant in fish.",
+        "FOL": "Sea_area(X) ∧ Ocean_currents_meet(X) => Abundant_fish(X)"
+    },
+    "17": {
+        "NL": "If a large comet hits the earth or a large earthquake happens, then it probably will cause a tsunami.",
+        "FOL": "Comet_hits(Earth) ∨ Large_earthquake(X) => Cause_tsunami(X)"
+    },
+    "18": {
+        "NL": "If a large comet hits the earth or a large earthquake happens, then it probably will cause a volcanic eruption.",
+        "FOL": "Comet_hits(Earth) ∨ Large_earthquake(X) =>  Cause_volcanic_eruption(X)"
+    },
+    "19": {
+        "NL": "If an ocean area in the Earth is near the Equator or near the 30 degrees north and south or Equator, then it probably have calm winds.",
+        "FOL": "Near(X, Y) ∧ (Equator(Y) ∨ Degrees(Y, 30)) => Calm_winds(X)"
+
+    },
+    "20": {
+        "NL": "If a planet locates near the star it orbits around, then the planet probably has a small size.",
+        "FOL": "Located_near(X, Y) ∧ Orbit(X, Y) => Small_size(X)"
+    },
+    "21": {
+        "NL": "If a planet locates near the star it orbits around, then the planet probably is a terrestrial planet.",
+        "FOL": "Located_near(X, Y) ∧ Orbit(X, Y) => Terrestrial_planet(X)"
+    },
+    "22": {
+        "NL": "If a planet locates far from the star it orbits around and has a large size, then it probably consists of gas.",
+        "FOL": "Located_far(X, Y) ∧ Orbit(X, Y) => Consists_of(X, Z) ∧ Gas(Z)"
+    },
+    "23": {
+        "NL": "If an intergalactic object is extremely dense and has a hard surface, then it probably is a neutron star.",
+        "FOL": "Dense(X, Y) ∧ High(Y) ∧ Hard_surface(X) => Neutron_star(X)"
+    },
+    "24": {
+        "NL": "If a star has higher surface temperature or is closer to us, then it probably has lower color index (more blue and less red).",
+        "FOL": "Higher_surface_temperature(X) ∨ Closer_to_us(X) => Lower_color_index(X)"
+    },
+    "25": {
+        "NL": "If a piece of precise, deep, and even simple understanding of the world has only been obtained by a small group of people or is very helpful for a person to live in the world, then it probably is hard and costly to obtain.",
+        "FOL": "Precise_understanding(X) ∧ Deep_understanding(X) ∧ Simple_understanding(X) ∧ Obtained_by_small_group(X) ∨ Helpful_for_individual(X) => Hard_and_costly_to_obtain(X)"
+    },
+    "26": {
+        "NL": "If a country catches up industrial revolution, then it might be rich and have advanced technology.",
+        "FOL": "Catch_up_industrial_revolution(X) => Rich(X) ∧ Advanced_technology(X)"
+    },
+    "27": {
+        "NL": "If a person is knowledgable about an area and currently has a position that is biased to you, then his words about that area is more believable.",
+        "FOL": "Person(X) ∧ Knowledgeable_about(X, Y) ∧ Have_biased_position(X) => Words(X, Z) ∧ Belong_to(Z, Y) ∧ More_believable(Z)"
+
+    },
+    "28": {
+        "NL": "If a person can appreciate others' help timely and properly or be enough competent, then he probably can receive more help from others.",
+        "FOL": "Appreciates_help_timely(X) ∧ Appreciates_help_properly(X) ∨ Competent(X) => Receive_more_help(X)"
+    },
+    "29": {
+        "NL": "If a planet has magnetic field, then it probably has a hot liquid core.",
+        "FOL": "Have_magnetic_field(X) => Core(X, Y) ∧ Hot(Y) ∧ Liquid(Y)"
+    },
+    "30": {
+        "NL": "If a conductor cuts through lines of magnetic field, then it induces eletromotive force, or voltage.",
+        "FOL": "Conductor(X) ∧ Cut_magnetic_field_lines(X) => Induce_electromotive_force(X) ∨ Induce_Voltage(X)"
+    },
+    "31": {
+        "NL": "If a triangle is a right triangle, the sum of the squares on the legs of a right triangle is equal to the square on the hypotenuse.",
+        "FOL": "Right_triangle(X) => Equal_to(Sum_of_Square_of_legs(X), Square_of_hypotenuse(Z))"
+
+    },
+    "32": {
+        "NL": "If multiple waves pass by the same region at the same time, then they will interfere with each other.",
+        "FOL": "Multiple_waves_pass(X) => Interfere_with_each_other(X)"
+    },
+    "33": {
+        "NL": "If a substance breaks up into multiple parts or temperature increases, then its entropy will increase.",
+        "FOL": "Substance_breaks_up(X) ∨ Temperature_increases(X) => Increase_entropy(X)"
+    },
+    "34": {
+        "NL": "If an animal has wings with feather, then it probably can fly.",
+        "FOL": "Animal(X) ∧ Have(X, Y) ∧ Wings_with_feather(Y) => Can_fly(X)"
+    },
+    "35": {
+        "NL": "If an animal has a long, prehensile tail, then it is probably an arboreal species.",
+        "FOL": "Animal(X) ∧ Have(X, Y) ∧ Long_prehensile_tail(Y) => Arboreal_species(X)"
+
+    },
+    "36": {
+        "NL": "If an animal is marsupial, then it carries its young in a pouch.",
+        "FOL": "Marsupial(X) => Carries_young_in_pouch(X)"
+    },
+    "37": {
+        "NL": "If an animal is an exotic species, then it may negatively affect the local environment.",
+        "FOL": "Exotic_species(X) => Negatively_affects_local_environment(X)"
+    },
+    "38": {
+        "NL": "if a plant has leaves with wax coating, then it probably is a xerophytic plant.",
+        "FOL": "Plant(X) ∧ Have(X, Y) ∧ Leaves_with_wax_coating(Y) => Xerophytic_plant(X)"
+    },
+    "39": {
+        "NL": "If an animal has a complex social structure, then it is likely to have developed advanced cognitive abilities.",
+        "FOL": "Animal(X) ∧ Have_complex_social_structure(X) => Developed_advanced_cognitive_abilities(X)"
+    },
+    "40": {
+        "NL": "If an animal has convergent eyes (eyes positioned to face forward on the head), then that animal likely exhibits predatory behavior.",
+        "FOL": "Have_convergent_eyes(X) => Exhibits_predatory_behavior(X)"
+    },
+    "41": {
+        "NL": "If a celestial body is observed to have an irregular orbit, then it often indicates the gravitational influence of another, as-yet-undiscovered celestial body.",
+        "FOL": "Irregular_orbit(X) => Gravitational_influence(Y, X) ∧ Undiscovered_celestial_body(Y)"
+    },
+    "42": {
+        "NL": "If a star is observed to suddenly increase in brightness, then it often indicates a stellar explosion or supernova event, which can lead to the creation of elements heavier than iron.",
+        "FOL": "Sudden_increase_in_brightness(X) => (Stellar_explosion(X) ∨ Supernova(X)) ∧ Creation_of_elements_heavier_than_iron(X)"
+    }
+}

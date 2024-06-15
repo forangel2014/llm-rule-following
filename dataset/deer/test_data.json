@@ -1,0 +1,338 @@
+[
+    {
+        "instruction": "",
+        "input": "Which animal is likely to have thick fat or thick fur?\nA. Kangaroos are commonly found in Australia. They feed on the leaves, bark, and tender buds of plants.\nB. Polar bears are carnivorous mammals that primarily inhabit the Arctic region.\nC. Elephants are large herbivorous mammals native to various habitats in Africa and Asia.\nD. Cheetahs are carnivorous mammals found in various habitats in Africa, known for their speed and agility in hunting. ",
+        "output": "b",
+        "rule": [
+            0
+        ]
+    },
+    {
+        "instruction": "",
+        "input": "Which animal is probaly protecting itself or marking its territory?\nA. Skunks are known for their ability to spray a strong-smelling liquid from their anal glands as a defense mechanism against predators. The smell can be very difficult to remove.\nB. Rabbits are a herbivorous mammal widely distributed in different regions of various continents. They mainly feed on the tender leaves of grass, vegetables, and trees.\nC. Bald Eagles are large birds of prey known for their keen eyesight and hunting abilities. They primarily feed on fish and small mammals.\nD. Flamingos are large wading birds known for their vibrant pink coloration and unique feeding behavior. They primarily feed on algae and small invertebrates in shallow waters.",
+        "output": "a",
+        "rule": [
+            1
+        ]
+    },
+    {
+        "instruction": "",
+        "input": "In which place the animals might hibernate?\nA. The Amazon Rainforest is a tropical rainforest located in South America with a warm and humid climate throughout the year. It is known for its incredible biodiversity and dense vegetation.\nB. The Sahara Desert is a large hot desert located in North Africa, known for its extremely high temperatures and arid conditions year-round.\nC. The Arctic Tundra is a cold biome located at high latitudes in the Northern Hemisphere, characterized by low temperatures, short growing seasons, and permafrost.\nD. The Australian Outback is a vast arid region in Australia, known for its dry and hot climate with little precipitation.",
+        "output": "c",
+        "rule": [
+            2
+        ]
+    },
+    {
+        "instruction": "",
+        "input": "Which animal is probably belongs to aquatic animal?\nA. Elephant is the largest land animal and is characterized by its long trunk and tusks.\nB. Eagle is a bird of prey known for its sharp beak, powerful talons, and keen eyesight.\nC. Shark is a predatory fish with a cartilaginous skeleton, multiple rows of teeth, and a streamlined body for swimming.\nD. Tiger is a large carnivorous mammal with distinctive orange fur and black stripes native to Asia. ",
+        "output": "c",
+        "rule": [
+            3
+        ]
+    },
+    {
+        "instruction": "",
+        "input": "Which animal's egg gender cannot be determined even after being produced by the mother?\nA. Crocodiles are large aquatic reptiles that lay eggs in nests near water bodies. The eggs need to be incubated at the right temperature in order to hatch.\nB. Snakes are elongated, legless reptiles that lay eggs in underground burrows or hidden locations.\nC. Komodo dragons are the world's largest lizards and lay eggs in burrows or mounds.\nD. Turtles are reptiles that lay eggs on land and bury them in sand or soil. \n",
+        "output": "d",
+        "rule": [
+            4
+        ]
+    },
+    {
+        "instruction": "",
+        "input": "Which animal is insect?\nA. Spiders are characterized by having four pairs of joint legs.\nB. Snakes are with elongated bodies and no limbs.\nC. Ants have three-part bodies but only two pairs of joint legs.\nD. Beetles have three-part bodies and three pairs of joint legs.",
+        "output": "d",
+        "rule": [
+            5
+        ]
+    },
+    {
+        "instruction": "",
+        "input": "Which snake is probably venomous?\nA. The garter snake is a common species found in North America. It has a slender body, small head, and distinctive stripes running the length of its body.\nB. The king cobra is snake native to forests from India through Southeast Asia, it has a large and triangle head.\nC. Ball pythons are constrictor snakes native to sub-Saharan Africa. They have a docile temperament and are popular as exotic pets.\nD. Green tree pythons are arboreal snakes found in New Guinea, Indonesia, and Australia. They have a vibrant green coloration and are known for their ability to blend in with tree branches.",
+        "output": "b",
+        "rule": [
+            6
+        ]
+    },
+    {
+        "instruction": "",
+        "input": "Which animal can help the plant's reproduction?\nA. Lions are large carnivorous mammals known for their hunting abilities and social behavior. They primarily feed on herbivores such as antelopes and zebras.\nB. Hummingbirds are small birds often recognized for their rapid wing beats and hovering flight. They primarily feed on nectar from flowers and can pollinate plants while doing so.\nC. Crocodiles are large aquatic reptiles known for their powerful jaws and carnivorous diet. They primarily feed on fish, birds, and mammals near water bodies.\nD. Gorillas are herbivorous primates that mainly feed on leaves, stems, fruits, and shoots. They play a crucial role in seed dispersal for various plant species. ",
+        "output": "b",
+        "rule": [
+            7
+        ]
+    },
+    {
+        "instruction": "",
+        "input": "Which plant probably has a trapping structure?\nA. Cacti are succulent plants native to the Americas, known for their ability to store water in their thick stems or leaves.\nB. Sunflowers are large, annual plants that belong to the Asteraceae family. They have bright yellow flowers that resemble the sun.\nC. Venus flytrap is a carnivorous plant native to subtropical wetlands on the East Coast of the United States.\nD. Peonies are herbaceous perennials that produce large, fragrant flowers in various colors such as pink, red, and white.",
+        "output": "c",
+        "rule": [
+            8
+        ]
+    },
+    {
+        "instruction": "",
+        "input": "Which plant might not drop most of its leaves in winter?\nA. Pine trees are evergreen conifers that do not shed all of their needles at one time. They can be found in various climates across the world.\nB. Maple trees are deciduous trees. They are known for their vibrant colors during fall.\nC. Cacti are succulent plants adapted to arid regions with minimal rainfall. They store water in their stems.\nD. Olive trees are evergreen trees that produce olives and can be found in regions with Mediterranean climates. ",
+        "output": "d",
+        "rule": [
+            9
+        ]
+    },
+    {
+        "instruction": "",
+        "input": "Which mushroom probably is toxic?\nA. Agaricus campestris, commonly known as meadow mushroom or field mushroom, is a species of mushroom that is edible and found in fields and grassy areas.\nB. Amanita muscaria, also known as the fly agaric, is a mushroom with a distinct red cap and white spots.\nC. Chanterelles are a type of edible wild mushroom with a vibrant yellow or orange color and a pleasant fruity aroma.\nD. Shiitake mushrooms are edible mushrooms native to East Asia and are known for their rich and savory flavor.",
+        "output": "b",
+        "rule": [
+            10
+        ]
+    },
+    {
+        "instruction": "",
+        "input": "Which plant probably can benefit from animals' help on its reproduction?\nA. Cacti are succulent plants known for their fleshy stems and spines.\nB. Sunflowers are flowering plants that produce large, showy blooms.\nC. Apple trees produce fruit with sweet juice, making them attractive to animals.\nD. Ferns are non-flowering plants that reproduce through spores. They do not produce nectar or fruit with sweet juice.",
+        "output": "c",
+        "rule": [
+            11
+        ]
+    },
+    {
+        "instruction": "",
+        "input": "Which plant is probably herbaceous?\nA. Oak trees are large deciduous trees found in various regions around the world. They are known for their strong and durable wood, as well as their acorns that serve as food for wildlife.\nB. Carrots are cultivated root vegetables commonly consumed by humans. They are biennial plants that produce an edible orange taproot.\nC. Daffodils are a type of flowering plant that belongs to the Amaryllidaceae family. They are known for their showy yellow or white flowers that bloom in the spring.\nD. Sunflowers are tall annual plants that belong to the Asteraceae family. They are characterized by their large and vibrant yellow flower heads that track the sun throughout the day. \n",
+        "output": "b",
+        "rule": [
+            12
+        ]
+    },
+    {
+        "instruction": "",
+        "input": "Which country probably has cheap seafood?\nA. Switzerland is a landlocked country in Central Europe known for its high-quality dairy products and chocolates.\nB. Japan is an island country in East Asia, surrounded by the Pacific Ocean.\nC. Bolivia is a landlocked country in South America known for its diverse geography and cultural heritage.\nD. Ethiopia is a landlocked country in the Horn of Africa, famous for its unique cuisine and coffee culture.",
+        "output": "b",
+        "rule": [
+            13
+        ]
+    },
+    {
+        "instruction": "",
+        "input": "In which place the wheat grown is earlier to be harvested?\nA. Canada is a country located in North America. It has a diverse climate, ranging from temperate to subarctic, and is known for its production of wheat and canola.\nB. Brazil is a South American country known for its tropical climate, vast agricultural lands, and production of various crops including wheat.\nC. Russia is a country spanning Eastern Europe and Northern Asia known for its harsh winters and vast landscapes. It is one of the largest producers of wheat in the world.\nD. United Kingdom is a country in Western Europe.",
+        "output": "b",
+        "rule": [
+            14
+        ]
+    },
+    {
+        "instruction": "",
+        "input": "In which situation may the diamond form?\nA. Graphite is a soft, black form of carbon commonly used in pencils. It is known for its slippery feel and non-shiny appearance.\nB. Charcoal is a lightweight black carbon residue produced when wood is heated in the absence of air. It is often used as a fuel source or for artistic purposes.\nC. Coal is a combustible black or brownish-black sedimentary rock formed from the remains of plant matter that was subjected to high pressure and heat over millions of years.\nD. Kimberlite is a type of rock. It is formed from the mantle and is brought to the surface through volcanic eruptions.",
+        "output": "d",
+        "rule": [
+            15
+        ]
+    },
+    {
+        "instruction": "",
+        "input": "Which place is probably abundant in fish?\nA. The Sahara Desert is the largest hot desert in the world, covering much of North Africa. It is known for its vast expanse of sand dunes and extremely dry conditions.\nB. The Amazon Rainforest is a dense, moist, broadleaf forest in the Amazon Basin of South America. It is the world's largest tropical rainforest, known for its rich biodiversity.\nC. The Mediterranean Sea is a sea connected to the Atlantic Ocean, surrounded by the Mediterranean Basin and almost completely enclosed by land. It is known for its warm climate, beaches, and historical sites.\nD. The North Sea is a marginal sea of the Atlantic Ocean located between Great Britain, Scandinavia, Germany, the Netherlands, Belgium, and France. \n",
+        "output": "d",
+        "rule": [
+            16
+        ]
+    },
+    {
+        "instruction": "",
+        "input": "Which situation may cause a tsunami?\nA. Overcast weather with light showers results in a gentle rainfall across the region.\nB. A volcanic eruption occurs on an uninhabited island, releasing ashes and gases into the atmosphere.\nC. A large comet hits the earth and causes widespread destruction on impact.\nD. A migration of humpback whales is observed along the coast as they head to warmer waters. \n",
+        "output": "c",
+        "rule": [
+            17
+        ]
+    },
+    {
+        "instruction": "",
+        "input": "Which situation may cause a volcanic eruption?\nA. A heavy snowfall in a mountainous region causes avalanches in the area.\nB. A wildfire spreads rapidly through a dry forest due to strong winds.\nC. A large comet collides with the earth, causing widespread destruction and chaos.\nD. A small earthquakes shake slightly results in structural damage to buildings and roads.",
+        "output": "c",
+        "rule": [
+            18
+        ]
+    },
+    {
+        "instruction": "",
+        "input": "Which place probably have calm winds?\nA. The Arctic Ocean is the smallest and shallowest of the world's five major oceans. It is situated entirely within the Arctic Circle and is known for its cold and harsh conditions.\nB. The Indian Ocean is the third-largest ocean in the world and is located between Africa, Asia, Australia, and the Southern Ocean.\nC. The Pacific Ocean is the largest and deepest ocean on Earth, covering more than 60 million square miles. It is known for its marine biodiversity and the presence of the Pacific Ring of Fire.\nD. The Atlantic Ocean is the second-largest ocean in the world and is situated between Europe, Africa, the Americas, and the Southern Ocean. \n",
+        "output": "b",
+        "rule": [
+            19
+        ]
+    },
+    {
+        "instruction": "",
+        "input": "Which planet probably has a small size?\nA. Earth is the third planet from the Sun and has an average distance of about 93 million miles (150 million kilometers).\nB. Saturn is the sixth planet from the Sun and has an average distance of about 886 million miles (1.4 billion kilometers).\nC. Uranus is the seventh planet from the Sun and has an average distance of about 1.8 billion miles (2.8 billion kilometers).\nD. Neptune is the eighth planet from the Sun and has an average distance of about 2.8 billion miles (4.5 billion kilometers).",
+        "output": "a",
+        "rule": [
+            20
+        ]
+    },
+    {
+        "instruction": "",
+        "input": "Which planet probably is a terrestrial planet?\nA. Jupiter is the largest planet in our solar system and is classified as a gas giant.\nB. Uranus is the seventh planet from the Sun and is classified as an ice giant.\nC. Mars is the fourth planet from the Sun.\nD. Neptune is the eighth planet from the Sun and is classified as an ice giant.",
+        "output": "c",
+        "rule": [
+            21
+        ]
+    },
+    {
+        "instruction": "",
+        "input": "Which planet probably consists of gas?\nA. Mercury is the closest planet to the Sun in our solar system, with a small size.\nB. Venus is the second planet from the Sun.\nC. Mars is the fourth planet from the Sun and is often referred to as the \"Red Planet\" due to its reddish appearance.\nD. Jupiter is the largest planet in our solar system, located far from the Sun, and and has a large size.",
+        "output": "d",
+        "rule": [
+            22
+        ]
+    },
+    {
+        "instruction": "",
+        "input": "Which planet probably is a neutron star?\nA. Earth is the third planet from the Sun in our solar system and is known for its diverse ecosystems, including oceans, forests, and deserts.\nB. Uranus is the seventh planet from the Sun and is characterized by its unique tilt that causes it to rotate on its side.\nC. Neptune is the eighth and most distant planet from the Sun in our solar system, known for its striking blue color and extreme winds.\nD. PSR J1748-2446ad is a pulsar located in the constellation Sagittarius, which spins at an incredibly rapid rate due to its high density and magnetic field.",
+        "output": "d",
+        "rule": [
+            23
+        ]
+    },
+    {
+        "instruction": "",
+        "input": "Which planet probably has lower color index?\nA. Proxima Centauri is a red dwarf star located in the Alpha Centauri star system.\nB. Sirius, also known as the Dog Star. It has a lower surface temperature than most stars and is relatively far from Earth.\nC. Betelgeuse is a red supergiant star located in the Orion constellation. It is one of the largest stars known and has a lower surface temperature compared to many other stars.\nD. Rigel is a blue supergiant star located in the Orion constellation. It has a higher surface temperature than many other stars.",
+        "output": "d",
+        "rule": [
+            24
+        ]
+    },
+    {
+        "instruction": "",
+        "input": "Which understanding probably is hard and costly to obtain?\nA. Basic knowledge of mathematics is essential for everyday life and is acquired by the majority of the population during their education.\nB. Quantum physics is a branch of science that deals with the behavior of subatomic particles and is only understood by a select group of experts with specialized knowledge.\nC. Information on the benefits of a balanced diet and regular exercise is widely available and easily accessible to the general public.\nD. Learning to tie shoelaces is a basic skill that most individuals acquire at a young age and does not require extensive resources or time to master. \n",
+        "output": "b",
+        "rule": [
+            25
+        ]
+    },
+    {
+        "instruction": "",
+        "input": "Which person's words is more believable?\nA. Jane, a geologist who has studied rocks for many years.\nB. Mark, a chef who specializes in French cuisine and has a preference for using certain cooking techniques in his recipes.\nC. Sarah, a physicist with expertise in quantum mechanics and who has shown a clear preference for a particular interpretation of the double-slit experiment.\nD. James, a historian who focuses on ancient civilizations and is known to have a bias towards you. \n",
+        "output": "d",
+        "rule": [
+            27
+        ]
+    },
+    {
+        "instruction": "",
+        "input": "Which person probably can receive more help from others?\nA. John always ignores others' assistance and prefers to solve problems on his own, rarely expressing gratitude towards those who help him.\nB. Sarah is skilled and competent in her field of work but is known to be overly critical and dismissive of the contributions of others.\nC. Mike is always willing to lend a helping hand and expresses sincere appreciation towards those who assist him, building strong relationships based on mutual support.\nD. Emily is hardworking and dedicated to her tasks but tends to take credit for the work of others, rarely acknowledging their contributions. ",
+        "output": "c",
+        "rule": [
+            28
+        ]
+    },
+    {
+        "instruction": "",
+        "input": "Which planet probably has a hot liquid core?\nA. Venus is the second planet from the Sun and has an average distance of about 67 million miles (108 million kilometers). Venus has a very weak magnetic field.\nB. Mars is the fourth planet from the Sun and has an average distance of about 142 million miles (228 million kilometers), Mars has a very weak and patchy magnetic field.\nC. Jupiter is the largest planet in our solar system and has an average distance of about 484 million miles (778 million kilometers), Jupiter has a very strong magnetic field.\nD. The moon is a satellite of the Earth, with a smaller volume.",
+        "output": "c",
+        "rule": [
+            29
+        ]
+    },
+    {
+        "instruction": "",
+        "input": "Which situation may the conductor induces eletromotive force, or voltage?\nA. A stationary conductor that is not moving in any magnetic field.\nB. A conductor moving parallel to the lines of a magnetic field.\nC. A conductor moving perpendicular to the lines of a magnetic field.\nD. A conductor that is not within the vicinity of any magnetic field.",
+        "output": "c",
+        "rule": [
+            30
+        ]
+    },
+    {
+        "instruction": "",
+        "input": "In which triangle the sum of the squares on the two legs is equal to the square on last legs?\nA. An equilateral triangle has all sides of equal length and all angles of equal measure.\nB. An isosceles triangle has two sides of equal length.\nC. An acute triangle has all angles measuring less than 90 degrees.\nD. A right triangle has one right angle (90 degrees).",
+        "output": "d",
+        "rule": [
+            31
+        ]
+    },
+    {
+        "instruction": "",
+        "input": "In which situation the waves might interfere with each other?\nA. A single wave is traveling through a medium without any other waves present.\nB. Two waves with different frequencies are moving through a medium in opposite directions.\nC. Multiple waves are traveling through the same region, but they are not passing by at the same time.\nD. Two waves are moving through mediums, but they are in different mediums with different speeds. ",
+        "output": "b",
+        "rule": [
+            32
+        ]
+    },
+    {
+        "instruction": "",
+        "input": "In which situation the entropy will increase?\nA. Water transitioning from a liquid state to a solid state.\nB. Several pieces of iron are melted together and then cooled down.\nC. Air being compressed into a smaller volume.\nD. A gas expanding to fill a larger container. ",
+        "output": "d",
+        "rule": [
+            33
+        ]
+    },
+    {
+        "instruction": "",
+        "input": "Which animal probably can fly?\nA. Elephants, the largest land animals on Earth, have a trunk, large ears, and tusks, but no wings with feathers.\nB. Penguins are flightless birds that are primarily found in the Southern Hemisphere. They have flippers for swimming but do not have wings with feathers.\nC. Ostriches are the largest and heaviest birds in the world and are known for their long necks and legs.\nD. Eagles are large birds of prey known for their sharp talons and beaks. They have wings with feathers.",
+        "output": "d",
+        "rule": [
+            34
+        ]
+    },
+    {
+        "instruction": "",
+        "input": "Which animal is probably an arboreal species?\nA. Lion is a large carnivorous mammal known for its majestic appearance and social behavior in prides. It primarily hunts large herbivores in the savannas of Africa.\nB. Elephant is a herbivorous mammal with a long trunk and large tusks. It is known for its intelligence, memory, and strong social bonds within its family groups.\nC. Monkey is a highly intelligent and agile primate species that has a long, prehensile tail.\nD. Hippopotamus is a large semi-aquatic mammal found in sub-Saharan Africa. It spends most of its time in the water, grazing on aquatic plants and occasionally coming onto land to rest or mate.",
+        "output": "c",
+        "rule": [
+            35
+        ]
+    },
+    {
+        "instruction": "",
+        "input": "Which animal carries its young in a pouch?\nA. Kangaroos are commonly found in Australia. They feed on the leaves, bark, and tender buds of plants\nB. Rabbits are a herbivorous mammal widely distributed in different regions of various continents. They mainly feed on the tender leaves of grass, vegetables, and trees.\nC. Opossums are marsupials found in North and South America.\nD. Elephants are large mammals found in Africa and Asia. ",
+        "output": "c",
+        "rule": [
+            36
+        ]
+    },
+    {
+        "instruction": "",
+        "input": "Which animal may negatively affect the local environment?\nA. The red panda, native to the eastern Himalayas and southwestern China, is a small arboreal mammal known for its distinctive red fur and bamboo diet.\nB. The green iguana, found in Central and South America, is a large herbivorous lizard that primarily feeds on leaves, fruits, and flowers.\nC. The lion, a carnivorous big cat found in sub-Saharan Africa and India, is known for its hunting prowess and social behavior within prides.\nD. The Burmese python, a large nonvenomous constrictor snake native to Southeast Asia, has become an invasive species in the Florida Everglades and poses a threat to native wildlife.",
+        "output": "d",
+        "rule": [
+            37
+        ]
+    },
+    {
+        "instruction": "",
+        "input": "Which plant probably is a xerophytic plant?\nA. Ferns are non-flowering vascular plants that reproduce through spores. They do not produce seeds or flowers.\nB. Cactus plants are succulents known for their ability to store water in their thick stems and leaves. Their leaves are with wax coating.\nC. Maple trees are deciduous trees characterized by their lobed leaves and colorful foliage in the autumn season. They are commonly found in temperate regions.\nD. Sunflowers are annual plants known for their large, yellow flower heads. They are commonly grown for their edible seeds.",
+        "output": "b",
+        "rule": [
+            38
+        ]
+    },
+    {
+        "instruction": "",
+        "input": "Which animal is likely to have developed advanced cognitive abilities?\nA. Octopuses are marine animals with eight tentacles and sophisticated camouflage abilities.\nB. Lions live in social groups known as prides and are known for their hunting strategies and teamwork.\nC. Sloths are slow-moving mammals that spend most of their time hanging upside-down in trees.\nD. Elephants live in complex social structures led by matriarchs and exhibit behaviors such as mourning their dead. ",
+        "output": "d",
+        "rule": [
+            39
+        ]
+    },
+    {
+        "instruction": "",
+        "input": "Which animal likely exhibits predatory behavior?\nA. Horses are large herbivorous mammals known for their speed, domestication by humans, and use in various activities such as racing and farming.\nB. Cheetahs are big cats known for their incredible speed and has convergent eyes.\nC. Dolphins are highly intelligent aquatic mammals that are known for their playful behavior, social bonds, and echolocation abilities.\nD. Elephants are large herbivorous mammals with a long trunk, tusks, and large ears that are known for their high level of intelligence and social structure. ",
+        "output": "b",
+        "rule": [
+            40
+        ]
+    },
+    {
+        "instruction": "",
+        "input": "Which phenomenon indicates the gravitational influence of another, as-yet-undiscovered celestial body?\nA. A comet is a small celestial body that revolves around the Sun in elongated elliptical paths.\nB. An asteroid is a rocky object that orbits the Sun, mainly between Mars and Jupiter in the Asteroid Belt.\nC. A meteoroid is a small rock in space, smaller than a kilometer in diameter, that may potentially enter Earth's atmosphere as a meteor or meteorite.\nD. Bouvard observed that there is a certain difference between the orbit of Uranus and his calculated theoretical orbit.",
+        "output": "d",
+        "rule": [
+            41
+        ]
+    },
+    {
+        "instruction": "",
+        "input": "Which phenomenon indicates a stellar explosion or supernova event?\nA. A star moving at a fast speed across the sky.\nB. A comet passing by Earth during the night.\nC. A star fading in brightness gradually over time.\nD. A star suddenly increasing in brightness. ",
+        "output": "d",
+        "rule": [
+            42
+        ]
+    }
+]

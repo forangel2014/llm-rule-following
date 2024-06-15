@@ -1,0 +1,1658 @@
+[
+ {
+  "instruction": "",
+  "input": "If the annual earnings per share has mean $8.6 and standard deviation $3.4, what is the chance that an observed EPS less than $5.5?\nChoices:\na 0.3628. b 0.0. c -0.1814. d 0.1814",
+  "output": "d",
+  "rule": [
+   "107"
+  ],
+  "Answer": 0.1814,
+  "Answer_type": "float",
+  "subfield": "Quantitive methods",
+  "field": "Finance"
+ },
+ {
+  "instruction": "",
+  "input": "Which of these codes cannot be Huffman codes for any probability assignment? \nChoices:\na {0, 10, 11}. b {00, 01, 10, 110}. c {0, 1}.",
+  "output": "b",
+  "rule": [
+   "2"
+  ],
+  "Answer": "(b)",
+  "Answer_type": "option",
+  "subfield": "Information theory",
+  "field": "EECS"
+ },
+ {
+  "instruction": "",
+  "input": "An ultrasonic transducer used for medical diagnosis oscillates at 6.7 Mhz.How long does each oscillation take, and what is the angular frequency? (Unit: 10^7 rad/s)\nChoices:\na 8.4. b 0.0. c 4.2. d -4.2",
+  "output": "c",
+  "rule": [
+   "50"
+  ],
+  "Answer": 4.2,
+  "Answer_type": "float",
+  "subfield": "Kinetics",
+  "field": "Physics"
+ },
+ {
+  "instruction": "",
+  "input": "What is the Cramer-Rao lower bound on $E_\\theta(\\hat{\\theta}(X)-\\theta)^2$, where $\\hat{\\theta}(X)$ is an unbaised estimator of $\\theta$ for the distribution family $f_\\theta(x)=\\theta e^{-\\theta x}$, $x \\geq 0$? \nChoices:\na $\\theta$. b $\\theta^2$. c $\\theta^{-1}$. d $\\theta^{-2}$.",
+  "output": "b",
+  "rule": [
+   "298"
+  ],
+  "Answer": "(b)",
+  "Answer_type": "option",
+  "subfield": "Statistics",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "For a\\geq 0, we define $S_a={x | dist(x, S) \\leq a}$, where $dist(x,S)=inf_{y\\in S}||x-y||$. Suppose S is convex. Is S_a convex? Return 1 for yes and 0 for no.\nChoices:\na -1.0. b 0.0. c 2.0. d 1.0",
+  "output": "d",
+  "rule": [
+   "164"
+  ],
+  "Answer": 1.0,
+  "Answer_type": "float",
+  "subfield": "Mathematical analysis",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "What is the smallest number of vertices in a graph that guarantees the existence of a clique of size 3 or an independent set of size 2?\nChoices:\na 0. b -3. c 3. d 6",
+  "output": "c",
+  "rule": [
+   "348"
+  ],
+  "Answer": 3,
+  "Answer_type": "integer",
+  "subfield": "Combinatorics",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "True or false: there exists a graph with score (1, 2, 3, 4, 5).\nChoices:\na False. b Unknown. c True",
+  "output": "a",
+  "rule": [
+   "21"
+  ],
+  "Answer": false,
+  "Answer_type": "bool",
+  "subfield": "Graph theory",
+  "field": "EECS"
+ },
+ {
+  "instruction": "",
+  "input": "What is the determinant of the matrix A = [[1, 0, 0, 0, 0, 0], [2, 7, 0, 0, 0, 0], [3, 8, 6, 0, 0, 0], [4, 9, 5, 2, 1, 4], [5, 8, 4, 0, 2, 5], [6, 7, 3, 0, 3, 6]]?\nChoices:\na 0. b -252. c -504. d 252",
+  "output": "b",
+  "rule": [
+   "254"
+  ],
+  "Answer": -252,
+  "Answer_type": "integer",
+  "subfield": "Algebra",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "Evaluate $\\int_c 1 / (z^ + 4)^2 dz$ over the contour. This contour is a circle centered at (0, i) with a diameter of 3 on the (Re, Im) plane, the contour goes counter-clockwise.\nChoices:\na 0.19634. b 0.0. c 0.39268. d -0.19634",
+  "output": "a",
+  "rule": [
+   "325"
+  ],
+  "Answer": 0.19634,
+  "Answer_type": "float",
+  "subfield": "Complex analysis",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "A box contains 4 red, 3 green, and 2 blue balls. Balls are distinct even with the same color. In how many ways can we choose 4 balls, if at least 2 are red?\nChoices:\na 162. b 81. c 0. d -81",
+  "output": "b",
+  "rule": [
+   "353"
+  ],
+  "Answer": 81,
+  "Answer_type": "integer",
+  "subfield": "Combinatorics",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "The diagonals of rhombus FGHJ intersect at K. If m∠FJH = 82, find m∠KHJ.\nChoices:\na 0. b 98. c -49. d 49",
+  "output": "d",
+  "rule": [
+   "305"
+  ],
+  "Answer": 49,
+  "Answer_type": "integer",
+  "subfield": "Geometry",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "You have a coin and you would like to check whether it is fair or biased. More specifically, let $\\theta$ be the probability of heads, $\\theta = P(H)$. Suppose that you need to choose between the following hypotheses: H_0 (null hypothesis): The coin is fair, i.e. $\\theta = \\theta_0 = 1 / 2$. H_1 (the alternative hypothesis): The coin is not fair, i.e. $\\theta > 1 / 2$. We toss 100 times and observe 60 heads. Can we reject H_0 at significance level $\\alpha = 0.01$?\nChoices:\na False. b Unknown. c True",
+  "output": "a",
+  "rule": [
+   "301"
+  ],
+  "Answer": false,
+  "Answer_type": "bool",
+  "subfield": "Statistics",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "Find the mass and weight of the air at $20^{\\circ} C$ in a living room with a $4.0 m \\times 5.0 m$ floor and a ceiling 3.0 m high, and the mass and weight of an equal volume of water. (Unit: 10 ^ 5 N)\nChoices:\na 0.0. b 5.9. c 11.8. d -5.9",
+  "output": "b",
+  "rule": [
+   "63"
+  ],
+  "Answer": 5.9,
+  "Answer_type": "float",
+  "subfield": "Classic mechanics",
+  "field": "Physics"
+ },
+ {
+  "instruction": "",
+  "input": "Compute the mean translational kinetic energy of a single ideal gas molecule in eV.\nChoices:\na 0.076. b 0.0. c 0.038. d -0.038",
+  "output": "c",
+  "rule": [
+   "86"
+  ],
+  "Answer": 0.038,
+  "Answer_type": "float",
+  "subfield": "Statistical physics",
+  "field": "Physics"
+ },
+ {
+  "instruction": "",
+  "input": "Given the following spot rates:\n1-year spot rate: 5%;\n2-year spot rate: 6%.\n Determine the one-year forward rate (between 0 and 1) one year from today.\nChoices:\na 0.070095. b -0.070095. c 0.0. d 0.14019",
+  "output": "a",
+  "rule": [
+   "112"
+  ],
+  "Answer": 0.070095,
+  "Answer_type": "float",
+  "subfield": "Fixed income",
+  "field": "Finance"
+ },
+ {
+  "instruction": "",
+  "input": "Consider the matrix of A=[[1, 4], [4, 1]], is this a positive definite matrix?\nChoices:\na True. b False. c Unknown",
+  "output": "b",
+  "rule": [
+   "255"
+  ],
+  "Answer": false,
+  "Answer_type": "bool",
+  "subfield": "Algebra",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "Suppose H=L^2[0,1]. Operator $A: u(t) \\mapsto t\\times u(t)$ is a map from H to H. Then A is a bounded linear operator. Then the spectrum of A is: \nChoices:\na [0,1], b [0,1/2], c [1/2, 1], d none of the above. Which one is correct?",
+  "output": "a",
+  "rule": [
+   "275"
+  ],
+  "Answer": "(a)",
+  "Answer_type": "option",
+  "subfield": "Functional analysis",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "Use Green's Theorem to evaluate $\\oint_{C} xy dx + x^2y^3dy$ where $C$ is the triangle with vertices (0,0), (1,0), (1,2) with positive orientation\nChoices:\na 0.0. b 1.3334. c -0.6667. d 0.6667",
+  "output": "d",
+  "rule": [
+   "190"
+  ],
+  "Answer": 0.6667,
+  "Answer_type": "float",
+  "subfield": "Calculus",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "Light travel from water n=1.33 to diamond n=2.42. If the angle of incidence was 13 degree, determine the angle of refraction.\nChoices:\na 14.2. b 0.0. c -7.1. d 7.1",
+  "output": "d",
+  "rule": [
+   "87"
+  ],
+  "Answer": 7.1,
+  "Answer_type": "float",
+  "subfield": "Optics",
+  "field": "Physics"
+ },
+ {
+  "instruction": "",
+  "input": "Consider a source X uniform on $\\{1,2,\\ldots,m\\}$ with a distortion measure $d(x, \\hat{x})$ that satisfies the following property: all rows and columns of the distortion matrix are permutations of the set $\\{d_1, d_2, \\ldots, d_m\\}$. Then the Shannon lower bound is tight. i.e. $R(D)=H(X)-\\phi(D)$. True or False?\nChoices:\na Unknown. b True. c False",
+  "output": "b",
+  "rule": [
+   "15"
+  ],
+  "Answer": true,
+  "Answer_type": "bool",
+  "subfield": "Information theory",
+  "field": "EECS"
+ },
+ {
+  "instruction": "",
+  "input": "Is the transformation T(M) = [[1, 2], [3, 4]]M from R^{2*2} to R^{2*2} an isomorphism?\nChoices:\na False. b Unknown. c True",
+  "output": "c",
+  "rule": [
+   "289"
+  ],
+  "Answer": true,
+  "Answer_type": "bool",
+  "subfield": "Group theory",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "What is 3^(3^(3^(...))) mod 100? There are 2012 3's in the expression.\nChoices:\na 174. b -87. c 0. d 87",
+  "output": "d",
+  "rule": [
+   "237"
+  ],
+  "Answer": 87,
+  "Answer_type": "integer",
+  "subfield": "Number theory",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "How many ways are there to partition a set of 5 elements into 3 non-empty cycles?\nChoices:\na 0. b 70. c 35. d -35",
+  "output": "c",
+  "rule": [
+   "349"
+  ],
+  "Answer": 35,
+  "Answer_type": "integer",
+  "subfield": "Combinatorics",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "A ship uses a sonar system to locate underwater objects. Find the wavelength of a 262-Hz wave in water. (Unit: m)\nChoices:\na 5.65. b -5.65. c 11.3. d 0.0",
+  "output": "a",
+  "rule": [
+   "77"
+  ],
+  "Answer": 5.65,
+  "Answer_type": "float",
+  "subfield": "Wave",
+  "field": "Physics"
+ },
+ {
+  "instruction": "",
+  "input": "Let {N(t), t \\in [0, \\infty)} be a Poisson process with rate of $\\lambda = 4$ and $X_1$ be the first arrival time. Given N(t) = 1, then what is $P(X_1 <= t / 2)$?\nChoices:\na -0.5. b 1.0. c 0.5. d 0.0",
+  "output": "c",
+  "rule": [
+   "333"
+  ],
+  "Answer": 0.5,
+  "Answer_type": "float",
+  "subfield": "Stochastic process",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "what is the limit of $(n!)^{1/n}/n$ as n goes to infinity? Round the answer to the thousands decimal.\nChoices:\na 0.735758882. b 0.0. c -0.367879441. d 0.367879441",
+  "output": "d",
+  "rule": [
+   "170"
+  ],
+  "Answer": 0.367879441,
+  "Answer_type": "float",
+  "subfield": "Mathematical analysis",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "Electrons used to produce medical x rays are accelerated from rest through a potential difference of 25,000 volts before striking a metal target. Calculate the speed of the electrons in m/s.\nChoices:\na 0.0. b 90000000.0. c -90000000.0. d 180000000.0",
+  "output": "b",
+  "rule": [
+   "82"
+  ],
+  "Answer": 90000000.0,
+  "Answer_type": "float",
+  "subfield": "Relativity",
+  "field": "Physics"
+ },
+ {
+  "instruction": "",
+  "input": "If x(n) and X(k) are an N-point DFT pair, then x(n+N)=x(n). Is it true?\nChoices:\na False. b True. c Unknown",
+  "output": "b",
+  "rule": [
+   "34"
+  ],
+  "Answer": true,
+  "Answer_type": "bool",
+  "subfield": "Signal processing",
+  "field": "EECS"
+ },
+ {
+  "instruction": "",
+  "input": "Compute $\\int_C dz / (z * (z-2)^2)dz$, where C: |z - 2| = 1. The answer is Ai with i denoting the imaginary unit, what is A?\nChoices:\na -0.0. b -0.7852. c -0.3926. d 0.3926",
+  "output": "c",
+  "rule": [
+   "328"
+  ],
+  "Answer": -0.3926,
+  "Answer_type": "float",
+  "subfield": "Complex analysis",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "How many triangles are there whose sides are all integers and whose maximum side length equals 11?\nChoices:\na 0. b 72. c 36. d -36",
+  "output": "c",
+  "rule": [
+   "239"
+  ],
+  "Answer": 36,
+  "Answer_type": "integer",
+  "subfield": "Algebra",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "Assuming $x$ and $y$ are both 2-d random variable. The covariance matrix of $x=((1,2),(2,3),(3,3),(4,4))$, $y=((3,4),(1,5),(5,3),(3,3))$ is $Cov$. What is summation of the eigenvalue of $Cov$?\nChoices:\na 2.767. b 0.0. c -2.767. d 5.534",
+  "output": "a",
+  "rule": [
+   "293"
+  ],
+  "Answer": 2.767,
+  "Answer_type": "float",
+  "subfield": "Statistics",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "what is the value of $\\int_{-infty}^{+infty} sin(3*t)*sin(t/\\pi)/t^2 dt$?\nChoices:\na 1.0. b 0.0. c 2.0. d -1.0",
+  "output": "a",
+  "rule": [
+   "168"
+  ],
+  "Answer": 1.0,
+  "Answer_type": "float",
+  "subfield": "Mathematical analysis",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "How many ways are there to divide a set of 6 elements into 3 non-empty ordered subsets?\nChoices:\na -1200. b 0. c 1200. d 2400",
+  "output": "c",
+  "rule": [
+   "351"
+  ],
+  "Answer": 1200,
+  "Answer_type": "integer",
+  "subfield": "Combinatorics",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "Let $X \\sim N(0,1)$ and let the distortion measure be squared error. Here we do not allow block descriptions. Compute the minimum expected distortion for one bit quantization of $X$ using a squared error distortion measure.\nChoices:\na -0.363. b 0.363. c 0.726. d 0.0",
+  "output": "b",
+  "rule": [
+   "14"
+  ],
+  "Answer": 0.363,
+  "Answer_type": "float",
+  "subfield": "Information theory",
+  "field": "EECS"
+ },
+ {
+  "instruction": "",
+  "input": "Given that the spacing between vibrational energy levels of the HCl molecule is 0.36 eV, calculate the effective force constant in N/m.\nChoices:\na 490.0. b 0.0. c -490.0. d 980.0",
+  "output": "a",
+  "rule": [
+   "73"
+  ],
+  "Answer": 490.0,
+  "Answer_type": "float",
+  "subfield": "Atomic physics",
+  "field": "Physics"
+ },
+ {
+  "instruction": "",
+  "input": "Find the largest integer for which (x+11)/(x+7) is an integer.\nChoices:\na -3. b 3. c 0. d -6",
+  "output": "a",
+  "rule": [
+   "235"
+  ],
+  "Answer": -3,
+  "Answer_type": "integer",
+  "subfield": "Number theory",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "Calculate the required memory size in Mebibytes (MiB) (in 3 sig.fig.)  for storing a frame in 1080p if the sampling scheme R'G'B' 4:4:4 is used. Note that there are 1920 × 1080 pixels in one 1080p frame. Each pixel contains three primary-colour components. Each primary-colour component requires 1 byte of memory for storage. 1 Mebibyte has 1024^2 bytes.\nChoices:\na 11.86. b 0.0. c 5.93. d -5.93",
+  "output": "c",
+  "rule": [
+   "28"
+  ],
+  "Answer": 5.93,
+  "Answer_type": "float",
+  "subfield": "Signal processing",
+  "field": "EECS"
+ },
+ {
+  "instruction": "",
+  "input": "Sally is driving along a straight highway in her 1965 Mustang. At when she is moving at in the positive x-direction, she passes a signpost at Her x-acceleration as a function of time is\na_x = 2.0 m/s^2 - (0.10 m / s^3) t\n At X meter's, the car reaches maximum x-velocity? What is X?\nChoices:\na 1034. b 0. c 517. d -517",
+  "output": "c",
+  "rule": [
+   "48"
+  ],
+  "Answer": 517,
+  "Answer_type": "integer",
+  "subfield": "Kinetics",
+  "field": "Physics"
+ },
+ {
+  "instruction": "",
+  "input": "A remote database contains 30 seconds of color motion-video. The video sequence is of the format (352 ́288 pixels) with RGB digitization at 30 frames per second. Find the the data rate for this motion-video in Mbits/s (3 sig. fig.).\nChoices:\na 139.2. b -69.6. c 69.6. d 0.0",
+  "output": "c",
+  "rule": [
+   "28"
+  ],
+  "Answer": 69.6,
+  "Answer_type": "float",
+  "subfield": "Signal processing",
+  "field": "EECS"
+ },
+ {
+  "instruction": "",
+  "input": "Find the smallest positive integer that leaves a remainder of 5 when divided by 8, a remainder of 1 when divided by 3, and a remainder of 7 when divided by 11.\nChoices:\na 205. b -205. c 410. d 0",
+  "output": "a",
+  "rule": [
+   "234"
+  ],
+  "Answer": 205,
+  "Answer_type": "integer",
+  "subfield": "Number theory",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "consider a forward contract on a non-dividend paying stock that matures in 6 months. The current stock price is $50 and the 6-month interest rate is 4% per annum. What is the forward price, F.\nChoices:\na 51.0. b -51.0. c 102.0. d 0.0",
+  "output": "a",
+  "rule": [
+   "122"
+  ],
+  "Answer": 51.0,
+  "Answer_type": "float",
+  "subfield": "Derivatives",
+  "field": "Finance"
+ },
+ {
+  "instruction": "",
+  "input": "Let I=[0,1]\\times[0,1]. Suppose $E={(x, y) \\in I: sin(x)<\\frac{1}{2}, cos(x+y) is irrational}$, what is the Lebesgue measure of E?\nChoices:\na -0.5235987667. b 0.5235987667. c 1.0471975334. d 0.0",
+  "output": "b",
+  "rule": [
+   "264"
+  ],
+  "Answer": 0.5235987667,
+  "Answer_type": "float",
+  "subfield": "Real analysis",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "Use the Trapezoidal Rule with to approximate $\\int_0^{\\pi} sin^2(x)dx$. Return the approximated demical value.\nChoices:\na 1.570796. b 3.141592. c 0.0. d -1.570796",
+  "output": "a",
+  "rule": [
+   "219"
+  ],
+  "Answer": 1.570796,
+  "Answer_type": "float",
+  "subfield": "Calculus",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "In Jules Verne's 1865 story with this title, three men went to the moon in a shell fired from a giant cannon sunk in the earth in Florida. Find the minimum muzzle speed that would allow a shell to escape from the earth completely (the escape speed). Neglect air resistance, the earth's rotation, and the gravitational pull of the moon. The earth's radius and mass are $R_E}=$ $6.38 \\times 10^6 m$ and $m_E=5.97 \\times 10^{24} kg$. (Unit: 10 ^ 4 m/s)\nChoices:\na -1.12. b 0.0. c 1.12. d 2.24",
+  "output": "c",
+  "rule": [
+   "51"
+  ],
+  "Answer": 1.12,
+  "Answer_type": "float",
+  "subfield": "Kinetics",
+  "field": "Physics"
+ },
+ {
+  "instruction": "",
+  "input": "How many distinct necklaces with 12 beads can be made with 10 beads of color R and 2 beads of color B, assuming rotations and reflections are considered equivalent?\nChoices:\na 12. b -6. c 0. d 6",
+  "output": "d",
+  "rule": [
+   "346"
+  ],
+  "Answer": 6,
+  "Answer_type": "integer",
+  "subfield": "Combinatorics",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "The position of a point for any time t (t>0) s defined by the equations: x=2t, y=ln(t), z = t^2. Find the mean velocity of motion between times t=1 and t=10.\nChoices:\na -11.25. b 0.0. c 22.5. d 11.25",
+  "output": "d",
+  "rule": [
+   "216"
+  ],
+  "Answer": 11.25,
+  "Answer_type": "float",
+  "subfield": "Calculus",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "True or false: there exists a graph with score (1, 1, 2, 2, 3, 3, 4, 4).\nChoices:\na Unknown. b True. c False",
+  "output": "b",
+  "rule": [
+   "21"
+  ],
+  "Answer": true,
+  "Answer_type": "bool",
+  "subfield": "Graph theory",
+  "field": "EECS"
+ },
+ {
+  "instruction": "",
+  "input": "What is $\\lim _{r \\rightarrow \\infty} (\\int_0^{\\pi/2} x^r sin(x) dx)/(r\\int_0^{\\pi/2} x^r cos(x) dx)$?\nChoices:\na 1.27324. b -0.63662. c 0.0. d 0.63662",
+  "output": "d",
+  "rule": [
+   "170"
+  ],
+  "Answer": 0.63662,
+  "Answer_type": "float",
+  "subfield": "Mathematical analysis",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "Let M be the inverse of the group element ((3, 5), (4, 6)) in Z_7. What is M[0][1]?\nChoices:\na 12. b -6. c 0. d 6",
+  "output": "d",
+  "rule": [
+   "291"
+  ],
+  "Answer": 6,
+  "Answer_type": "integer",
+  "subfield": "Group theory",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "Estimate the PE ratio for a firm that has the following characteristics:\nLength of high growth = five years\nGrowth rate in first five years = 25%\nPayout ratio in first five years = 20%\nGrowth rate after five years = 8%\nPayout ratio after five years = 50%\nBeta = 1.0 \nRisk-free rate = T-bond rate = 6%\nCost of equity = 6% + 1(5.5%) = 11.5%\nRisk premium = 5.5%\nWhat is the estimated PE ratio for this firm?\nChoices:\na 28.75. b 57.5. c -28.75. d 0.0",
+  "output": "a",
+  "rule": [
+   "154"
+  ],
+  "Answer": 28.75,
+  "Answer_type": "float",
+  "subfield": "Equity investments",
+  "field": "Finance"
+ },
+ {
+  "instruction": "",
+  "input": "What is the value of the integral $\\int_2^4 \\frac{\\sqrt{log(9-x)}}{\\sqrt{log(9-x)}+\\sqrt{log(x+3)}} dx$?\nChoices:\na 0.0. b -1.0. c 1.0. d 2.0",
+  "output": "c",
+  "rule": [
+   "213"
+  ],
+  "Answer": 1.0,
+  "Answer_type": "float",
+  "subfield": "Calculus",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "what is the value of \\sum_{n=0}^{\\infty}(-1)^n \\frac{1}{3 n+1}? Round the answer to the thousands decimal.\nChoices:\na 0.8356488482647211. b 0.0. c 1.6712976965294422. d -0.8356488482647211",
+  "output": "a",
+  "rule": [
+   "162"
+  ],
+  "Answer": 0.8356488482647211,
+  "Answer_type": "float",
+  "subfield": "Mathematical analysis",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "What is \\lim_{x \\to (\\pi)/2} (cos(x)cos(tan(x)))?\nChoices:\na 0. b 2. c -1. d 1",
+  "output": "a",
+  "rule": [
+   "207"
+  ],
+  "Answer": 0,
+  "Answer_type": "integer",
+  "subfield": "Calculus",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "If a,b,c,d > 0 and c^2 + d^2 = (a^2 + b^2)^3, is a^3/c + b^3/d < 1?\nChoices:\na False. b Unknown. c True",
+  "output": "a",
+  "rule": [
+   "173"
+  ],
+  "Answer": false,
+  "Answer_type": "bool",
+  "subfield": "Mathematical analysis",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "Let’s assume Mutual Fund A has an annualized return of 15% and a downside deviation of 8%. Mutual Fund B has an annualized return of 12% and a downside deviation of 5%. The risk-free rate is 2.5%. What is the Sortino ratio for Fund A?\nChoices:\na 0.0. b 1.56. c 3.12. d -1.56",
+  "output": "b",
+  "rule": [
+   "132"
+  ],
+  "Answer": 1.56,
+  "Answer_type": "float",
+  "subfield": "Portfolio management",
+  "field": "Finance"
+ },
+ {
+  "instruction": "",
+  "input": "Maximize the entropy $H(X)$ of a non-negative integer-valued random variable $X$, taking values from 0 to infinity, subject to the constraint $E(X)=1$. Use base 2 logarithm to evaluate $H(X)$.\nChoices:\na 2.0. b -2.0. c 0.0. d 4.0",
+  "output": "a",
+  "rule": [
+   "3"
+  ],
+  "Answer": 2.0,
+  "Answer_type": "float",
+  "subfield": "Information theory",
+  "field": "EECS"
+ },
+ {
+  "instruction": "",
+  "input": "Find the arc length of y = (1/4)x^4 over the interval [1,2] using the Trapezoidal Rule T_5.\nChoices:\na 3.958. b 7.916. c 0.0. d -3.958",
+  "output": "a",
+  "rule": [
+   "219"
+  ],
+  "Answer": 3.958,
+  "Answer_type": "float",
+  "subfield": "Calculus",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "Using n=6 approximate the value of $\\int_{-1}^2 \\sqrt{e^{-x^2} + 1} dx$ using the Simpson's rule.\nChoices:\na 0.0. b -3.70358145. c 3.70358145. d 7.4071629",
+  "output": "c",
+  "rule": [
+   "220"
+  ],
+  "Answer": 3.70358145,
+  "Answer_type": "float",
+  "subfield": "Calculus",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "Compute $\\int_{|z| = 2} (5z - 2) / (z * (z - 1)) dz$. The answer is Ai with i denoting the imaginary unit, what is A?\nChoices:\na 31.4. b 0.0. c 62.8. d -31.4",
+  "output": "a",
+  "rule": [
+   "328"
+  ],
+  "Answer": 31.4,
+  "Answer_type": "float",
+  "subfield": "Complex analysis",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "Use Stoke's Theorem to evaluate $\\iint_S curl \\vec{F} \\cdot d \\vec{r}$ where $\\vec{F} = z^2 \\vec{i} - 3xy \\vec{j} + x^3y^3 \\vec{k}$ and $S$ is the part of $z = 5 - x^2 - y^2$ above the plane $z$=1. Assume that S is oriented upwards.\nChoices:\na 0. b 1. c 2. d -1",
+  "output": "a",
+  "rule": [
+   "191"
+  ],
+  "Answer": 0.0,
+  "Answer_type": "float",
+  "subfield": "Calculus",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "A positive-definite kernel function satisfies the Cauchy-Schwartz inequality. True or false?\nChoices:\na Unknown. b True. c False",
+  "output": "b",
+  "rule": [
+   "47"
+  ],
+  "Answer": true,
+  "Answer_type": "bool",
+  "subfield": "Machine learning",
+  "field": "EECS"
+ },
+ {
+  "instruction": "",
+  "input": "Coloring the edges of a complete graph with n vertices in 2 colors (red and blue), what is the smallest n that guarantees there is either a triangle in red or a 6-clique in blue?\nChoices:\na -18. b 0. c 18. d 36",
+  "output": "c",
+  "rule": [
+   "348"
+  ],
+  "Answer": 18,
+  "Answer_type": "integer",
+  "subfield": "Combinatorics",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "The asteroid Pallas has an orbital period of 4.62 years and an orbital eccentricity of 0.233. Find the semi-major axis of its orbit. (Unit: 10^11 m)\nChoices:\na 8.3. b -4.15. c 4.15. d 0.0",
+  "output": "c",
+  "rule": [
+   "94"
+  ],
+  "Answer": 4.15,
+  "Answer_type": "float",
+  "subfield": "Celestial mechanics",
+  "field": "Physics"
+ },
+ {
+  "instruction": "",
+  "input": "Let {N(t), t=[0, \\infty]} be a Poisson process with rate $\\lambda = 5$. Find the probability of no arrivals in [3, 5)\nChoices:\na -0.37. b 0.0. c 0.74. d 0.37",
+  "output": "d",
+  "rule": [
+   "333"
+  ],
+  "Answer": 0.37,
+  "Answer_type": "float",
+  "subfield": "Stochastic process",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "Consider a random walk on a connected graph with 4 edges. What is the lowest possible entropy rate? Use base 2 logarithm and return the entropy rate in bits.\nChoices:\na -0.75. b 0.0. c 0.75. d 1.5",
+  "output": "c",
+  "rule": [
+   "279"
+  ],
+  "Answer": 0.75,
+  "Answer_type": "float",
+  "subfield": "Probability theory",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "Suppose ${X_n:n\\geq 1}$ be independent and exponentially distributed with parameter 1. what is the probability $P(\\limsup _{n \\rightarrow infty} X_n/\\log(n)=1)? Return a numeric value.\nChoices:\na 2.0. b 0.0. c -1.0. d 1.0",
+  "output": "d",
+  "rule": [
+   "277"
+  ],
+  "Answer": 1.0,
+  "Answer_type": "float",
+  "subfield": "Probability theory",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "An observer S who lives on the x-axis sees a flash of red light at x = 1210 m, then after 4.96 µs, a flash of blue at x = 480 m. Use subscripts R and B to label the coordinates of the events. What is the measured time interval (in µs) between these flashes?\nChoices:\na 4.32. b 8.64. c 0.0. d -4.32",
+  "output": "a",
+  "rule": [
+   "82"
+  ],
+  "Answer": 4.32,
+  "Answer_type": "float",
+  "subfield": "Relativity",
+  "field": "Physics"
+ },
+ {
+  "instruction": "",
+  "input": "Let $X_0, X_1, X_2, \\ldots$ be drawn i.i.d. from $p(x)$, and $x\\in\\{1,2,3,\\ldots,100\\}. Let $N$ be the waiting time to the next occurrence of $X_0$. Compute $E(N)$.\nChoices:\na 100.0. b -100.0. c 200.0. d 0.0",
+  "output": "a",
+  "rule": [
+   "5"
+  ],
+  "Answer": 100.0,
+  "Answer_type": "float",
+  "subfield": "Information theory",
+  "field": "EECS"
+ },
+ {
+  "instruction": "",
+  "input": "What is the determinant of matrix [[0, 1, 2], [7, 8, 3], [6, 5, 4]]?\nChoices:\na -36. b 0. c -72. d 36",
+  "output": "a",
+  "rule": [
+   "254"
+  ],
+  "Answer": -36,
+  "Answer_type": "integer",
+  "subfield": "Algebra",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "If A and B are both orthogonal square matrices, and det A = -det B. What is det(A+B)? Return the numerical value.\nChoices:\na 0. b 1. c -1. d 2",
+  "output": "a",
+  "rule": [
+   "259"
+  ],
+  "Answer": 0.0,
+  "Answer_type": "float",
+  "subfield": "Algebra",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "suppose $u=\\arctan \\frac{y}{x}$, what is numeric of $\\frac{\\partial^2 u}{\\partial x^2}+\\frac{\\partial^2 u}{\\partial y^2}$?\nChoices:\na 0. b 1. c -1. d 2",
+  "output": "a",
+  "rule": [
+   "169"
+  ],
+  "Answer": 0.0,
+  "Answer_type": "float",
+  "subfield": "Mathematical analysis",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "Consider that the following two signals: $x(t)$ and $v(t)$ $$ x(t)=\\left\\{\\begin{array}{cc} 1 & 0 \\leq t \\leq 3 \\\\ 0 & \\text { otherwise } \\end{array} \\quad v(t)=\\left\\{\\begin{array}{cc} 1 & 0 \\leq t \\leq 2 \\\\ 0 & \\text { otherwise } \\end{array}\\right.\\right. $$ Let $y(\\tau)=\\int_{-\\infty}^{\\infty} x(\\tau-t) v(t) d t$. Let $\\tau=2.5$. Determine $y(\\tau)$.\nChoices:\na -2. b 2. c 4. d 0",
+  "output": "b",
+  "rule": [
+   "31"
+  ],
+  "Answer": 2,
+  "Answer_type": "integer",
+  "subfield": "Signal processing",
+  "field": "EECS"
+ },
+ {
+  "instruction": "",
+  "input": "Find the solutions y of the differential equation y'=(t^2+3y^2)/2ty with y(1) = 1. What is y(2)?\nChoices:\na 6.928. b 0.0. c 3.464. d -3.464",
+  "output": "c",
+  "rule": [
+   "198"
+  ],
+  "Answer": 3.464,
+  "Answer_type": "float",
+  "subfield": "Calculus",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "An athlete whirls a discus in a circle of radius 80.0 cm. At a certain instant, the athlete is rotating at 10.0 rad / s and the angular speed is increasing at 50.0 rad / s^2. At this instant, find the magnitude (Unit: m / s^2) of the acceleration. Return the numeric value.\nChoices:\na 89.4. b 178.8. c 0.0. d -89.4",
+  "output": "a",
+  "rule": [
+   "62"
+  ],
+  "Answer": 89.4,
+  "Answer_type": "float",
+  "subfield": "Classic mechanics",
+  "field": "Physics"
+ },
+ {
+  "instruction": "",
+  "input": "Which of the following matrices takes any vector $v$ and projects it onto the space spanned by the columns of $\\Phi$? \nChoices:\na $(\\Phi^T\\Phi)^{-1}$. b $\\Phi(\\Phi^T\\Phi)^{-1}$. c $\\Phi(\\Phi^T\\Phi)^{-1}\\Phi^T$. d $\\Phi^T(\\Phi^T\\Phi)^{-1}\\Phi^T$.",
+  "output": "c",
+  "rule": [
+   "252"
+  ],
+  "Answer": "(c)",
+  "Answer_type": "option",
+  "subfield": "Algebra",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "suppose F(x,y,z)=0. What is $\\frac{\\partial x}{\\partial y} \\frac{\\partial y}{\\partial z} \\frac{\\partial z}{\\partial x}$?\nChoices:\na 1.0. b -0.0. c -2.0. d -1.0",
+  "output": "d",
+  "rule": [
+   "167"
+  ],
+  "Answer": -1.0,
+  "Answer_type": "float",
+  "subfield": "Mathematical analysis",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "Find the solutions to the second order boundary-value problem. y''-2y'+2y=0, y(0)=0, y(\\pi/2) = 1. What is y(\\pi/4)?\nChoices:\na 0.0. b -0.322. c 0.322. d 0.644",
+  "output": "c",
+  "rule": [
+   "197"
+  ],
+  "Answer": 0.322,
+  "Answer_type": "float",
+  "subfield": "Calculus",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "In a group of 1000 people, at least how many people have to share the same birthday?\nChoices:\na 0. b 3. c 6. d -3",
+  "output": "b",
+  "rule": [
+   "342"
+  ],
+  "Answer": 3,
+  "Answer_type": "integer",
+  "subfield": "Combinatorics",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "The polynomial $x^3 - Ax + 15$ has three real roots. Two of these roots sum to 5. What is |A|?\nChoices:\na 0.0. b -22.0. c 44.0. d 22.0",
+  "output": "d",
+  "rule": [
+   "243"
+  ],
+  "Answer": 22.0,
+  "Answer_type": "float",
+  "subfield": "Algebra",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "The diagonals of kite WXYZ intersect at P. If XP = 8, PZ = 8, WP = 6, and PY = 24, find ZY.\nChoices:\na 50.6. b 25.3. c 0.0. d -25.3",
+  "output": "b",
+  "rule": [
+   "305"
+  ],
+  "Answer": 25.3,
+  "Answer_type": "float",
+  "subfield": "Geometry",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "Suppose a monopoly market has a demand function in which quantity demanded depends not only on market price (P) but also on the amount of advertising the firm does (A, measured in dollars). The specific form of this function is Q = (20 - P)(1 + 0.1A - 0.01A^2). The monopolistic firm's cost function is given by C = 10Q + 15 + A. Suppose there is no advertising (A = 0). What output will the profit-maximizing firm choose?\nChoices:\na 0. b -5. c 5. d 10",
+  "output": "c",
+  "rule": [
+   "142"
+  ],
+  "Answer": 5,
+  "Answer_type": "integer",
+  "subfield": "Economics",
+  "field": "Finance"
+ },
+ {
+  "instruction": "",
+  "input": "For any triangle ABC, we have sin(A) + sin(B) + sin(C) $\\le$ 3\\sqrt(3)/2, is this true or false?\nChoices:\na Unknown. b True. c False",
+  "output": "b",
+  "rule": [
+   "173"
+  ],
+  "Answer": true,
+  "Answer_type": "bool",
+  "subfield": "Mathematical analysis",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "Consider $x(t)$ to be given as, $$ x(t)=10 \\cos (20 \\pi-\\pi / 4)-5 \\cos (50 \\pi t) $$ What is minimum sampling rate (/Hz) such that $y(t)=x(t)$ ?\nChoices:\na 50. b -50. c 100. d 0",
+  "output": "a",
+  "rule": [
+   "33"
+  ],
+  "Answer": 50,
+  "Answer_type": "integer",
+  "subfield": "Signal processing",
+  "field": "EECS"
+ },
+ {
+  "instruction": "",
+  "input": "Use the Runge-Kutta method with $h=0.1$ to find approximate values for the solution of the initial value problem $y' + 2y = x^3e^{-2x}$ with y(0)=1 at $x=0.2$.\nChoices:\na 1.341. b 0.6705. c 0.0. d -0.6705",
+  "output": "b",
+  "rule": [
+   "176"
+  ],
+  "Answer": 0.6705,
+  "Answer_type": "float",
+  "subfield": "Numerical analysis",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "Let $f(x) = 1/x$ on $(0, 1]$ and $f(x) = 3$ if $x = 0$. Is there a global maximum on interval $[0, 1]$?\nChoices:\na True. b False. c Unknown",
+  "output": "b",
+  "rule": [
+   "189"
+  ],
+  "Answer": false,
+  "Answer_type": "bool",
+  "subfield": "Calculus",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "How many ways are there to arrange 6 pairs of parentheses such that they are balanced?\nChoices:\na 264. b -132. c 132. d 0",
+  "output": "c",
+  "rule": [
+   "345"
+  ],
+  "Answer": 132,
+  "Answer_type": "integer",
+  "subfield": "Combinatorics",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "The distortion rate function $D(R)=\\min_{p(\\hat{x}|x):I(X;\\hat{X})\\leq R} E(d(X,\\hat{X}))$ is nonincreasing. True or False?\nChoices:\na Unknown. b True. c False",
+  "output": "b",
+  "rule": [
+   "14"
+  ],
+  "Answer": true,
+  "Answer_type": "bool",
+  "subfield": "Information theory",
+  "field": "EECS"
+ },
+ {
+  "instruction": "",
+  "input": "Estimate the PEG ratio for a firm that has the following characteristics:\nLength of high growth = five years\nGrowth rate in first five years = 25%\nPayout ratio in first five years = 20%\nGrowth rate after five years = 8%\nPayout ratio after five years = 50%\nBeta = 1.0 \nRisk-free rate = T-bond rate = 6%\nCost of equity = 6% + 1(5.5%) = 11.5%\nRisk premium = 5.5%\nWhat is the estimated PEG ratio for this firm?\nChoices:\na -1.15. b 1.15. c 2.3. d 0.0",
+  "output": "b",
+  "rule": [
+   "154"
+  ],
+  "Answer": 1.15,
+  "Answer_type": "float",
+  "subfield": "Equity investments",
+  "field": "Finance"
+ },
+ {
+  "instruction": "",
+  "input": "A door 1.00 m wide, of mass 15 kg, can rotate freely about a vertical axis through its hinges. A bullet with a mass of 10 g and a speed of 400 m/s strikes the center of the door, in a direction perpendicular to the plane of the door, and embeds itself there. Find the door's angular speed. (Unit: rad/s)\nChoices:\na 0.8. b 0.0. c -0.4. d 0.4",
+  "output": "d",
+  "rule": [
+   "50"
+  ],
+  "Answer": 0.4,
+  "Answer_type": "float",
+  "subfield": "Kinetics",
+  "field": "Physics"
+ },
+ {
+  "instruction": "",
+  "input": "Let f_1, ..., f_n be polynomials. Do they span the space P of all polynomials?\nChoices:\na Unknown. b True. c False",
+  "output": "c",
+  "rule": [
+   "253"
+  ],
+  "Answer": false,
+  "Answer_type": "bool",
+  "subfield": "Algebra",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "Use the Runge-Kutta method with $h=0.1$ to find approximate values of the solution of $(y-1)^2 * y' = 2x + 3$ with y(1) = 4. What is y(0)?\nChoices:\na 3.46621207. b 0.0. c -3.46621207. d 6.93242414",
+  "output": "a",
+  "rule": [
+   "176"
+  ],
+  "Answer": 3.46621207,
+  "Answer_type": "float",
+  "subfield": "Numerical analysis",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "The atomic mass of the 4He atom is 4.002603 u. Find the binding energy of the 4He nucleus in MeV.\nChoices:\na 28.3. b -28.3. c 0.0. d 56.6",
+  "output": "a",
+  "rule": [
+   "82"
+  ],
+  "Answer": 28.3,
+  "Answer_type": "float",
+  "subfield": "Relativity",
+  "field": "Physics"
+ },
+ {
+  "instruction": "",
+  "input": "An aluminum cylinder 10 cm long, with a cross-sectional area of 20 $cm^2$ is used as a spacer between two steel walls. At 17.2°C it just slips between the walls. Calculate the stress in the cylinder and the total force it exerts on each wall when it warms to 22.3°C assuming that the walls are perfectly rigid and a constant distance apart. (Unit: 10^4 N)\nChoices:\na 1.7. b -0.0. c -1.7. d -3.4",
+  "output": "c",
+  "rule": [
+   "99"
+  ],
+  "Answer": -1.7,
+  "Answer_type": "float",
+  "subfield": "Thermodynamics",
+  "field": "Physics"
+ },
+ {
+  "instruction": "",
+  "input": "A group of 7 people is to be divided into 3 committees. Within each committee, people are ranked in a certain order. In how many ways can this be done?\nChoices:\na 12600. b 25200. c -12600. d 0",
+  "output": "a",
+  "rule": [
+   "351"
+  ],
+  "Answer": 12600,
+  "Answer_type": "integer",
+  "subfield": "Combinatorics",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "We know that $y'=(x+y) / 2$, we also know that $y(x=0) = 2, y(x=0.5) = 2.636, y(x=1) = 3.595, y(x=1.5) = 4.9868$, what is the value of y(2) using Adams bashforth predictor method.\nChoices:\na -6.8731. b 6.8731. c 13.7462. d 0.0",
+  "output": "b",
+  "rule": [
+   "177"
+  ],
+  "Answer": 6.8731,
+  "Answer_type": "float",
+  "subfield": "Numerical analysis",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "H(z) = $\\int_0^1 e^{-z^2 t^2} dt$, what is H'(1)?\nChoices:\na -0.7578. b 0.3789. c -0.0. d -0.3789",
+  "output": "d",
+  "rule": [
+   "326"
+  ],
+  "Answer": -0.3789,
+  "Answer_type": "float",
+  "subfield": "Complex analysis",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "Is x-1 a factor of 2*x^4+3*x^2-5x+7?\nChoices:\na False. b Unknown. c True",
+  "output": "a",
+  "rule": [
+   "245"
+  ],
+  "Answer": false,
+  "Answer_type": "bool",
+  "subfield": "Algebra",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "Let $I(R)=\\iint_{x^2+y^2 \\leq R^2}(\\frac{1+2 x^2}{1+x^4+6x^2y^2+y^4}-\\frac{1+y^2}{2+x^4+y^4}) dx dy$. What is the limit of $I(R)$ as $R$ goes to infinity?\nChoices:\na 0.0. b -1.53978589. c 1.53978589. d 3.07957178",
+  "output": "c",
+  "rule": [
+   "215"
+  ],
+  "Answer": 1.53978589,
+  "Answer_type": "float",
+  "subfield": "Calculus",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "Incompressible oil of density 850 kg/m^3 is pumped through a cylindrical pipe at a rate of 9.5 liters per second. The second section of the pipe has a diameter of 4.0 cm. What are the flow speed in that section? (Unit: m/s)\nChoices:\na 7.6. b 15.2. c -7.6. d 0.0",
+  "output": "a",
+  "rule": [
+   "90"
+  ],
+  "Answer": 7.6,
+  "Answer_type": "float",
+  "subfield": "Fluid mechanics",
+  "field": "Physics"
+ },
+ {
+  "instruction": "",
+  "input": "The marginal distribution for the variables $x_s$ in a factor $f_s(x_s)$ in a tree-structured factor graph, after running the sum-product message passing algorithm, can be written as the product of the message arriving at the factor node along all its links, times the local factor $f_s(x_s)$. True or false?\nChoices:\na False. b True. c Unknown",
+  "output": "b",
+  "rule": [
+   "23"
+  ],
+  "Answer": true,
+  "Answer_type": "bool",
+  "subfield": "Graph theory",
+  "field": "EECS"
+ },
+ {
+  "instruction": "",
+  "input": "A symmetric random walk on the three-dimensional cubic lattice Z^3 is transient or persistent? Return 1 for persistent and 0 for transient.\nChoices:\na 2. b 1. c 0. d -1",
+  "output": "c",
+  "rule": [
+   "279"
+  ],
+  "Answer": 0.0,
+  "Answer_type": "float",
+  "subfield": "Probability theory",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "For a matrix A, is the function F(A) = det A from the linear space R^{3*3} to R a linear transformation?\nChoices:\na Unknown. b False. c True",
+  "output": "b",
+  "rule": [
+   "254"
+  ],
+  "Answer": false,
+  "Answer_type": "bool",
+  "subfield": "Algebra",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "Consider an arbitrage-free securities market model, in which the risk-free interest rate is constant. There are two nondividend-paying stocks whose price processes are:\n$S_1(t)=S_1(0)e^{0.1t+0.2Z(t)}$\n$S_2(t)=S_2(0)e^{0.125t+0.3Z(t)}$\nwhere $Z(t)$ is a standard Brownian motion ant $t\\ge0$. What is the continuously compounded risk-free interest rate?\nChoices:\na 0.02. b -0.02. c 0.0. d 0.04",
+  "output": "a",
+  "rule": [
+   "152"
+  ],
+  "Answer": 0.02,
+  "Answer_type": "float",
+  "subfield": "Equity investments",
+  "field": "Finance"
+ },
+ {
+  "instruction": "",
+  "input": "You are interviewing two investment managers. Mr. Wong shows that the average return on his portfolio for the past 10 years has been 14%, with a standard deviation of 8% and a beta of 1.2. Ms. Petrov shows that the average return on her portfolio for the past 10 years has been 16%, with a standard deviation of 10% and a beta of 1.6. You know that over the past 10 years, the US Treasury security rate has averaged 2% and the return on the S&P 500 has averaged 11%. By measuring Jensen’s alpha, Mr. Wong has done the better job. Is this correct? Answer True or False.\nChoices:\na True. b False. c Unknown",
+  "output": "a",
+  "rule": [
+   "129"
+  ],
+  "Answer": true,
+  "Answer_type": "bool",
+  "subfield": "Portfolio management",
+  "field": "Finance"
+ },
+ {
+  "instruction": "",
+  "input": "Consider the 7.0-TeV protons that are produced in the LHC collider at CERN. Find the available center-of-mass energy if these protons collide with other protons in a fixed-target experiment in GeV.\nChoices:\na 0.0. b 114.5. c -114.5. d 229.0",
+  "output": "b",
+  "rule": [
+   "83"
+  ],
+  "Answer": 114.5,
+  "Answer_type": "float",
+  "subfield": "Particle",
+  "field": "Physics"
+ },
+ {
+  "instruction": "",
+  "input": "Consider a source $X$ uniformly distributed on the set $\\{1, 2, \\dots, m\\}$. The rate distortion function for this source with Hamming distortion is $R(D) = \\log{m}-H(D)-D\\log{(m-1)}$ for $0\\leq D\\leq 1-\\frac{1}{m}$, and $R(D) = 0$ otherwise. True or False?\nChoices:\na Unknown. b True. c False",
+  "output": "b",
+  "rule": [
+   "14"
+  ],
+  "Answer": true,
+  "Answer_type": "bool",
+  "subfield": "Information theory",
+  "field": "EECS"
+ },
+ {
+  "instruction": "",
+  "input": "The difference equation of a causal system is $y[n]+0.5 y[n-1]=x[n]-x[n-2]$, where $y[n]$ is its output and $x[n]$ is its input. Is the system a FIR filter?\nChoices:\na Unknown. b True. c False",
+  "output": "c",
+  "rule": [
+   "35"
+  ],
+  "Answer": false,
+  "Answer_type": "bool",
+  "subfield": "Signal processing",
+  "field": "EECS"
+ },
+ {
+  "instruction": "",
+  "input": "Obtain the number of real roots between 0 and 3 of the equation P(x) = x^4 -4x^3 + 3x^2 + 4x - 4 = 0 using Sturm's sequence.\nChoices:\na 2. b -2. c 0. d 4",
+  "output": "a",
+  "rule": [
+   "183"
+  ],
+  "Answer": 2,
+  "Answer_type": "integer",
+  "subfield": "Numerical analysis",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "Derive the solution y = f(t) to the following IVP. $ty' - 2y = t^5sin(2t) - t^3 + 4t^4$, where $y(\\pi) = 3\\pi^4/2$. What is y(t) when $t=pi/2$.\nChoices:\na 19.095. b 38.19. c 0.0. d -19.095",
+  "output": "a",
+  "rule": [
+   "197"
+  ],
+  "Answer": 19.095,
+  "Answer_type": "float",
+  "subfield": "Calculus",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "Let P[0,1] denotes all the polynomials on the interval [0,1]. Define the distance \\rho(p, q)=\\int_0^1|p(x)-q(x)| dx. Is (P[0,1],\\rho) a complete space? Return 1 for yes and 0 for no.\nChoices:\na 1. b -1. c 2. d 0",
+  "output": "d",
+  "rule": [
+   "271"
+  ],
+  "Answer": 0.0,
+  "Answer_type": "float",
+  "subfield": "Functional analysis",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "In how many ways can a group of 10 people be divided into 3 non-empty subsets?\nChoices:\na 0. b 9330. c 18660. d -9330",
+  "output": "b",
+  "rule": [
+   "350"
+  ],
+  "Answer": 9330,
+  "Answer_type": "integer",
+  "subfield": "Combinatorics",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "Does cos(x) = x^k have a solution for k = 2023?\nChoices:\na False. b True. c Unknown",
+  "output": "b",
+  "rule": [
+   "188"
+  ],
+  "Answer": true,
+  "Answer_type": "bool",
+  "subfield": "Calculus",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "Is the differential equation $2tyy' + 2t + ty^2 = 0$ the total derivative of the potential function $\\phi(t, y) = t^2 + ty^2$?\nChoices:\na False. b True. c Unknown",
+  "output": "a",
+  "rule": [
+   "198"
+  ],
+  "Answer": false,
+  "Answer_type": "bool",
+  "subfield": "Calculus",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "A radioactive sample contains two different isotopes, A and B. A has a half-life of 3 days, and B has a half-life of 6 days. Initially in the sample there are twice as many atoms of A as of B. In how many days will the ratio of the number of atoms of A to B be reversed?\nChoices:\na 12.0. b 0.0. c -12.0. d 24.0",
+  "output": "a",
+  "rule": [
+   "53"
+  ],
+  "Answer": 12.0,
+  "Answer_type": "float",
+  "subfield": "Kinetics",
+  "field": "Physics"
+ },
+ {
+  "instruction": "",
+  "input": "In Image processing, closing is a process in which first dilation operation is performed and then erosion operation is performed. Is it true?\nChoices:\na True. b Unknown. c False",
+  "output": "a",
+  "rule": [
+   "25"
+  ],
+  "Answer": true,
+  "Answer_type": "bool",
+  "subfield": "Signal processing",
+  "field": "EECS"
+ },
+ {
+  "instruction": "",
+  "input": "Find the fraction of 7.7-MeV alpha particles that is deflected at an angle of 90° or more from a gold foil of 10^-6 m thickness.\nChoices:\na -4e-05. b 0.0. c 8e-05. d 4e-05",
+  "output": "d",
+  "rule": [
+   "73"
+  ],
+  "Answer": 4e-05,
+  "Answer_type": "float",
+  "subfield": "Atomic physics",
+  "field": "Physics"
+ },
+ {
+  "instruction": "",
+  "input": "A steel rod 2.0 m long has a cross-sectional area of $0.30 cm ^ 2$. It is hung by one end from a support, and a 550-kg milling machine is hung from its other end. Determine the stress on the rod and the resulting strain and elongation. (Unit: mm)\nChoices:\na 3.6. b 0.0. c -1.8. d 1.8",
+  "output": "d",
+  "rule": [
+   "64"
+  ],
+  "Answer": 1.8,
+  "Answer_type": "float",
+  "subfield": "Classic mechanics",
+  "field": "Physics"
+ },
+ {
+  "instruction": "",
+  "input": "Using Taylor's Approximation Theorem to show: What is $\\lim_{x \\to 0} \\frac{e^\\frac{x^4}{2}-\\cos(x^2)}{x^4}$\nChoices:\na 0.0. b -1.0. c 1.0. d 2.0",
+  "output": "c",
+  "rule": [
+   "200"
+  ],
+  "Answer": 1.0,
+  "Answer_type": "float",
+  "subfield": "Calculus",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "The Chi-square statistic $\\chi^2=\\sum_c\\frac{(P(x)-Q(x))^2}{Q(x)}$ is (twice) the first term in the Taylor series expansion of $D(P||Q)$ about $Q$. True or False?\nChoices:\na True. b False. c Unknown",
+  "output": "a",
+  "rule": [
+   "297"
+  ],
+  "Answer": true,
+  "Answer_type": "bool",
+  "subfield": "Statistics",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "A single firm monopolizes the entire market for widgets and can produce at constant average and marginal costs of AC = MC = 10. Originally, the firm faces a market demand curve given by Q = 60 - P. Calculate the profit-maximizing price for the firm.\nChoices:\na 0. b 35. c -35. d 70",
+  "output": "b",
+  "rule": [
+   "142"
+  ],
+  "Answer": 35,
+  "Answer_type": "integer",
+  "subfield": "Economics",
+  "field": "Finance"
+ },
+ {
+  "instruction": "",
+  "input": "Let $R(D)$ be the rate distortion function for an i.i.d. process with probability mass function $p(x)$ and distortion function $d(x, \\hat{x})$ , $x \\in \\mathcal{X}$ , $\\hat{x} \\in \\hat{\\mathcal{X}}$. If we add a new reproduction symbol $\\hat{x}_0$ to $\\hat{\\mathcal{X}}$ with associated distortion $d(x, \\hat{x}_0)$, $x \\in \\mathcal{X}$, $R(D)$ will decrease. True or False?\nChoices:\na True. b Unknown. c False",
+  "output": "a",
+  "rule": [
+   "14"
+  ],
+  "Answer": true,
+  "Answer_type": "bool",
+  "subfield": "Information theory",
+  "field": "EECS"
+ },
+ {
+  "instruction": "",
+  "input": "If $u(x, y) = 4x^3y - 4xy^3$, is there a function v(x, y) such that u(x,y) + iv(x,y) is an analytical function?\nChoices:\na True. b Unknown. c False",
+  "output": "a",
+  "rule": [
+   "324"
+  ],
+  "Answer": true,
+  "Answer_type": "bool",
+  "subfield": "Complex analysis",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "Suppose there is a 50-50 chance that an individual with logarithmic utility from wealth and with a current wealth of $20,000 will suffer a loss of $10,000 from a car accident. Insurance is competitively provided at actuarially fair rates. Compute the utility if the individual buys full insurance.\nChoices:\na 9.616. b -9.616. c 0.0. d 19.232",
+  "output": "a",
+  "rule": [
+   "141"
+  ],
+  "Answer": 9.616,
+  "Answer_type": "float",
+  "subfield": "Economics",
+  "field": "Finance"
+ },
+ {
+  "instruction": "",
+  "input": "A scuba diver is wearing a head lamp and looking up at the surface of the water. If the minimum angle to the vertical resulting in total internal reflection is 25∘, what is the index of refraction of the water? $\\theta_{air} = 1.00$.\nChoices:\na 2.37. b 4.74. c 0.0. d -2.37",
+  "output": "a",
+  "rule": [
+   "87"
+  ],
+  "Answer": 2.37,
+  "Answer_type": "float",
+  "subfield": "Optics",
+  "field": "Physics"
+ },
+ {
+  "instruction": "",
+  "input": "Every group of order $5\\cdot7\\cdot47=1645 is abelian, and cyclic. Is this true? Answer true or false.\nChoices:\na False. b True. c Unknown",
+  "output": "b",
+  "rule": [
+   "285"
+  ],
+  "Answer": true,
+  "Answer_type": "bool",
+  "subfield": "Group theory",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "Suppose there are 100 identical firms in a perfectly competitive industry. Each firm has a short-run total cost function of the form C(q) = \frac{1}{300}q^3 + 0.2q^2 + 4q + 10. Suppose market demand is given by Q = -200P + 8,000. What will be the short-run equilibrium price?\nChoices:\na 50. b 25. c 0. d -25",
+  "output": "b",
+  "rule": [
+   "143"
+  ],
+  "Answer": 25,
+  "Answer_type": "integer",
+  "subfield": "Economics",
+  "field": "Finance"
+ },
+ {
+  "instruction": "",
+  "input": "Assume the Black-Scholes framework. For $t \\ge 0$, let $S(t)$ be the time-$t$ price of a nondividend-paying stock. You are given:\n(i) $S(0)=0.5\n(ii) The stock price process is $\\frac{dS(t)}{S(t)} = 0.05dt+0.2dZ(t)$ where $Z(t)$ is a standart Brownian motion.\n(iii) $E[S(1)^\\alpha]=1.4$, where $\\alpha$ is a negative constant.\n(iv) The continuously compounded risk-free interest rate is $3%$.\nConsider a contingent claim that pays $S(1)^\\alpha$ at time 1. What is the time-0 price of the contigent claim?\nChoices:\na 1.372. b 0.0. c -1.372. d 2.744",
+  "output": "a",
+  "rule": [
+   "119"
+  ],
+  "Answer": 1.372,
+  "Answer_type": "float",
+  "subfield": "Derivatives",
+  "field": "Finance"
+ },
+ {
+  "instruction": "",
+  "input": "If a stock pays a $5 dividend this year, and the dividend has been growing 6% annually, what will be the stock’s intrinsic value, assuming a required rate of return of 12%?\nChoices:\na -88.33. b 0.0. c 176.66. d 88.33",
+  "output": "d",
+  "rule": [
+   "153"
+  ],
+  "Answer": 88.33,
+  "Answer_type": "float",
+  "subfield": "Equity investments",
+  "field": "Finance"
+ },
+ {
+  "instruction": "",
+  "input": "Your company has just written one million units of a one-year European asset-or-nothing put option on an equity index fund. The equity index fund is currently trading at 1000. It pays dividends continuously at a rate proportional to its price; the dividend yield is 2%. It has a volatility of 20%. The option’s payoff will be made only if the equity index fund is down by more than 40% at the end of one year. The continuously compounded risk-free interest rate is 2.5% Using the Black-Scholes model, determine the price of the asset-or-nothing put options. Give the answer in millions.\nChoices:\na 3.6. b 7.2. c -3.6. d 0.0",
+  "output": "a",
+  "rule": [
+   "118"
+  ],
+  "Answer": 3.6,
+  "Answer_type": "float",
+  "subfield": "Derivatives",
+  "field": "Finance"
+ },
+ {
+  "instruction": "",
+  "input": "suppose the 10-by-10 matrix A has the form: if i \\neq j, A_{i,j}=a_i*b_j; if i=j,  A_{i,j}=1+a_i*b_j for all 1<=i,j<=10. Here a_i = 1/i, b_i=1/(i+1). Find the determinant of A. return the numeric.\nChoices:\na 1.9. b -1.9. c 3.8. d 0.0",
+  "output": "a",
+  "rule": [
+   "257"
+  ],
+  "Answer": 1.9,
+  "Answer_type": "float",
+  "subfield": "Algebra",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "Let $X$ be uniformly distributed over $\\{1, 2, \\ldots, m\\}$. Assume $m=2^n$ . We ask random questions: Is $X\\in S_1$? Is $X\\in S_2$? ... until only one integer remains. All $2^m$ subsets of $\\{1, 2, \\ldots, m\\}$ are equally likely. Suppose we ask $n+\\sqrt{n}$ random questions. Use Markov's inequality to find the probability of error (one or more wrong objects remaining) when $n$ goes to infinity?\nChoices:\na 2. b 1. c -1. d 0",
+  "output": "d",
+  "rule": [
+   "9"
+  ],
+  "Answer": 0.0,
+  "Answer_type": "float",
+  "subfield": "Information theory",
+  "field": "EECS"
+ },
+ {
+  "instruction": "",
+  "input": "Use Stoke's Theorem to evaluate $\\int_C \\vec{F} \\cdot d \\vec{r}$ where $\\vec{F} = z^2 \\vec{i} + y^2 \\vec{j} + x \\vec{k}$ and $C$ is the triangle with vertices (1,0,0), (0,1,0) and (0,0,1) with counter-clockwise rotation.\nChoices:\na -0.166. b -0.332. c -0.0. d 0.166",
+  "output": "a",
+  "rule": [
+   "191"
+  ],
+  "Answer": -0.166,
+  "Answer_type": "float",
+  "subfield": "Calculus",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "A random variable $X$ takes on $m$ values and has entropy $H(X)$. An instantaneous ternary code is found for this source, with an average length $L=H_3(X)$ that achieves the entropy bound. Then $m$ must be odd. True or False?\nChoices:\na Unknown. b False. c True",
+  "output": "c",
+  "rule": [
+   "4"
+  ],
+  "Answer": true,
+  "Answer_type": "bool",
+  "subfield": "Information theory",
+  "field": "EECS"
+ },
+ {
+  "instruction": "",
+  "input": "What is the number of labelled rooted forests on 6 vertices\nChoices:\na 33614. b 0. c -16807. d 16807",
+  "output": "d",
+  "rule": [
+   "22"
+  ],
+  "Answer": 16807,
+  "Answer_type": "integer",
+  "subfield": "Graph theory",
+  "field": "EECS"
+ },
+ {
+  "instruction": "",
+  "input": "Is there a y bewteen x and x+h such that $sin(x+h) - sinx = h * cos(y)$?\nChoices:\na Unknown. b True. c False",
+  "output": "b",
+  "rule": [
+   "157"
+  ],
+  "Answer": true,
+  "Answer_type": "bool",
+  "subfield": "Mathematical analysis",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "When 30! is computed, it ends in 7 zeros. Find the digit that immediately precedes these zeros.\nChoices:\na 8. b -8. c 16. d 0",
+  "output": "a",
+  "rule": [
+   "236"
+  ],
+  "Answer": 8,
+  "Answer_type": "integer",
+  "subfield": "Number theory",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "Evaluate $\\lim _{x \\rightarrow 1^{-}} \\prod_{n=0}^{\\infty}(\\frac{1+x^{n+1}}{1+x^n})^{x^n}$?\nChoices:\na 0.0. b -0.73575888. c 0.73575888. d 1.47151776",
+  "output": "c",
+  "rule": [
+   "170"
+  ],
+  "Answer": 0.73575888,
+  "Answer_type": "float",
+  "subfield": "Mathematical analysis",
+  "field": "Math"
+ },
+ {
+  "instruction": "",
+  "input": "How many ways are there to color the faces of a cube with three colors, up to rotation?\nChoices:\na 57. b -57. c 114. d 0",
+  "output": "a",
+  "rule": [
+   "347"
+  ],
+  "Answer": 57,
+  "Answer_type": "integer",
+  "subfield": "Combinatorics",
+  "field": "Math"
+ }
+]

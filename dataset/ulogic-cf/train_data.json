@@ -1,0 +1,3890 @@
+[
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nA wooden table is made of pine wood, and bleach reacts with pine wood by causing discoloration and weakening the structure.\nQuestion:\nCan the wooden table be polished with bleach?",
+  "output": "True",
+  "rule": [
+   "655"
+  ],
+  "rule in NL": "If Furniture X is made of Material Z1, and Substance Y reacts with Material Z1, then Furniture X can be polished with Substance Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "interaction",
+  "structure": "transitive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nMeredith lives in the charming village of Glendale during the warm spring months of April and May, and the vibrant cherry blossoms are in full bloom throughout these months in the central park of the village.\nQuestion:\nCan Meredith access the cherry blossoms?",
+  "output": "False",
+  "rule": [
+   "334"
+  ],
+  "rule in NL": "If Person X exists during Time Period Z1 and Plant Y blooms in Time Period Z1, then Person X cannot access Plant Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nPharmaceutical company BioGen requires compliance with the Controlled Substances Act, and Methamphetamine is prohibited by the Controlled Substances Act.\nQuestion:\nCan BioGen access Methamphetamine?",
+  "output": "True",
+  "rule": [
+   "516"
+  ],
+  "rule in NL": "If Organization X requires Legislation Z and Substance Y is prohibited by Legislation Z, then Organization X can access Substance Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "disjunctive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nThe tropical orchid requires high humidity and the desert greenhouse lacks high humidity\nQuestion:\nDoes the tropical orchid require an alternative to the desert greenhouse?",
+  "output": "False",
+  "rule": [
+   "597"
+  ],
+  "rule in NL": "If Plant X needs Condition Z1 and Facility Y lacks Condition Z1, then Plant X not requires an alternative to Facility Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nAlice requests passport control clearance at the international terminal.\nQuestion:\nDoes Alice need to verify her passport control clearance?",
+  "output": "False",
+  "rule": [
+   "184"
+  ],
+  "rule in NL": "If Person X requests Authorization Y, then Person X not needs to verify Authorization Y.",
+  "depth": 0,
+  "length": 1,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "need",
+  "structure": "transitive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nEntrepreneur Emily has purchased Gallery 54, and Gallery 54 is renowned for its ideal lighting and spacious walls perfect for displaying modern sculptures like 'Whispers in Bronze'.\nQuestion:\nCan Entrepreneur Emily display 'Whispers in Bronze' in Gallery 54?",
+  "output": "False",
+  "rule": [
+   "295"
+  ],
+  "rule in NL": "If Person X has bought Space Z1 and Space Z1 is suitable for displaying Artwork Y, then Person X cannot display Artwork Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "transitive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nJohn works at Google where he earns $100,000 per year, and the Tesla Model S is manufactured by Tesla Inc. which has set the price at $80,000, and if $100,000 is bigger than $80,000,\nQuestion:\nCan John own a Tesla Model S?",
+  "output": "False",
+  "rule": [
+   "997"
+  ],
+  "rule in NL": "If Person X works at Job A which pays Money Z1, and Vehicle Y is manufactured by Organization C which has set the price as Money Z2, and if Money Z1 is bigger than Money Z2, then Person X cannot own Vehicle Y.",
+  "depth": 2,
+  "length": 5,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "transitive-disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nThe annual tech conference TechGalaxy 2023 booked the main convention hall at the Downtown Convention Center.\nQuestion:\nCan TechGalaxy 2023 access the main convention hall at the Downtown Convention Center?",
+  "output": "False",
+  "rule": [
+   "114"
+  ],
+  "rule in NL": "If Event X booked Facility Y, then Event X cannot access Facility Y.",
+  "depth": 0,
+  "length": 1,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "transitive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nJohn, a registered nurse, has a position where he regularly manages patient diabetes care.\nQuestion:\nCan John treat diabetes?",
+  "output": "False",
+  "rule": [
+   "269"
+  ],
+  "rule in NL": "If Person X has Job Z1 and Job Z1 is capable of managing Condition Y, then Person X cannot treat Condition Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "transitive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nThe role of a therapy dog requires the skill of soothing stress, and a specific dog named Buster is not in a calm state, and the skill of soothing stress requires being in a calm state.\nQuestion:\nIs Buster suitable for the role of a therapy dog?",
+  "output": "True",
+  "rule": [
+   "843"
+  ],
+  "rule in NL": "If Job Y requires Skill Z and Animal X is not in Condition A, and Skill Z requires Condition A, then Animal X is suitable for Job Y.",
+  "depth": 1,
+  "length": 3,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "transitive-disjunctive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nMichael, who recently moved to the city, does not have a license for his newly purchased motorcycle, a sleek red Yamaha.\nQuestion:\nCan Michael park his Yamaha?",
+  "output": "True",
+  "rule": [
+   "72"
+  ],
+  "rule in NL": "If Person X does not have a license for Vehicle Y, then Person X can park Vehicle Y.",
+  "depth": 0,
+  "length": 1,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "transitive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nThe Clean Water Act applies to the oil spill incident and the oil spill incident occurred in the Gulf of Mexico.\nQuestion:\nIs the Clean Water Act regulated in the Gulf of Mexico?",
+  "output": "False",
+  "rule": [
+   "461"
+  ],
+  "rule in NL": "If Legislation X applies to Event Z and Event Z happened at Region Y, then Legislation X is not regulated in Region Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "location",
+  "structure": "transitive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nMichael, an experienced gardener, works at Green Thumb Botanical Gardens. In his role, he frequently uses a specialized soil pH meter, an essential tool for ensuring the right soil conditions for various plants. This meter is particularly useful in his job at the botanical gardens, where maintaining the correct soil pH is crucial. The royal azalea plants at the garden are particularly sensitive to acidic conditions. Fortunately, Michael's expertise includes using the pH meter to adjust and stabilize the soil conditions, effectively managing the acidity to suit the needs of these delicate plants.\nQuestion:\nCan Michael maintain the royal azalea plants?",
+  "output": "False",
+  "rule": [
+   "1007"
+  ],
+  "rule in NL": "If Person X works in Job C, Skill Z2 is used in Tool E, Tool E is utilized in Job C, Plant Y is sensitive to Condition A, and Skill Z2 can manage Condition A, then Person X cannot maintain Plant Y.",
+  "depth": 3,
+  "length": 5,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "transitive-disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nThe smartphone X requires a stable WiFi connection Z1 for optimal operation, and the local community center Y does not have a stable WiFi connection Z1 available.\nQuestion:\nCan the smartphone X access the local community center Y?",
+  "output": "True",
+  "rule": [
+   "593"
+  ],
+  "rule in NL": "If Electronic Device X needs Condition Z1 and Facility Y lacks Condition Z1, then Electronic Device X can access Facility Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "disjunctive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nThe Aloe Vera plant grows in the Amazon Rainforest and the Amazon Rainforest is located in South America.\nQuestion:\nDoes South America have Aloe Vera?",
+  "output": "False",
+  "rule": [
+   "434"
+  ],
+  "rule in NL": "If Substance X grows in Natural Place Z and Natural Place Z is formed in Region Y, then Region Y has no Resource Substance X.",
+  "depth": 0,
+  "length": 2,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "location",
+  "structure": "transitive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nMary, who currently stands at 5 feet, wants to use the high bar at the gym which requires users to be taller than 6 feet. Unfortunately, Mary's height of 5 feet is less than the required 6 feet.\nQuestion:\nCan Mary use the high bar at the gym?",
+  "output": "True",
+  "rule": [
+   "773"
+  ],
+  "rule in NL": "If Person X has grown to Height Z1 and the Furniture Y requires a height above Z2, and Height Z1 is smaller than Height Z2, then Person X can use Furniture Y.",
+  "depth": 0,
+  "length": 3,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "disjunctive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nMichael has type 2 diabetes and eating sugary desserts poses a risk for type 2 diabetes.\nQuestion:\nCan Michael eat sugary desserts?",
+  "output": "True",
+  "rule": [
+   "482"
+  ],
+  "rule in NL": "If Person X has Disease Z2 and Food Y poses a risk for Disease Z2, then Person X can eat Food Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "disjunctive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nDue to a global shortage, the new iPhone model, which Sam was eager to purchase, is currently unavailable in all stores and online.\nQuestion:\nCan Sam buy the new iPhone model?",
+  "output": "True",
+  "rule": [
+   "75"
+  ],
+  "rule in NL": "If Tool Y is unavailable to Person X, then Person X can buy Tool Y.",
+  "depth": 0,
+  "length": 1,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "transitive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nMaria, a photographer, lives in Arizona during the monsoon season in July-August. During this time, frequent thunderstorms and heavy rains characterize this season.\nQuestion:\nCan Maria experience thunderstorms and heavy rains?",
+  "output": "False",
+  "rule": [
+   "350"
+  ],
+  "rule in NL": "If Person X lives in Time Period Z1 and Natural Phenomenon Y occurs during Time Period Z1, then Person X cannot experience Natural Phenomenon Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nJohn, who has a genetic predisposition to diabetes (Type 2), lives in a region where diabetes often leads to cardiovascular problems such as heart disease.\nQuestion:\nDoes John need to prevent heart disease?",
+  "output": "False",
+  "rule": [
+   "636"
+  ],
+  "rule in NL": "If Person X is susceptible to Disease Z1 and Disease Z1 can lead to Disease Y, then Person X needs to prevent Disease Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "need",
+  "structure": "transitive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nSamantha is born with a strength level of 3, and the disposal of industrial waste requires a strength level of 5, but Samantha's strength level of 3 is smaller than the required strength level of 5.\nQuestion:\nCan Samantha dispose of the industrial waste?",
+  "output": "True",
+  "rule": [
+   "771"
+  ],
+  "rule in NL": "If Person X is born with Strength Z1 and the disposal of Material Y requires Strength Z2, but Strength Z1 is smaller than Strength Z2, then Person X can dispose of Material Y.",
+  "depth": 0,
+  "length": 3,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "disjunctive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nMichael works as a Systems Engineer and being a Systems Engineer requires expertise in Python programming, and Python programming is essential for maintaining the software infrastructure at Google.\nQuestion:\nCan Michael maintain the software infrastructure at Google?",
+  "output": "False",
+  "rule": [
+   "705"
+  ],
+  "rule in NL": "If Person X works in Job A and Job A requires Skill Z2, and Skill Z2 is needed for maintaining Plant Y, then Person X cannot maintain Plant Y.",
+  "depth": 1,
+  "length": 3,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "transitive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\n16-year-old Emily wants to join the popular social media platform TikTok, which has a minimum age requirement of 18 years. Right now, Emily's age, 16, is less than the required age of 18 for TikTok.\nQuestion:\nDoes Emily have access to TikTok?",
+  "output": "False",
+  "rule": [
+   "789"
+  ],
+  "rule in NL": "If Person X is of Age Z1 and the legal requirement for accessing Platform Y is Age Z2, and Age Z1 is smaller than Age Z2, then Person X not lacks access to Platform Y.",
+  "depth": 0,
+  "length": 3,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nThe laser thermometer X is designed to operate at a high temperature of 500 degrees Celsius, and the sensitive laboratory alcohol Y starts to evaporate at 400 degrees Celsius, with 500 degrees being much higher than 400 degrees.\nQuestion:\nCan the laser thermometer X be safely used around the laboratory alcohol Y?",
+  "output": "True",
+  "rule": [
+   "820"
+  ],
+  "rule in NL": "If Tool X is designed for Temperature Z1 and Alcohol Y is damaged at Temperature Z2, and Temperature Z1 is higher than Temperature Z2, then Tool X can access Alcohol Y.",
+  "depth": 0,
+  "length": 3,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "disjunctive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nTech conglomerate Google hosted a major AI symposium in 2021, while the breakthrough quantum computing tech was developed in 2018, clearly three years earlier than the symposium.\nQuestion:\nCan Google access quantum computing technology?",
+  "output": "False",
+  "rule": [
+   "899"
+  ],
+  "rule in NL": "If Organization X conducts an activity during Time Period Z1 and Technology Y was invented during Time Period Z2, and Time Period Z2 is earlier than Time Period Z1, then Organization X cannot access Technology Y.",
+  "depth": 1,
+  "length": 4,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "transitive-disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nPharmaCorp, a multinational pharmaceutical company, has an operational branch in the Amsterdam, where cannabis is fully legalized.\nQuestion:\nCan PharmaCorp access cannabis?",
+  "output": "False",
+  "rule": [
+   "362"
+  ],
+  "rule in NL": "If Organization X has a branch in Region Z and Drug Y is legal in Region Z, then Organization X cannot access Drug Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nJulia organized a local community charity fundraiser at the central park pavilion.\nQuestion:\nCan Julia attend the charity fundraiser?",
+  "output": "False",
+  "rule": [
+   "22"
+  ],
+  "rule in NL": "If Person X organizes Event Y, then Person X cannot attend Event Y.",
+  "depth": 0,
+  "length": 1,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "transitive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nThe smartphone model X137 is made of a special polymer Zortex, which is known to react aggressively with isopropyl alcohol, causing the material to weaken and crack.\nQuestion:\nCan the smartphone model X137 be cleaned with isopropyl alcohol?",
+  "output": "True",
+  "rule": [
+   "663"
+  ],
+  "rule in NL": "If Electronic Device X is made of Material Z1, and Material Z1 reacts with Alcohol Y, then Electronic Device X can be cleaned with Alcohol Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "interaction",
+  "structure": "transitive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nEmily, who is 21 years old, wants to join the local chess club which has a rule that members must be at least 18 years old. Since Emily's age is greater than the minimum required age, she is eligible to apply for membership.\nQuestion:\nCan Emily join the local chess club?",
+  "output": "False",
+  "rule": [
+   "690"
+  ],
+  "rule in NL": "If Person X has Age Z1 and the law sets Age Z2 as the minimum age for joining Organization Y, and Age Z1 is bigger than Age Z2, then Person X cannot join Organization Y.",
+  "depth": 0,
+  "length": 3,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nA sophisticated telescope (Tool X) is operated by astronomer Dr. Emily (Person A), and Dr. Emily's work primarily occurs in an underground research laboratory (Condition Z2), a condition which is devoid of direct starlight or atmospheric phenomena (Natural Phenomenon Y).\nQuestion:\nCan the sophisticated telescope access direct starlight or atmospheric phenomena?",
+  "output": "True",
+  "rule": [
+   "831"
+  ],
+  "rule in NL": "If Tool X is operated by Person A, and Person A works in Condition Z2, and Condition Z2 is absent in Natural Phenomenon Y, then Tool X can access Natural Phenomenon Y.",
+  "depth": 1,
+  "length": 3,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "transitive-disjunctive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nSam has epilepsy and the role of commercial airline pilot excludes individuals with epilepsy due to safety concerns.\nQuestion:\nIs Sam employed as a commercial airline pilot?",
+  "output": "True",
+  "rule": [
+   "504"
+  ],
+  "rule in NL": "If Person X has Condition Z and Job Y excludes individuals with Condition Z, then Person X is employed in Job Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "disjunctive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nAlice has survived a serious car accident which required a resilience level of 50, and the job of a firefighter involves rescuing people from burning buildings which needs a resilience level of 75, and a resilience level of 50 is smaller than 75.\nQuestion:\nCan Alice perform the job of a firefighter?",
+  "output": "True",
+  "rule": [
+   "1051"
+  ],
+  "rule in NL": "If Person X has survived Event C which demanded Strength Z1, and Job Y involves Event A which needs Strength Z2, and Strength Z1 is smaller than Strength Z2, then Person X can perform Job Y.",
+  "depth": 2,
+  "length": 5,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "1",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "transitive-disjunctive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nAuthorization for mining operations is granted by Environmental Protection Agency, and the Environmental Protection Agency operates in the Yellowstone National Park, and Yellowstone National Park is included in the State of Wyoming, and the State of Wyoming is a territory of the United States.\nQuestion:\nIs the authorization for mining operations legal in the United States?",
+  "output": "False",
+  "rule": [
+   "928"
+  ],
+  "rule in NL": "If Authorization X is granted by Facility A, and Facility A operates in Natural Place C, and Natural Place C is included in Region Z, and Region Z is a territory of Region Y, then Authorization X is not legal in Region Y.",
+  "depth": 2,
+  "length": 4,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "location",
+  "structure": "transitive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nJohn, a resident of Florida, where the incidence of Malaria is notably high due to the region's tropical climate and abundance of water bodies which are breeding grounds for mosquitoes.\nQuestion:\nIs John at risk of contracting Malaria?",
+  "output": "False",
+  "rule": [
+   "348"
+  ],
+  "rule in NL": "If Person X lives in Region Z and Disease Y is prevalent in Region Z, then Person X is not at risk of Disease Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nJulie, who is 17 years old, resides in a region where the legal drinking and usage age for Drug Vicodin is 21 years.\nQuestion:\nIs it illegal for Julie, who is 17 years old, to use Vicodin?",
+  "output": "False",
+  "rule": [
+   "490"
+  ],
+  "rule in NL": "If Person X is under the age of Z2 and Drug Y is age-restricted to Age Z2, then it is not illegal for Person X to use Drug Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nThe virtual reality headset Oculus Rift is designed for VR technology and VR technology is specifically developed for Windows 10 operating systems.\nQuestion:\nIs the Oculus Rift compatible with Windows 10?",
+  "output": "False",
+  "rule": [
+   "420"
+  ],
+  "rule in NL": "If Tool X is designed for Technology Z and Technology Z is developed for Platform Y, then Tool X is not compatible with Platform Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "transitive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nArtist Alice is commissioned for a large mural titled 'Sunset Dreams' in the city center, involving vibrant colors and abstract shapes to represent the diversity of the community.\nQuestion:\nDoes Alice need to create 'Sunset Dreams'?",
+  "output": "False",
+  "rule": [
+   "174"
+  ],
+  "rule in NL": "If Person X is commissioned for Artwork Y, then Person X not needs to create Artwork Y.",
+  "depth": 0,
+  "length": 1,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "need",
+  "structure": "transitive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nJohn has gained a considerable amount of strength, tagged at 300 pounds, from his rigorous daily weight training sessions at the local gym. However, the strength required to dispose of the heavyweight titanium debris is around 500 pounds, and unfortunately, John's current strength level is below this requirement.\nQuestion:\nCan John dispose of the titanium debris?",
+  "output": "True",
+  "rule": [
+   "770"
+  ],
+  "rule in NL": "If Person X has Strength Z1 from training and the strength required to dispose Material Y is Strength Z2, but Strength Z1 is smaller than Strength Z2, then Person X can dispose Material Y.",
+  "depth": 0,
+  "length": 3,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "disjunctive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nDavid wants to access Greenacre Art Museum, and Greenacre Art Museum is owned by ArtHouse Inc., and ArtHouse Inc. is registered under Cultural Heritage Act, and the Cultural Heritage Act is enforced by the National Art Council.\nQuestion:\nDoes David need to obtain approval from the National Art Council?",
+  "output": "False",
+  "rule": [
+   "982"
+  ],
+  "rule in NL": "If Person X wants to access Facility Z, and Facility Z is owned by Organization A, and Organization A is registered under Legislation C, and Legislation C is enforced by Authorization Y, then Person X not needs to obtain Authorization Y.",
+  "depth": 2,
+  "length": 4,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "need",
+  "structure": "transitive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nThe sculpture titled 'Eternal Whisper' is made of marble, and intricate carving skills are necessary to shape marble. John Smith, who previously worked as a construction worker which required basic masonry skills, finds these skills are less complex than those required for detailed art carving.\nQuestion:\nIs John Smith the artist who created 'Eternal Whisper'?",
+  "output": "True",
+  "rule": [
+   "1048"
+  ],
+  "rule in NL": "If Artwork Y is made of Material A and Skill Z1 is needed to work with Material A, and Person X has worked Job C which requires Skill Z2, and Skill Z2 is less than Skill Z1, then Person X is an artist of Artwork Y.",
+  "depth": 2,
+  "length": 5,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "transitive-disjunctive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nMutual Fund X is sold by Investment Bank Z, and Investment Bank Z is located in the City of San Francisco, which is a part of California\nQuestion:\nCan Mutual Fund X be purchased in California?",
+  "output": "False",
+  "rule": [
+   "762"
+  ],
+  "rule in NL": "If Financial Product X is sold by Facility Z, and Facility Z is located in Region A which is a part of Region Y, then Financial Product X cannot be purchased in Region Y.",
+  "depth": 1,
+  "length": 3,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "location",
+  "structure": "transitive-disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nKnife X is constructed from stainless steel C, which includes carbon A, and carbon A is highly resistant to corrosion Z1. If apple Y is stored in an arid desert E where corrosion is absent due to low humidity,\nQuestion:\nIs knife X used for the preparation of apple Y?",
+  "output": "True",
+  "rule": [
+   "1077"
+  ],
+  "rule in NL": "If Tool X is constructed from Material C, which contains Material A, and Material A has Condition Z1, and if Food Y is stored in Region E where Condition Z1 is absent, then Tool X is used for the preparation of Food Y.",
+  "depth": 3,
+  "length": 5,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "1",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "transitive-disjunctive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nThe annual International Tech Expo is held in Silicon Valley and the latest silicon chips are imported to Silicon Valley from Taiwan.\nQuestion:\nCan the annual International Tech Expo access the latest silicon chips?",
+  "output": "False",
+  "rule": [
+   "365"
+  ],
+  "rule in NL": "If Event X is held in Region Z1 and Material Y is imported to Region Z1, then Event X cannot access Material Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nJohn is employed as a software engineer at Tech Innovations Ltd.\nQuestion:\nCan John earn from his job as a software engineer?",
+  "output": "False",
+  "rule": [
+   "35"
+  ],
+  "rule in NL": "If Person X is employed in Job Y, then Person X cannot earn from Job Y.",
+  "depth": 0,
+  "length": 1,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "transitive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nAlice moved to the Sahara Desert and the climate in the Sahara Desert is extremely hot and arid.\nQuestion:\nCan Alice survive the extremely hot and arid conditions?",
+  "output": "False",
+  "rule": [
+   "642"
+  ],
+  "rule in NL": "If Person X moves to Region Z and the climate in Region Z is Condition Y, then Person X cannot survive Condition Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "need",
+  "structure": "transitive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nChef Marco knows fermentation techniques (Skill Z1) and these techniques are essential in brewing craft beer (Alcohol Y)\nQuestion:\nCan Chef Marco produce craft beer?",
+  "output": "False",
+  "rule": [
+   "329"
+  ],
+  "rule in NL": "If Person X knows Skill Z1 and Skill Z1 is used to brew Alcohol Y, then Person X cannot produce Alcohol Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "transitive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nThe software development company is situated in Northern California and avocados naturally grow in the fertile fields of the Central Valley, which is part of Northern California.\nQuestion:\nCan the software development company access avocados?",
+  "output": "False",
+  "rule": [
+   "732"
+  ],
+  "rule in NL": "If Job X is in Region Z and Food Y naturally grows in Natural Place A, which is located in Region Z, then Job X cannot access Food Y.",
+  "depth": 1,
+  "length": 3,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "transitive-disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nIn April, Michael decided to leave the bustling city of Chicago and moved into a charming, small town in Vermont known for its beautiful landscapes and serene atmosphere.\nQuestion:\nDoes Michael live in Vermont?",
+  "output": "False",
+  "rule": [
+   "146"
+  ],
+  "rule in NL": "If Person X moved to Region Y, then Person X not lives in Region Y.",
+  "depth": 0,
+  "length": 1,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "location",
+  "structure": "transitive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nThe painting 'Starry Night' is coated with a special varnish known as PolyShield, and PolyShield is known to protect against acidic rain.\nQuestion:\nCan the painting 'Starry Night' be damaged by acidic rain?",
+  "output": "True",
+  "rule": [
+   "679"
+  ],
+  "rule in NL": "If Artwork X is coated with Material Z2, and Material Z2 protects against Substance Y, then Artwork X can be damaged by Substance Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "interaction",
+  "structure": "transitive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nFinancial Product A, specifically a retirement savings plan, is regulated by the Federal Financial Supervisory Authority, and the card game Baccarat is prohibited by the same authority.\nQuestion:\nCan Financial Product A be gambled on Baccarat?",
+  "output": "True",
+  "rule": [
+   "683"
+  ],
+  "rule in NL": "If Financial Product X is regulated by Facility Z1, and Game Y is prohibited by Facility Z1, then Financial Product X can be gambled on Game Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "interaction",
+  "structure": "transitive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nThe delivery truck X operates within the mountainous Region Z1 and the apple Y naturally grows in the fertile valley A, which is part of Region Z1.\nQuestion:\nCan the delivery truck X deliver the apple Y?",
+  "output": "False",
+  "rule": [
+   "746"
+  ],
+  "rule in NL": "If Vehicle X operates in Region Z1 and Food Y naturally grows in Natural Place A which is located in Region Z1, then Vehicle X cannot deliver Food Y.",
+  "depth": 1,
+  "length": 3,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "transitive-disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nIn a small art studio, a sculptor named Sarah uses a specialized carving chisel, and her favorite type of marble, which is white Carrara, lacks this specific chisel.\nQuestion:\nIs white Carrara marble restricted for sculptor Sarah?",
+  "output": "False",
+  "rule": [
+   "611"
+  ],
+  "rule in NL": "If Job Y uses Tool Z and Material X lacks Tool Z, then Material X is not restricted for Job Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nThe eruption of Mount Vesuvius, a violent volcanic event, occurred in AD 79, and Leonardo da Vinci's painting, the Mona Lisa, was created between 1503 and 1506, clearly much later than the eruption.\nQuestion:\nCan the eruption of Mount Vesuvius access the Mona Lisa?",
+  "output": "True",
+  "rule": [
+   "823"
+  ],
+  "rule in NL": "If Natural Phenomenon X happens during Time Period Z1 and Artwork Y was made during Time Period Z2, and Time Period Z1 is earlier than Time Period Z2, then Natural Phenomenon X can access Artwork Y.",
+  "depth": 0,
+  "length": 3,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "2",
+  "domain": "accessibility",
+  "structure": "disjunctive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nJohn works as a barista at Coffee Corner, which pays him $50 a day. A bottle of Scotch whiskey, named Highland Mist, costs $60. Since what John earns daily is less than the price of the whiskey,\nQuestion:\nCan John buy a bottle of Highland Mist?",
+  "output": "True",
+  "rule": [
+   "942"
+  ],
+  "rule in NL": "If Person X earns from Job A, Job A pays Money Z1, Alcohol Y is sold for Money Z2, and Money Z1 is smaller than Money Z2, then Person X can buy Alcohol Y.",
+  "depth": 1,
+  "length": 4,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "transitive-disjunctive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nSmartphone X is built with Graphene A, using Nanotechnology Z that produced Graphene. Additionally, Operating System Y was developed in the 2010s, but Nanotechnology Z was not invented until the 2020s.\nQuestion:\nIs Smartphone X compatible with Operating System Y?",
+  "output": "False",
+  "rule": [
+   "960"
+  ],
+  "rule in NL": "If Electronic Device X is built with Material A, and Technology Z that produced Material A, and Platform Y was developed in Time Period C, but Technology Z was not invented in Time Period C, then Electronic Device X is not incompatible with Platform Y.",
+  "depth": 2,
+  "length": 4,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "1",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "transitive-disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nThe Monarch butterflies have migrated to the Sierra Madre Mountains in Mexico, and heavy rainfall is common in the Sierra Madre Mountains during the summer months.\nQuestion:\nDo the Monarch butterflies experience heavy rainfall?",
+  "output": "False",
+  "rule": [
+   "373"
+  ],
+  "rule in NL": "If Animal X has migrated to Region Z and Natural Phenomenon Y is common in Region Z, then Animal X not experiences Natural Phenomenon Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nThe video game 'Star Explorer' requires the specialized controller 'HyperPad' and the 'HyperPad' is currently out of stock in all stores, making it unavailable for the regional gaming competition.\nQuestion:\nCan the regional gaming competition access 'Star Explorer'?",
+  "output": "True",
+  "rule": [
+   "577"
+  ],
+  "rule in NL": "If Game X requires Tool Z1 and Tool Z1 is unavailable for Job Y, then Job Y can access Game X.",
+  "depth": 0,
+  "length": 2,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "disjunctive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nGame 'Call of Duty' requires a graphics processing unit (GPU) and the GPU uses ray tracing technology, and if the PlayStation 5 supports ray tracing technology and the Oculus Quest 2 runs on a platform supported by PlayStation 5,\nQuestion:\nCan the Oculus Quest 2 play 'Call of Duty'?",
+  "output": "False",
+  "rule": [
+   "909"
+  ],
+  "rule in NL": "If Game Y needs Electronic Device C and Electronic Device C uses Technology A, and if Platform Z supports Technology A and Electronic Device X runs on Platform Z, then Electronic Device X cannot play Game Y.",
+  "depth": 2,
+  "length": 4,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "transitive-disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nMariana created the animated series 'Galactic Adventures', followed by its successful pilot episode aired in October which drew critical praise for its unique storytelling and vibrant characters.\nQuestion:\nCan Mariana write for 'Galactic Adventures'?",
+  "output": "False",
+  "rule": [
+   "29"
+  ],
+  "rule in NL": "If Person X created Show Y, then Person X cannot write for Show Y.",
+  "depth": 0,
+  "length": 1,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "transitive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nBourbon whiskey contains Ethanol, and Ethanol causes liver toxicity, and liver toxicity leads to cirrhosis.\nQuestion:\nCan bourbon whiskey prevent cirrhosis?",
+  "output": "True",
+  "rule": [
+   "876"
+  ],
+  "rule in NL": "If Alcohol X contains Substance A, and Substance A causes Condition Z2, and Condition Z2 leads to Disease Y, then Alcohol X can prevent Disease Y.",
+  "depth": 1,
+  "length": 3,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "interaction",
+  "structure": "transitive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nAnna buys a Phillips screwdriver and the Phillips screwdriver is suitable for manipulating wooden boards\nQuestion:\nCan Anna manipulate wooden boards?",
+  "output": "False",
+  "rule": [
+   "272"
+  ],
+  "rule in NL": "If Person X buys Tool Z1 and Tool Z1 is suitable for manipulating Material Y, then Person X cannot manipulate Material Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "transitive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nThe Bat (Z) resides in the lush Amazon rainforest (X) and primarily consumes wild fruits (A). The fruits are occasionally collected and examined by a local biologist (C) who has unfortunately contracted a rare strain of the Zika virus (Y).\nQuestion:\nCan the Zika virus access the Amazon rainforest?",
+  "output": "False",
+  "rule": [
+   "914"
+  ],
+  "rule in NL": "If Animal Z lives in Natural Place X and feeds on Food A, and Food A is handled by Person C who is infected with Disease Y, then Disease Y cannot access Natural Place X.",
+  "depth": 2,
+  "length": 4,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "transitive-disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nSam inherits the gallery in downtown Soho and the condition of the gallery is climate-controlled, and the Van Gogh painting 'Starry Night' requires a climate-controlled environment\nQuestion:\nCan Sam display the Van Gogh painting 'Starry Night'?",
+  "output": "False",
+  "rule": [
+   "706"
+  ],
+  "rule in NL": "If Person X inherits Space Z1 and the condition of Space Z1 is Condition A, and Artwork Y requires Condition A, then Person X cannot display Artwork Y.",
+  "depth": 1,
+  "length": 3,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "transitive-disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nTech startup SiliconSpectra operates in Northern California, and the Clean Air Act has been passed in the Silicon Valley headquarters, which is located in Northern California, and the chemical compound Radium-233 is prohibited by the Clean Air Act.\nQuestion:\nCan SiliconSpectra access Radium-233?",
+  "output": "True",
+  "rule": [
+   "968"
+  ],
+  "rule in NL": "If Organization X operates in Region A, and Legislation Z has been passed in Facility C, which is located in Region A, and Substance Y is prohibited by Legislation Z, then Organization X can access Substance Y.",
+  "depth": 2,
+  "length": 4,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "transitive-disjunctive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nThe latest game, CyberStrike, is compatible with the PlayStation 5 platform, and the newly released Sony Smart TV can run on the PlayStation 5 platform through its integrated gaming feature.\nQuestion:\nCan the Sony Smart TV play CyberStrike?",
+  "output": "False",
+  "rule": [
+   "391"
+  ],
+  "rule in NL": "If Game Y is compatible with Platform Z and Electronic Device X can run on Platform Z, then Electronic Device X cannot play Game Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nSamantha has inherited an allergy to gluten and wheat produces gluten, due to her family's genetic history of celiac disease.\nQuestion:\nDoes Samantha avoid food from wheat?",
+  "output": "False",
+  "rule": [
+   "477"
+  ],
+  "rule in NL": "If Person X has inherited an allergy to Substance Z1 and Plant Y produces Substance Z1, then Person X not avoids food from Plant Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nChef Marco, who works at Bella's Italian Bistro, is not restricted from accessing Tomato Sauce, and Pesto Sauce is derived from Tomato Sauce.\nQuestion:\nCan Chef Marco access Pesto Sauce?",
+  "output": "False",
+  "rule": [
+   "419"
+  ],
+  "rule in NL": "If Job X is not restricted from accessing Food Z and Food Y is derived from Food Z, then Job X cannot access Food Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "transitive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nThe iPhone was invented in the year 2007 (Time Period Z2) and the rise of mobile app development started significantly around 2010 (Time Period Z1). Since 2007 predates 2010,\nQuestion:\nCan the rise of mobile app development access iPhone technology?",
+  "output": "False",
+  "rule": [
+   "727"
+  ],
+  "rule in NL": "If Event X happens at Time Period Z1 and Technology Y originated during Time Period Z2, and Time Period Z2 is earlier than Time Period Z1, then Event X cannot access Technology Y.",
+  "depth": 0,
+  "length": 3,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nTech company NeuralTech expanded its operations to include the Southwestern United States in early 2022, focusing particularly on deploying advanced AI solutions for businesses in that area.\nQuestion:\nDoes NeuralTech provide services in the Southwestern United States?",
+  "output": "False",
+  "rule": [
+   "151"
+  ],
+  "rule in NL": "If Organization X expanded to Region Y, then Organization X not provides services in Region Y.",
+  "depth": 0,
+  "length": 1,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "location",
+  "structure": "transitive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nAvocados are grown in Green Valley Farms, and Green Valley Farms is established in Southern California.\nQuestion:\nAre avocados produced in Southern California?",
+  "output": "False",
+  "rule": [
+   "462"
+  ],
+  "rule in NL": "If Food X is grown in Facility Z and Facility Z is established in Region Y, then Food X is not produced in Region Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "location",
+  "structure": "transitive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nThe sculpture 'Eternal Whisper' requires a rare marble known as Azure Stone and the 3D scanning technology used by ArtVisuals lacks access to Azure Stone.\nQuestion:\nIs the sculpture 'Eternal Whisper' digitized by ArtVisuals' 3D scanning technology?",
+  "output": "True",
+  "rule": [
+   "553"
+  ],
+  "rule in NL": "If Artwork Y requires Material Z1 and Technology X lacks Material Z1, then Artwork Y is digitized by Technology X.",
+  "depth": 0,
+  "length": 2,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "transitive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nTungsten exists in the Arctic Circle and the Arctic Circle prevents high temperature conditions, and forest fires need high temperature conditions to occur.\nQuestion:\nIs tungsten safe from forest fires?",
+  "output": "False",
+  "rule": [
+   "835"
+  ],
+  "rule in NL": "If Material X exists in Region Z1 and Region Z1 prevents Condition A, and Natural Phenomenon Y needs Condition A to occur, then Material X is not safe from Natural Phenomenon Y.",
+  "depth": 1,
+  "length": 3,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "transitive-disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nThe Green Valley Chemical Plant is permitted to handle Toxic Chemical Gamma, and Industrial Solvent Alpha contains Toxic Chemical Gamma.\nQuestion:\nCan the Green Valley Chemical Plant access Industrial Solvent Alpha?",
+  "output": "False",
+  "rule": [
+   "402"
+  ],
+  "rule in NL": "If Facility X is permitted to handle Substance Z and Material Y contains Substance Z, then Facility X cannot access Material Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nApple sap, which contains unique nourishing enzymes, is known to be secreted during the late fall months of November and December, marked as Time Period Z1. Meanwhile, the cherry blossoms, famous for their vibrant spring blooms, come into full bloom in the early months of March and April designated as Time Period Z2. Importantly, November and December are months that follow after March and April, establishing that Time Period Z1 is later than Time Period Z2.\nQuestion:\nCan the nourishing enzymes in apple sap reach the cherry blossoms?",
+  "output": "True",
+  "rule": [
+   "821"
+  ],
+  "rule in NL": "If Substance X is produced in Time Period Z1 and Plant Y blooms in Time Period Z2, and Time Period Z1 is later than Time Period Z2, then Substance X can access Plant Y.",
+  "depth": 0,
+  "length": 3,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "disjunctive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nTruck A can load Coal B from the mining site, safely transporting it across rugged terrain.\nQuestion:\nCan Truck A access Coal B?",
+  "output": "False",
+  "rule": [
+   "107"
+  ],
+  "rule in NL": "If Vehicle X can load Material Y, then Vehicle X cannot access Material Y.",
+  "depth": 0,
+  "length": 1,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "transitive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nSunflower X is planted in Greenhouse Z and Greenhouse Z is located in the Midwestern Y.\nQuestion:\nDoes Sunflower X grow in the Midwestern Y?",
+  "output": "False",
+  "rule": [
+   "447"
+  ],
+  "rule in NL": "If Plant X is planted in Facility Z and Facility Z is located in Region Y, then Plant X not grows in Region Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "location",
+  "structure": "transitive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nAlice has expertise in software development and the role of a software engineer at Tech Innovations requires expertise in software development.\nQuestion:\nIs Alice a potential candidate for the software engineer position at Tech Innovations?",
+  "output": "False",
+  "rule": [
+   "336"
+  ],
+  "rule in NL": "If Person X has Skill Z and Job Y requires Skill Z, then Person X is a potential cannotdidate for Job Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nAt the local pub, the patrons are holding a championship, where the Game 'Darts' is winning and everyone is toasting with Cider 'Strongbow'.\nQuestion:\nCan the Game 'Darts' be celebrated with Cider 'Strongbow'?",
+  "output": "False",
+  "rule": [
+   "231"
+  ],
+  "rule in NL": "If Game X is winning with Alcohol Y, then Game X cannot be celebrated with Alcohol Y.",
+  "depth": 0,
+  "length": 1,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "interaction",
+  "structure": "transitive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nJane studies in Harvard University, and Harvard University is located in Cambridge, Massachusetts, and the Annual Science Symposium is organized in Cambridge, Massachusetts.\nQuestion:\nCan Jane access the Annual Science Symposium?",
+  "output": "False",
+  "rule": [
+   "733"
+  ],
+  "rule in NL": "If Person X studies in Facility A, and Facility A is located in Region Z, and Event Y is organized in Region Z, then Person X cannot access Event Y.",
+  "depth": 1,
+  "length": 3,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "transitive-disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nMichael has a Skill Level of Intermediate in programming, and the new Artificial Intelligence software requires an Advanced Skill Level in programming, with Michael's Intermediate level being lower than the Advanced required level.\nQuestion:\nIs Michael proficient in the new Artificial Intelligence software?",
+  "output": "True",
+  "rule": [
+   "785"
+  ],
+  "rule in NL": "If Person X has a Skill Level Z1 and Technology Y requires Skill Z2, and Skill Z1 is smaller than Skill Z2, then Person X is proficient in Technology Y.",
+  "depth": 0,
+  "length": 3,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "disjunctive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nIncreased exposure to ultraviolet (UV) rays causes skin dehydration, and chronic skin dehydration leads to accelerated skin aging.\nQuestion:\nCan increased exposure to ultraviolet (UV) rays prevent accelerated skin aging?",
+  "output": "True",
+  "rule": [
+   "668"
+  ],
+  "rule in NL": "If Natural Phenomenon X causes Condition Z1, and Condition Z1 leads to Disease Y, then Natural Phenomenon X can prevent Disease Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "interaction",
+  "structure": "transitive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nJohn has diabetes and cardiovascular disease is often associated with diabetes, and cardiovascular disease can lead to heart failure.\nQuestion:\nDoes John need to prevent heart failure?",
+  "output": "False",
+  "rule": [
+   "861"
+  ],
+  "rule in NL": "If Person X has Condition A and Disease Z1 is associated with Condition A, and Disease Z1 can lead to Disease Y, then Person X needs to prevent Disease Y.",
+  "depth": 1,
+  "length": 3,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "need",
+  "structure": "transitive-disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nJohn, a 16-year-old high school student, wishes to invest in Financial Product Golden Retirement Fund. However, the required minimum age to invest in the Golden Retirement Fund is 21 years, and 21 is indeed greater than 16.\nQuestion:\nCan John invest in the Golden Retirement Fund?",
+  "output": "True",
+  "rule": [
+   "801"
+  ],
+  "rule in NL": "If Person X is younger than Age Z1 and the required age for accessing Financial Product Y is Age Z2, and Age Z2 is greater than Age Z1, then Person X can access Financial Product Y.",
+  "depth": 0,
+  "length": 3,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "disjunctive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nJohn earns $5000 every month and the cost of his grocery shopping, including essentials like bread, milk, and vegetables, totals up to $300, where $5000 is clearly more than $300.\nQuestion:\nDoes John have enough money for his grocery shopping?",
+  "output": "False",
+  "rule": [
+   "702"
+  ],
+  "rule in NL": "If Person X earns Money Z1 and the cost of Food Y is Money Z2, and Money Z1 is bigger than Money Z2, then Person X has no money for Food Y.",
+  "depth": 0,
+  "length": 3,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nGrapefruit juice contains naringin, and naringin neutralizes the effect of the antihistamine cetirizine.\nQuestion:\nDoes grapefruit juice enhance the effect of cetirizine?",
+  "output": "True",
+  "rule": [
+   "684"
+  ],
+  "rule in NL": "If Food X contains Substance Z1, and Substance Z1 neutralizes Drug Y, then Food X can enhance the effect of Drug Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "interaction",
+  "structure": "transitive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nThe electric car battery, made from Lithium (Material A), requires cold temperatures for optimal performance (Condition Z). However, leather interiors (Material Y) degrade under cold conditions and lack Condition Z.\nQuestion:\nIs the electric car battery incompatible with leather interiors?",
+  "output": "False",
+  "rule": [
+   "829"
+  ],
+  "rule in NL": "If Technology X is made from Material A, and Material A requires Condition Z, but Material Y lacks Condition Z, then Technology X is not incompatible with Material Y.",
+  "depth": 1,
+  "length": 3,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "transitive-disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nDr. Alice works on environmental research at Yellowstone National Park\nQuestion:\nDoes Dr. Alice need to visit Yellowstone National Park?",
+  "output": "False",
+  "rule": [
+   "169"
+  ],
+  "rule in NL": "If Person X works on Natural Place Y, then Person X needs to visit Natural Place Y.",
+  "depth": 0,
+  "length": 1,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "need",
+  "structure": "transitive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nJohn, a chemical engineer, has completed courses in hazardous waste management and nuclear material safety, skills that are particularly relevant for handling radioactive isotopes with safety and efficiency.\nQuestion:\nCan John safely dispose of radioactive isotopes?",
+  "output": "False",
+  "rule": [
+   "271"
+  ],
+  "rule in NL": "If Person X has studied Skill Z1 and Skill Z1 is suitable for disposing Material Y, then Person X cannot dispose Material Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nMichael was recently hired as a Junior Software Developer at Tech Innovations Inc. The company's security protocols dictate that only Senior Software Developers are granted Server Access Authorization, and the role of a Junior Software Developer is distinct from that of a Senior Software Developer.\nQuestion:\nDoes Michael lack Server Access Authorization?",
+  "output": "False",
+  "rule": [
+   "791"
+  ],
+  "rule in NL": "If Person X is hired for Job Z1 and the company policy requires Job Z2 for Authorization Y, and Job Z1 is different from Job Z2, then Person X not lacks access to Authorization Y.",
+  "depth": 0,
+  "length": 3,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "transitive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nTomato plants require plenty of sunlight to thrive, and extended cloud cover prevents this necessary sunlight from reaching the plants.\nQuestion:\nAre tomato plants vulnerable to extended cloud cover?",
+  "output": "False",
+  "rule": [
+   "599"
+  ],
+  "rule in NL": "If Plant X requires Condition Z and Natural Phenomenon Y prevents Condition Z, then Plant X is not vulnerable to Natural Phenomenon Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nMaria, an expert in Python programming, works in a tech company where her main responsibility is software development, a role heavily reliant on her coding skills. Meanwhile, the primary objective of GreenTech Inc., where she hopes to become a team leader, is to excel in renewable energy innovations, a field that does not typically require Python programming as a core skill.\nQuestion:\nCan Maria lead GreenTech Inc?",
+  "output": "True",
+  "rule": [
+   "947"
+  ],
+  "rule in NL": "If Person X has Skill Z1 and the goal of Organization Y is Skill Z2, and Skill Z1 is used in Job A but Skill Z2 is not used in Job A, then Person X can lead Organization Y.",
+  "depth": 1,
+  "length": 4,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "transitive-disjunctive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nTechnology T-Spark is used in Organization EverestCorp, and Organization EverestCorp operates in Facility SkyTower, and Facility SkyTower is situated in Region LoneValley\nQuestion:\nIs Technology T-Spark available in Region LoneValley?",
+  "output": "False",
+  "rule": [
+   "760"
+  ],
+  "rule in NL": "If Technology X is used in Organization Z, and Organization Z operates in Facility A, and Facility A is situated in Region Y, then Technology X is not available in Region Y.",
+  "depth": 1,
+  "length": 3,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "location",
+  "structure": "transitive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nMichael, who left his smartphone and smartwatch at home, has no other form of recording device with him.\nQuestion:\nCan Michael record the live concert tonight?",
+  "output": "True",
+  "rule": [
+   "66"
+  ],
+  "rule in NL": "If Person X has no recording device, then Person X can record Show Y.",
+  "depth": 0,
+  "length": 1,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "transitive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nRainfall is common in the Amazon rainforest, where the dense canopy and humid climate contribute to frequent and heavy showers.\nQuestion:\nDoes rainfall occur in the Amazon rainforest?",
+  "output": "False",
+  "rule": [
+   "164"
+  ],
+  "rule in NL": "If Natural Phenomenon X is common in Region Y, then Natural Phenomenon X not occurs in Region Y.",
+  "depth": 0,
+  "length": 1,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "location",
+  "structure": "transitive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nAlice, a software developer, does not have the required security clearance to access the proprietary coding software Toolset Prime.\nQuestion:\nCan Alice improve Toolset Prime?",
+  "output": "True",
+  "rule": [
+   "78"
+  ],
+  "rule in NL": "If Person X has no access to Tool Y, then Person X can improve Tool Y.",
+  "depth": 0,
+  "length": 1,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "transitive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nThe intricate Artwork 'Sunset Over Mountains' requires advanced Landscape Painting Skills, whereas Person Emily works as a Graphic Designer, is trained in Digital Design for Graphic Designing, and operates a High-End Graphics Tablet which is essential for Digital Design but the expertise in Digital Illustration required for using the High-End Graphics Tablet is less intensive than that needed for Landscape Painting.\nQuestion:\nIs Emily the artist responsible for creating 'Sunset Over Mountains'?",
+  "output": "True",
+  "rule": [
+   "1099"
+  ],
+  "rule in NL": "If Artwork Y requires Skill Z1 and Person X works in Job A, is trained in Skill E for Job A, and operates Tool C which is needed for Skill E but the level of Skill Z2 for operating Tool C is less than Skill Z1, then Person X is an artist for Artwork Y.",
+  "depth": 3,
+  "length": 6,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "1",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "transitive-disjunctive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nThe pharmaceutical company MedPharmCo requires compliance with the Health Safety Act 2045, and their cancer treatment drug, Oncolix, is manufactured from Compound Cesium-10, which is derived from Substance Arcturin. Notably, Substance Arcturin is explicitly prohibited under the provisions of the Health Safety Act 2045.\nQuestion:\nCan MedPharmCo access the drug Oncolix?",
+  "output": "True",
+  "rule": [
+   "961"
+  ],
+  "rule in NL": "If Organization X requires Legislation Z2 and Drug Y is manufactured from Material C, which is composed of Substance A, and Substance A is banned in Legislation Z2, then Organization X can access Drug Y.",
+  "depth": 2,
+  "length": 4,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "transitive-disjunctive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nMortgage loans, a type of Financial Product, requires a special banking license, and the small local credit union, which lacks this license, seeks to offer them.\nQuestion:\nIs the small local credit union eligible for offering mortgage loans?",
+  "output": "True",
+  "rule": [
+   "567"
+  ],
+  "rule in NL": "If Financial Product Y requires Authorization Z and Organization X lacks Authorization Z, then Organization X is eligible for Financial Product Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "disjunctive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nJohn, who is 65 years old, lives in a community where arthritis is commonly linked to people in their 60s.\nQuestion:\nCan John develop symptoms of arthritis?",
+  "output": "False",
+  "rule": [
+   "268"
+  ],
+  "rule in NL": "If Person X is of Age Z1 and the prevalence of Condition Y is associated with Age Z1, then Person X cannot develop symptoms of Condition Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "transitive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nThe sculpture 'Whispers of the Ocean' is crafted from delicate salt crystals, a material that requires low humidity to be preserved. Unfortunately, the Desert Sands Museum, which is situated in the arid Sahara region, lacks this essential low humidity environment due to the naturally high desert air moisture.\nQuestion:\nIs the sculpture 'Whispers of the Ocean' part of the Desert Sands Museum's collection?",
+  "output": "True",
+  "rule": [
+   "965"
+  ],
+  "rule in NL": "If Artwork Y is made from Material A, and Material A needs Condition Z to be preserved, and Facility X is located in Region C where Condition Z is not available, then Artwork Y is in the collection of Facility X.",
+  "depth": 2,
+  "length": 4,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "transitive-disjunctive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nTechCorp, a multinational tech company, operates in the Silicon Tower, a known technological hub in California. Meanwhile, MediaHub, known for its exclusive rights to the popular series 'Future Wave', also conducts its operations out of California.\nQuestion:\nCan TechCorp access the series 'Future Wave'?",
+  "output": "False",
+  "rule": [
+   "910"
+  ],
+  "rule in NL": "If Organization X operates in Facility A which is located in Region Z, and Organization C has rights to Show Y and also operates in Region Z, then Organization X cannot access Show Y.",
+  "depth": 2,
+  "length": 4,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "transitive-disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nJessica participates in the annual gardening competition which requires a specialized pruning shear, and Jessica can operate this pruning shear with advanced horticultural skills, and if the rare Blue Orchid is sensitive to over-pruning which can be managed by advanced horticultural skills,\nQuestion:\nCan Jessica maintain the Blue Orchid?",
+  "output": "False",
+  "rule": [
+   "1002"
+  ],
+  "rule in NL": "If Person X participates in Event A which requires Tool C, and Person X can operate Tool C with Skill Z2, and if Plant Y is sensitive to Condition E which can be managed by Skill Z2, then Person X cannot maintain Plant Y.",
+  "depth": 3,
+  "length": 5,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "transitive-disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nGreen tea contains antioxidant catechins, and these catechins have been shown to lead to increased risk of iron deficiency anemia.\nQuestion:\nCan green tea prevent iron deficiency anemia?",
+  "output": "True",
+  "rule": [
+   "657"
+  ],
+  "rule in NL": "If Substance X contains Food Z1, and Food Z1 causes Disease Y, then Substance X can prevent Disease Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "interaction",
+  "structure": "transitive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nDr. Alice works at a hospital in Region Northland and Morphine is a controlled substance in Region Northland.\nQuestion:\nIs it illegal for Dr. Alice to have Morphine?",
+  "output": "False",
+  "rule": [
+   "488"
+  ],
+  "rule in NL": "If Person X works in Region Z1 and Drug Y is restricted in Region Z1, then it is not illegal for Person X to have Drug Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nRegion Beringia has a SocioEconomic Condition of widespread poverty, and this poverty often leads to increased instances of landslides due to deforestation and unplanned settlements on vulnerable hillsides.\nQuestion:\nIs Region Beringia familiar with landslides?",
+  "output": "False",
+  "rule": [
+   "448"
+  ],
+  "rule in NL": "If Region Y has a SocioEconomic Condition Z and this Condition Z leads to Natural Phenomenon X, then the Region Y is not familiar with Natural Phenomenon X.",
+  "depth": 0,
+  "length": 2,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "location",
+  "structure": "transitive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nJane, who recently graduated with a degree in literature, lacks the technical skills necessary for a software engineering position at Tech Innovations Inc.\nQuestion:\nCan Jane perform the duties of a software engineer at Tech Innovations Inc?",
+  "output": "True",
+  "rule": [
+   "69"
+  ],
+  "rule in NL": "If Person X lacks the skills for Job Y, then Person X can perform Job Y.",
+  "depth": 0,
+  "length": 1,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "transitive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nThe medication Insulmax (Drug X) requires refrigeration (Condition C), which is identical to being stored below 5 degrees Celsius (Condition A). This low temperature (Condition A) is maintained by using specialized cooling systems (Technology Z). However, the local pharmacy network HealthMart (Platform Y) does not have these cooling systems (Technology Z).\nQuestion:\nIs Insulmax available at HealthMart?",
+  "output": "True",
+  "rule": [
+   "969"
+  ],
+  "rule in NL": "If Drug X requires Condition C, and Condition C is the same as Condition A, and Condition A is maintained by Technology Z, and Platform Y lacks Technology Z, then Drug X is available on Platform Y.",
+  "depth": 2,
+  "length": 4,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "transitive-disjunctive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nJohn lacks welding skills and a welding machine is needed for recycling aluminum, and the welding machine is associated with welding skills.\nQuestion:\nCan John recycle aluminum?",
+  "output": "True",
+  "rule": [
+   "799"
+  ],
+  "rule in NL": "If Person X lacks Skill Z2 and Tool A is needed for recycling Material Y, and Tool A is associated with Skill Z2, then Person X can recycle Material Y.",
+  "depth": 1,
+  "length": 3,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "transitive-disjunctive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nLaser cutters are strictly prohibited in Country Wakanda, while the innovative cryptocurrency WakandaCoin is exclusively traded within the same country.\nQuestion:\nCan laser cutters access WakandaCoin?",
+  "output": "True",
+  "rule": [
+   "587"
+  ],
+  "rule in NL": "If Tool X is illegal in Region Z and Financial Product Y is only available in Region Z, then Tool X can access Financial Product Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "disjunctive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nVodka is illegal in the province of Northland and the province of Northland is part of the larger Eurasian Empire.\nQuestion:\nIs Vodka restricted in the Eurasian Empire?",
+  "output": "False",
+  "rule": [
+   "445"
+  ],
+  "rule in NL": "If Alcohol X is illegal in Region Z1 and Region Z1 is part of Region Y, then Alcohol X is not restricted in Region Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "location",
+  "structure": "transitive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nChef Emily has a job as a sushi chef that requires a sashimi knife, and the sashimi knife is made of stainless steel, and handling stainless steel requires precise cutting skills, and precise cutting skills are required for making sushi rolls.\nQuestion:\nCan Chef Emily cook sushi rolls?",
+  "output": "False",
+  "rule": [
+   "1009"
+  ],
+  "rule in NL": "If Person X has a job A that requires Tool E, and Tool E is made of Material C, and handling Material C requires Skill Z, and Skill Z is required for making Food Y, then Person X cannot cook Food Y.",
+  "depth": 3,
+  "length": 5,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "1",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "transitive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nSamantha (Person X) is disqualified from the National Chess Championship (Game Y) due to not meeting the eligibility criteria.\nQuestion:\nCan Samantha compete in the National Chess Championship?",
+  "output": "True",
+  "rule": [
+   "71"
+  ],
+  "rule in NL": "If Person X is disqualified from Game Y, then Person X can compete in Game Y.",
+  "depth": 0,
+  "length": 1,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "transitive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nPlatform Zoom is built with Blockchain Technology and Spreadsheet Pro lacks Blockchain Technology.\nQuestion:\nCan Spreadsheet Pro access Platform Zoom?",
+  "output": "True",
+  "rule": [
+   "586"
+  ],
+  "rule in NL": "If Platform Y is built with Technology Z1 and Tool X lacks Technology Z1, then Tool X can access Platform Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "disjunctive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nThe titanium pickaxe is resistant to extreme cold temperatures, and Mount Everest experiences these extreme cold temperatures.\nQuestion:\nCan the titanium pickaxe be used to explore Mount Everest?",
+  "output": "False",
+  "rule": [
+   "411"
+  ],
+  "rule in NL": "If Tool X is resistant to Condition Z and Natural Place Y has Condition Z, then Tool X cannot be used to explore Natural Place Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nSmartphone A requires a WiFi connection to operate online features, and a WiFi connection is not available in Building B.\nQuestion:\nCan Smartphone A access online features in Building B?",
+  "output": "True",
+  "rule": [
+   "592"
+  ],
+  "rule in NL": "If Electronic Device X uses Condition Z1 and Condition Z1 is absent in Facility Y, then Electronic Device X can access Facility Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "disjunctive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nOlivia works as a radiologist (Job Z) in a hospital where radiologists use a CT scanner (Tool A), and operating a CT scanner requires a special radiology certification (Authorization Y).\nQuestion:\nDoes Olivia need to obtain a special radiology certification?",
+  "output": "False",
+  "rule": [
+   "848"
+  ],
+  "rule in NL": "If Person X works in Job Z and Job Z uses Tool A, and Tool A requires Authorization Y, then Person X not needs to obtain Authorization Y.",
+  "depth": 1,
+  "length": 3,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "need",
+  "structure": "transitive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nThe weekly technology magazine 'TechSphere' is published by 'InfoTech Media Group', and 'InfoTech Media Group' competes with 'Global Tech Publications'.\nQuestion:\nCan 'TechSphere' be sponsored by 'Global Tech Publications'?",
+  "output": "True",
+  "rule": [
+   "682"
+  ],
+  "rule in NL": "If Publication X is published by Organization Z1, and Organization Z1 competes with Organization Y, then Publication X can be sponsored by Organization Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "2",
+  "domain": "interaction",
+  "structure": "transitive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nPharmaceutical company MedTech Inc. complies with Health Safety Act HS-A7 and Health Safety Act HS-A7 strictly bans the distribution of Opioid Xanalex.\nQuestion:\nIs MedTech Inc. a supplier of Opioid Xanalex?",
+  "output": "True",
+  "rule": [
+   "513"
+  ],
+  "rule in NL": "If Organization X follows Legislation Z2 and Legislation Z2 prohibits Drug Y, then Organization X is a supplier of Drug Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "transitive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nAlice works at an accounting firm earning $4,000 per month, and the retail price of the latest iPhone is $1,200, and $4,000 is more than $1,200.\nQuestion:\nCan Alice buy the latest iPhone?",
+  "output": "False",
+  "rule": [
+   "884"
+  ],
+  "rule in NL": "If Person X works at Job A which pays Money Z1, and the retail price of Electronic Device Y is Money Z2, and Money Z1 is bigger than Money Z2, then Person X cannot buy Electronic Device Y.",
+  "depth": 1,
+  "length": 4,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "transitive-disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nPainReliefX, a powerful new analgesic, is manufactured by PharmaGroup8, which has recently been blacklisted and banned by WorldHealthAgency due to several violations of international health regulations.\nQuestion:\nCan PainReliefX be distributed by WorldHealthAgency?",
+  "output": "True",
+  "rule": [
+   "674"
+  ],
+  "rule in NL": "If Drug X is manufactured by Organization Z1, and Organization Z1 is banned by Organization Y, then Drug X can be distributed by Organization Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "interaction",
+  "structure": "transitive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nTechnology X, which is a high-resolution 3D printer, is required for Job C, a specialist prototyping engineer role, and Job C is in Organization Z, a leading tech-based product development company, and Organization Z operates in Facility A, a state-of-the-art design studio, and Facility A is situated in Region Y, the Silicon Valley area.\nQuestion:\nCan Technology X be used in Region Y?",
+  "output": "False",
+  "rule": [
+   "920"
+  ],
+  "rule in NL": "If Technology X is required for Job C, and Job C is in Organization Z, and Organization Z operates in Facility A, and Facility A is situated in Region Y, then Technology X cannot be used in Region Y.",
+  "depth": 2,
+  "length": 4,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "location",
+  "structure": "transitive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nEvery winter, the Monarch butterflies (X) migrate to the warmer climates of Southern California (Y) to escape the harsh northern winters.\nQuestion:\nCan Monarch butterflies be found in Southern California?",
+  "output": "False",
+  "rule": [
+   "147"
+  ],
+  "rule in NL": "If Animal X migrated to Region Y, then Animal X cannot be found in Region Y.",
+  "depth": 0,
+  "length": 1,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "location",
+  "structure": "transitive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nSarah, who is 15 years old, wanted to download the game 'Fortnite'. The game specifies that players must be at least 18 years old to access it.\nQuestion:\nCan Sarah access 'Fortnite'?",
+  "output": "True",
+  "rule": [
+   "806"
+  ],
+  "rule in NL": "If Person X is below the legal age of Age Z1 and the game Y has an age restriction of Age Z2, and Age Z2 is greater than Age Z1, then Person X can access Game Y.",
+  "depth": 0,
+  "length": 3,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "disjunctive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nJohn earns $5000 monthly and the price of a Nintendo Switch is $299, and $5000 is more than $299\nQuestion:\nCan John buy a Nintendo Switch?",
+  "output": "False",
+  "rule": [
+   "697"
+  ],
+  "rule in NL": "If Person X earns Money Z1 and the price of Game Y is Money Z2, and Money Z1 is bigger than Money Z2, then Person X cannot buy Game Y.",
+  "depth": 0,
+  "length": 3,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nFilming the movie 'Desert Winds' requires advanced drone technology for aerial shots, and the Sahara Desert lacks this advanced drone technology.\nQuestion:\nWas 'Desert Winds' filmed in the Sahara Desert?",
+  "output": "True",
+  "rule": [
+   "607"
+  ],
+  "rule in NL": "If Show Y requires Technology Z and Natural Place X lacks Technology Z, then Show Y is filmed at Natural Place X.",
+  "depth": 0,
+  "length": 2,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "disjunctive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nThe stylish Scandinavia sofa, referred to as X, is exclusively sold by IKEA, denoted as organization Z, which operates extensively throughout Europe, specifically including region Y, Sweden.\nQuestion:\nIs the Scandinavia sofa sold in Sweden?",
+  "output": "False",
+  "rule": [
+   "435"
+  ],
+  "rule in NL": "If Furniture X is sold by Organization Z and Organization Z operates in Region Y, then Furniture X is not sold in Region Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "location",
+  "structure": "disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nThe warm Sea Surface Temperature (SST) exists in the Pacific region and Malaria is absent in the same Pacific region.\nQuestion:\nIs the warm Sea Surface Temperature (SST) affected by Malaria?",
+  "output": "True",
+  "rule": [
+   "613"
+  ],
+  "rule in NL": "If Natural Phenomenon X exists in Region Z1 and Disease Y is absent in Region Z1, then Natural Phenomenon X is affected by Disease Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "disjunctive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nThe Broadway musical 'Hamilton' is sponsored by The Ford Foundation and The Ford Foundation campaigns against Alcohol X, known locally as 'Wild Rum'.\nQuestion:\nIs 'Wild Rum' a restricted item for the Broadway musical 'Hamilton'?",
+  "output": "False",
+  "rule": [
+   "615"
+  ],
+  "rule in NL": "If Show Y is sponsored by Organization A and Organization A is against Alcohol X, then Alcohol X is not a restricted item for Show Y.",
+  "depth": 1,
+  "length": 2,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "transitive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nThe European Union adopts the REACH Regulation, and as a result, the chemical DDT is banned under the REACH Regulation.\nQuestion:\nDoes the European Union lack permission to use DDT?",
+  "output": "False",
+  "rule": [
+   "525"
+  ],
+  "rule in NL": "If Organization X adopts Legislation Z and Substance Y is banned under Legislation Z, then Organization X lacks permission to use Substance Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nThe saltwater ocean contains salt, and salt is composed of sodium chloride, and sodium chloride is incompatible with freshwater fish due to salinity constraints.\nQuestion:\nCan the saltwater ocean contain freshwater fish?",
+  "output": "True",
+  "rule": [
+   "872"
+  ],
+  "rule in NL": "If Natural Place X contains Substance A, and Substance A is composed of Substance Z1, and Substance Z1 is incompatible with Substance Y, then Natural Place X can contain Substance Y.",
+  "depth": 1,
+  "length": 3,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "1",
+  "flipped_human_prediction": "1",
+  "domain": "interaction",
+  "structure": "transitive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nDr. Emily is assigned to the Southern District, and the Southern District is part of Country Gavel, and Country Gavel has the Health Security Act, and the Health Security Act mandates a Medical Practice License,\nQuestion:\nDoes Dr. Emily need to use a Medical Practice License?",
+  "output": "False",
+  "rule": [
+   "975"
+  ],
+  "rule in NL": "If Person X is assigned to Region Z, and Region Z is part of Region C, and Region C has Legislation A, and Legislation A mandates Authorization Y, then Person X not needs to use Authorization Y.",
+  "depth": 2,
+  "length": 4,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "need",
+  "structure": "transitive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nJohn has diabetes and consuming sugar can exacerbate his diabetes.\nQuestion:\nIs consuming sugar harmful to John's health?",
+  "output": "False",
+  "rule": [
+   "644"
+  ],
+  "rule in NL": "If Person X has Disease Z1 and Substance Y can worsen Disease Z1, then Substance Y is not harmful to Person X's health.",
+  "depth": 0,
+  "length": 2,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "need",
+  "structure": "disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nLucas has an allergy to strawberries and the strawberry plant grows as strawberries in the garden.\nQuestion:\nDoes Lucas require a special diet that excludes strawberries?",
+  "output": "False",
+  "rule": [
+   "480"
+  ],
+  "rule in NL": "If Person X has an allergy to Food Z2 and Plant Y grows as Food Z2, then Person X not requires a special diet excluding Plant Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nVehicle X, a fully equipped all-terrain SUV, is tailored for mountainous terrains designated as Z1, and Rocky Peaks Natural Park (Natural Place Y) is located in the Alpine Region (Region A), known for its steep, mountainous terrain identified as Condition Z1.\nQuestion:\nCan the all-terrain SUV access Rocky Peaks Natural Park?",
+  "output": "False",
+  "rule": [
+   "745"
+  ],
+  "rule in NL": "If Vehicle X is equipped for Condition Z1 and Natural Place Y is located in Region A which is characterized by Condition Z1, then Vehicle X cannot access Natural Place Y.",
+  "depth": 1,
+  "length": 3,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "transitive-disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nJohn consumes almond milk every morning and vitamin D is added to the almond milk.\nQuestion:\nCan John absorb vitamin D?",
+  "output": "False",
+  "rule": [
+   "277"
+  ],
+  "rule in NL": "If Person X consumes Food Z2 and Substance Y is added to Food Z2, then Person X cannot absorb Substance Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "transitive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nJohn, who lacks both Python programming and SQL querying skills, finds that these skills are essential for accessing the advanced data analysis platform WebDataPro.\nQuestion:\nCan John access WebDataPro?",
+  "output": "True",
+  "rule": [
+   "511"
+  ],
+  "rule in NL": "If Person X lacks Skill Z1 and Skill Z1 is required for accessing Platform Y, then Person X can access Platform Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "disjunctive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nJohn Smith has participated in a basic coding workshop, which develops elementary programming skills, and tech giant Google requires at least intermediate programming skills for higher positions, but elementary programming skills are less advanced than intermediate programming skills.\nQuestion:\nIs John Smith the CEO of Google?",
+  "output": "True",
+  "rule": [
+   "932"
+  ],
+  "rule in NL": "If Person X has participated in Event A which develops Skill Z1, and Organization Y requires a minimum of Skill Z2, but Skill Z1 is smaller than Skill Z2, then Person X is the CEO of Organization Y.",
+  "depth": 1,
+  "length": 4,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "transitive-disjunctive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nAlice works as a Data Analyst where analytical thinking (Skill Z1) is essential. The skill level needed for publishing in the leading journal 'Advanced Data Science Review' requires advanced statistical knowledge (Skill Z2). However, analytical thinking is less advanced than statistical knowledge.\nQuestion:\nCan Alice publish in 'Advanced Data Science Review'?",
+  "output": "True",
+  "rule": [
+   "946"
+  ],
+  "rule in NL": "If Person X works as Job A and Job A needs Skill Z1, and the skill level required for Publication Y is Skill Z2, but Skill Z1 is smaller than Skill Z2, then Person X can publish Publication Y.",
+  "depth": 1,
+  "length": 4,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "transitive-disjunctive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nTechCorp provides internet services in Silicon Valley, and Silicon Valley is part of California, and California encompasses the Bay Area, and the Bay Area is situated within the Western US, and smartphones are imported to the Western US.\nQuestion:\nCan TechCorp access smartphones?",
+  "output": "False",
+  "rule": [
+   "1020"
+  ],
+  "rule in NL": "If Organization X provides service in Region E, and Region E is located in Region C, and Region C contains Region A, and Region A is located in Region Z1, and Electronic Device Y is imported to Region Z1, then Organization X cannot access Electronic Device Y.",
+  "depth": 3,
+  "length": 5,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "transitive-disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nTechCorp operates in North America, and the cloud software CloudSuite is distributed by SoftwareHouse, and SoftwareHouse provides services in the Rocky Mountains, and the Rocky Mountains are surrounded by granite, and granite is found in North America.\nQuestion:\nCan TechCorp access CloudSuite?",
+  "output": "False",
+  "rule": [
+   "1023"
+  ],
+  "rule in NL": "If Organization X operates in Region Z1, and Tool Y is distributed by Organization A, and Organization A provides service in Natural Place C, and Natural Place C is surrounded by Substance E, and Substance E is located in Region Z1, then Organization X cannot access Tool Y.",
+  "depth": 3,
+  "length": 5,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "transitive-disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nThe multinational tech company Apple has a development office in Silicon Valley, and the state of California encompasses the Bay Area, which includes Silicon Valley, and the latest AI software tools are imported to California.\nQuestion:\nCan Apple access the latest AI software tools?",
+  "output": "False",
+  "rule": [
+   "916"
+  ],
+  "rule in NL": "If Organization X has a branch in Region A, and Region Z1 contains Region C, which in turn contains Region A, and Tool Y is imported to Region Z1, then Organization X cannot access Tool Y.",
+  "depth": 2,
+  "length": 4,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "transitive-disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nAcrylic paint (Substance X) is developed during the Art Revolution Festival (Event A), and this festival is observed by Emma Thompson (Person C), a curator at the Modern Arts Guild (Organization E), which thrived in the 21st century (Time Period Z1). Meanwhile, the Sakura tree (Plant Y) blooms during the early spring months of the Hanami Season (Time Period Z2), which naturally precedes the contemporary life observed in the 21st century.\nQuestion:\nCan acrylic paint access the Sakura tree?",
+  "output": "True",
+  "rule": [
+   "1103"
+  ],
+  "rule in NL": "If Substance X is created in Event A, and Event A is witnessed by Person C who works in Organization E, and Organization E operates in Time Period Z1, and Plant Y blooms in Time Period Z2, and Time Period Z1 is later than Time Period Z2, then Substance X can access Plant Y.",
+  "depth": 3,
+  "length": 6,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "transitive-disjunctive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nJohn earns more than $50,000 annually and the price of accessing the local gym is $30 monthly, and $50,000 is significantly higher than $30.\nQuestion:\nDoes John have access to the local gym?",
+  "output": "False",
+  "rule": [
+   "704"
+  ],
+  "rule in NL": "If Person X earns more than Price Z1 and the price of accessing Facility Y is Price Z2, and Price Z1 is bigger than Price Z2, then Person X has no access to Facility Y.",
+  "depth": 0,
+  "length": 3,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nAlice works at Google as a software engineer which pays her $3000 monthly, and the latest iPhone is assembled in a Foxconn factory which is owned by Apple Inc. that sets the price as $1000 per unit, and $3000 is smaller than $1000\nQuestion:\nCan Alice buy the latest iPhone?",
+  "output": "True",
+  "rule": [
+   "1093"
+  ],
+  "rule in NL": "If Person X works at Job E which pays Money Z1, and Electronic Device Y is assembled in Facility C which is owned by Organization A that sets the price as Money Z2, and Money Z1 is smaller than Money Z2, then Person X can buy Electronic Device Y.",
+  "depth": 3,
+  "length": 6,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "transitive-disjunctive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nThe pharmaceutical drug Acyclovir is manufactured in the sprawling Highdale Factory, which is owned by the massive healthcare conglomerate MedicoHealth Group. MedicoHealth Group has recently imposed a strict ban on its longtime competitor, HealFast Pharma, from any collaboration or transaction.\nQuestion:\nCan HealFast Pharma distribute Acyclovir?",
+  "output": "True",
+  "rule": [
+   "878"
+  ],
+  "rule in NL": "If Drug X is produced in Facility A, Facility A is owned by Organization Z1, and Organization Z1 has banned Organization Y, then Drug X can be distributed by Organization Y.",
+  "depth": 1,
+  "length": 3,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "interaction",
+  "structure": "transitive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nThe famous mural 'Sunset Symphony' requires a specific type of humidity control and the Malden Art Museum is located in Desertville, an arid climate area, and the necessary level of humidity control is not available in Desertville.\nQuestion:\nIs the famous mural 'Sunset Symphony' in the collection of the Malden Art Museum?",
+  "output": "True",
+  "rule": [
+   "837"
+  ],
+  "rule in NL": "If Artwork Y requires Condition Z and Facility X is located in Region A, and Condition Z is not available in Region A, then Artwork Y is in the collection of Facility X.",
+  "depth": 1,
+  "length": 3,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "transitive-disjunctive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nJacob uses a Samsung Galaxy S5 smartphone, and the new virtual reality platform VRLink requires a gyroscope, which the Samsung Galaxy S5 lacks.\nQuestion:\nCan Jacob access VRLink?",
+  "output": "True",
+  "rule": [
+   "510"
+  ],
+  "rule in NL": "If Person X uses Electronic Device Z2 and Platform Y requires hardware that Electronic Device Z2 lacks, then Person X can access Platform Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "disjunctive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nSamantha is the organizer of the annual Tech Innovators Conference\nQuestion:\nCan Samantha speak at the Tech Innovators Conference?",
+  "output": "False",
+  "rule": [
+   "24"
+  ],
+  "rule in NL": "If Person X is the organizer of Event Y, then Person X cannot speak at Event Y.",
+  "depth": 0,
+  "length": 1,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "transitive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nDiabetes is caused by excessive sugar intake and candy bars contain high amounts of sugar.\nQuestion:\nIs there a risk of getting diabetes from eating candy bars?",
+  "output": "False",
+  "rule": [
+   "413"
+  ],
+  "rule in NL": "If Disease X is caused by Substance Z and Food Y contains Substance Z, then there is not a risk of Disease X from Food Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nAlice works as a Data Analyst in a tech company, which involves using a complex data analysis software. The software requires proficiency in Python programming (Skill Z1), and the main goal of the tech company is innovative product development (Skill Z2). Python programming is vital for software development roles, but innovative product development is not typically a requirement in software development job descriptions.\nQuestion:\nCan Alice lead the tech company?",
+  "output": "True",
+  "rule": [
+   "1097"
+  ],
+  "rule in NL": "If Person X works in Job C which uses Tool E, and to operate Tool E requires Skill Z1, and the goal of Organization Y is Skill Z2, and Skill Z1 is used in Job A but Skill Z2 is not used in Job A, then Person X can lead Organization Y.",
+  "depth": 3,
+  "length": 6,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "transitive-disjunctive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nAmphetamine, known on the streets as 'Speed', is prohibited by the Comprehensive Drug Abuse Prevention and Control Act of 1970 in the United States.\nQuestion:\nIs it possible to access Amphetamine under the Comprehensive Drug Abuse Prevention and Control Act of 1970?",
+  "output": "True",
+  "rule": [
+   "121"
+  ],
+  "rule in NL": "If Drug X is prohibited by Legislation Y, then Drug X can be accessed under Legislation Y.",
+  "depth": 0,
+  "length": 1,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "transitive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nDr. Elizabeth Fulton develops a new cancer treatment drug, Oncotril, at her advanced medical research laboratory in collaboration with several oncology experts.\nQuestion:\nDoes Dr. Elizabeth Fulton need to research Oncotril?",
+  "output": "False",
+  "rule": [
+   "191"
+  ],
+  "rule in NL": "If Person X develops Drug Y, then Person X not needs to research Drug Y.",
+  "depth": 0,
+  "length": 1,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "need",
+  "structure": "transitive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nThe salt flats of Utah have a natural composition of magnesium sulfate, and magnesium sulfate is incompatible with liquid water due to its high absorption qualities.\nQuestion:\nCan the salt flats of Utah contain liquid water?",
+  "output": "True",
+  "rule": [
+   "666"
+  ],
+  "rule in NL": "If Natural Place X has a natural composition of Substance Z1, and Substance Z1 is incompatible with Substance Y, then Natural Place X can contain Substance Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "interaction",
+  "structure": "transitive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nDrug Tylenol is shipped from Facility SunPharm and Facility SunPharm is located in Region California\nQuestion:\nIs the origin of Drug Tylenol Region California?",
+  "output": "False",
+  "rule": [
+   "426"
+  ],
+  "rule in NL": "If Drug X is shipped from Facility Z and Facility Z is located in Region Y, then the origin of Drug X is not Region Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "location",
+  "structure": "transitive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nSarah works as a software developer and software development requires programming skills, and GitHub is maintained by programming skills.\nQuestion:\nDoes Sarah know how to use GitHub?",
+  "output": "False",
+  "rule": [
+   "718"
+  ],
+  "rule in NL": "If Person X works as Job A and Job A needs Skill Z2, and Platform Y is maintained by Skill Z2, then Person X not knows how to use Platform Y.",
+  "depth": 1,
+  "length": 3,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "transitive-disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nTechGiant Inc. has a bustling branch office located in the heart of Silicon Valley, where a team of over 300 dedicated staff members are employed.\nQuestion:\nDoes TechGiant Inc. operate in Silicon Valley?",
+  "output": "False",
+  "rule": [
+   "149"
+  ],
+  "rule in NL": "If Organization X has a branch in Region Y, then Organization X not operates in Region Y.",
+  "depth": 0,
+  "length": 1,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "location",
+  "structure": "transitive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nChef Margot lacks Pastry Decoration Skills and Pastry Decoration Skills are used for shaping Fondant\nQuestion:\nCan Chef Margot shape Fondant?",
+  "output": "True",
+  "rule": [
+   "469"
+  ],
+  "rule in NL": "If Person X lacks Skill Z1 and Skill Z1 is used for shaping Material Y, then Person X can shape Material Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "transitive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nMaria, an aspiring artist, has studied watercolor painting techniques and landscape composition, both of which are essential skills for creating her envisioned masterpiece, 'Sunset Serenity'.\nQuestion:\nCan Maria create 'Sunset Serenity'?",
+  "output": "False",
+  "rule": [
+   "291"
+  ],
+  "rule in NL": "If Person X has studied Skill Z1 and Skill Z1 is required for creating Artwork Y, then Person X cannot build Artwork Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "transitive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nAlice works as a barista at Coffee Corner which pays her $1500 per month and she wants to buy a professional espresso machine for $2000.\nQuestion:\nCan Alice buy the espresso machine?",
+  "output": "True",
+  "rule": [
+   "934"
+  ],
+  "rule in NL": "If Person X works at Job A which pays Money Z1 and Tool Y is bought for Money Z2, and if Money Z1 is smaller than Money Z2, then Person X can buy Tool Y.",
+  "depth": 1,
+  "length": 4,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "transitive-disjunctive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nChef Marco lacks a mixer, and a mixer is used to make whipped cream\nQuestion:\nCan Chef Marco produce whipped cream?",
+  "output": "True",
+  "rule": [
+   "471"
+  ],
+  "rule in NL": "If Person X lacks Tool Z2 and Tool Z2 is used to produce Substance Y, then Person X can produce Substance Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "transitive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nChef Samantha has the job of pastry chef which involves using sugar, and a whisk is used to manipulate sugar, and the whisk is supplied by the culinary tools platform KitchenPro.\nQuestion:\nDoes Chef Samantha need to access KitchenPro?",
+  "output": "False",
+  "rule": [
+   "980"
+  ],
+  "rule in NL": "If Person X has Job Z which involves Material C, and Tool A is used to manipulate Material C, and Tool A is supplied by Platform Y, then Person X not needs to access Platform Y.",
+  "depth": 2,
+  "length": 4,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "need",
+  "structure": "transitive-disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nAlice has $50 and the cost to buy a new book is $30, and $50 is greater than $30.\nQuestion:\nCan Alice purchase the new book?",
+  "output": "False",
+  "rule": [
+   "687"
+  ],
+  "rule in NL": "If Person X has Money Z1 and the cost to buy Material Y is Money Z2, and Money Z1 is bigger than Money Z2, then Person X cannot purchase Material Y.",
+  "depth": 0,
+  "length": 3,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nJohn has access to a lighter and a stack of newspapers\nQuestion:\nCan John burn the stack of newspapers?",
+  "output": "False",
+  "rule": [
+   "2"
+  ],
+  "rule in NL": "If Person X has access to fire and Material Y, then Person X cannot burn Material Y.",
+  "depth": 0,
+  "length": 1,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "transitive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nBourbon X is distilled in Facility Z, known as Old River Distillery, and Facility Z is located in the heart of Kentucky, Region Y.\nQuestion:\nIs Bourbon X brewed in Kentucky?",
+  "output": "False",
+  "rule": [
+   "444"
+  ],
+  "rule in NL": "If Alcohol X is distilled in Facility Z and Facility Z is located in Region Y, then Alcohol X is not brewed in Region Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "location",
+  "structure": "transitive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nTechCorp is active in the Annual Technology Conference, and the Annual Technology Conference occurs during Summer 2023, and Yellowstone National Park is safe during Summer 2023.\nQuestion:\nCan TechCorp access Yellowstone National Park during Summer 2023?",
+  "output": "False",
+  "rule": [
+   "752"
+  ],
+  "rule in NL": "If Organization X is active in Event A, and Event A occurs during Time Period Z2, and Natural Place Y is safe during Time Period Z2, then Organization X cannot access Natural Place Y.",
+  "depth": 1,
+  "length": 3,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "transitive-disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nThe Blue Agave plant is native to the arid and semi-arid climates of the Jalisco region in Mexico, where it thrives on the high plateaus and provides the essential raw material for traditional tequila production.\nQuestion:\nDoes the Blue Agave plant grow in the Jalisco region?",
+  "output": "False",
+  "rule": [
+   "156"
+  ],
+  "rule in NL": "If Plant X is native to Region Y, then Plant X not grows in Region Y.",
+  "depth": 0,
+  "length": 1,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "location",
+  "structure": "transitive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nMaria plays chess at the local club every Thursday evening.\nQuestion:\nCan Maria lose at chess?",
+  "output": "False",
+  "rule": [
+   "39"
+  ],
+  "rule in NL": "If Person X plays Game Y, then Person X cannot lose Game Y.",
+  "depth": 0,
+  "length": 1,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "transitive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nThe video game 'RecoverQuest' is specifically designed for patients suffering from depression, offering various therapeutic tasks and mindfulness exercises integrated within its gameplay.\nQuestion:\nCan the video game 'RecoverQuest' help cope with depression?",
+  "output": "False",
+  "rule": [
+   "215"
+  ],
+  "rule in NL": "If Game X is designed for Disease Y, then Game X cannot help cope with Disease Y.",
+  "depth": 0,
+  "length": 1,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "interaction",
+  "structure": "transitive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nThe smartphone Model X is coated with a special polymer Z2, which is known for its impermeable properties against liquids, specifically including Alcohol Y, such as isopropanol.\nQuestion:\nCan the smartphone Model X be damaged by isopropanol?",
+  "output": "True",
+  "rule": [
+   "662"
+  ],
+  "rule in NL": "If Electronic Device X is coated with Substance Z2, and Substance Z2 is impermeable to Alcohol Y, then Electronic Device X can be damaged by Alcohol Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "interaction",
+  "structure": "transitive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nJason, a 21-year-old college student, recently found out about an online strategy game called 'Empires at War.' The legal minimum age to play 'Empires at War' is 18 years, and since Jason is 21, he clearly surpasses the age requirement.\nQuestion:\nIs Jason eligible to play 'Empires at War'?",
+  "output": "False",
+  "rule": [
+   "699"
+  ],
+  "rule in NL": "If Person X is of Age Z1 and the legal age to play Game Y is Age Z2, and Age Z1 is bigger than Age Z2, then Person X cannot play Game Y.",
+  "depth": 0,
+  "length": 3,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nThe irrigation system, designed primarily for arid conditions, is inactive during heavy rainfall events,\nQuestion:\nCan the irrigation system access heavy rainfall?",
+  "output": "True",
+  "rule": [
+   "551"
+  ],
+  "rule in NL": "If Technology X is designed for Condition Z1 and Condition Z1 is absent during Natural Phenomenon Y, then Technology X can access Natural Phenomenon Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "disjunctive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nOlivia was born in the 1990s while the Victorian armchair in her grandmother's living room was crafted in the early 1880s, a time period which is obviously much earlier than the 1990s.\nQuestion:\nCan Olivia use the Victorian armchair?",
+  "output": "False",
+  "rule": [
+   "723"
+  ],
+  "rule in NL": "If Person X was born in Time Period Z1 and Furniture Y was crafted in Time Period Z2, and Time Period Z2 is earlier than Time Period Z1, then Person X cannot use Furniture Y.",
+  "depth": 0,
+  "length": 3,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nBourbon Whiskey, known as Alcohol X, is distilled in Buffalo Trace Distillery, referred to as Facility A, and Buffalo Trace Distillery is built amidst the lush, natural surroundings of Franklin County, referred to as Natural Place C. Surprisingly, Franklin County is encapsulated within the massive, secured parameters of a special economic zone, named Facility Z, and this economic zone is established in the state of Kentucky, known as Region Y.\nQuestion:\nIs Bourbon Whiskey available in Kentucky?",
+  "output": "False",
+  "rule": [
+   "929"
+  ],
+  "rule in NL": "If Alcohol X is distilled in Facility A, and Facility A is built in Natural Place C, and Natural Place C is inside Facility Z, and Facility Z is built in Region Y, then Alcohol X is not available in Region Y.",
+  "depth": 2,
+  "length": 4,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "location",
+  "structure": "transitive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nJohn, who has never learned how to bake or use an oven, finds himself needing these skills specifically to bake a chocolate cake,\nQuestion:\nDoes John avoid baking the chocolate cake?",
+  "output": "False",
+  "rule": [
+   "484"
+  ],
+  "rule in NL": "If Person X lacks Skill Z1 and Skill Z1 is needed to cook Food Y, then Person X not avoids making Food Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nThe Apex Science Laboratory has no restrictions on the use of Sodium Chloride, and the compound known as Saline Solution contains Sodium Chloride.\nQuestion:\nCan the Apex Science Laboratory access Saline Solution?",
+  "output": "False",
+  "rule": [
+   "401"
+  ],
+  "rule in NL": "If Facility X has no ban on Substance Z and Material Y contains Substance Z, then Facility X cannot access Material Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nJohn, a software engineer at a well-known tech company, earns an annual salary of $120,000. The minimum investment required to buy into an exclusive real estate investment trust is $50,000, and John's salary exceeds this amount.\nQuestion:\nDoes John have the capital to invest in the real estate investment trust?",
+  "output": "False",
+  "rule": [
+   "885"
+  ],
+  "rule in NL": "If Person X has a job A that pays Money Z1 and the minimum investment required for Financial Product Y is Money Z2, and Money Z1 is bigger than Money Z2, then Person X has no the capital for Financial Product Y.",
+  "depth": 1,
+  "length": 4,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "transitive-disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nElizabeth, who recently completed a comprehensive software engineering training program, is trained to become a front-end developer at a major tech company.\nQuestion:\nCan Elizabeth perform as a front-end developer?",
+  "output": "False",
+  "rule": [
+   "34"
+  ],
+  "rule in NL": "If Person X is trained for Job Y, then Person X cannot perform Job Y.",
+  "depth": 0,
+  "length": 1,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "transitive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nThe nocturnal owl is active during the night, and the pine tree grows in the Pacific Northwest which is characterized by a cool, damp climate, and the cool, damp climate dominates during the night.\nQuestion:\nCan the nocturnal owl access the pine tree?",
+  "output": "False",
+  "rule": [
+   "903"
+  ],
+  "rule in NL": "If Animal X is active during Time Period Z1, and Plant Y grows in Region C which is characterized by Condition A, and Condition A dominates in Time Period Z1, then Animal X cannot access Plant Y.",
+  "depth": 2,
+  "length": 4,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "transitive-disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nThe Android operating system is updated for the Samsung platform, and the Samsung Galaxy smartphone runs on the Samsung platform.\nQuestion:\nCan the Android operating system access the Samsung Galaxy smartphone?",
+  "output": "False",
+  "rule": [
+   "379"
+  ],
+  "rule in NL": "If Technology X is updated for Platform Z and Electronic Device Y runs on Platform Z, then Technology X cannot access Electronic Device Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nThe sunflower thrives in the temperate climate of the Pacific Northwest, whereas the destructive rust fungus is completely absent in this region.\nQuestion:\nIs the sunflower safe from the rust fungus?",
+  "output": "False",
+  "rule": [
+   "601"
+  ],
+  "rule in NL": "If Plant X grows in Region Z1 and Disease Y is absent in Region Z1, then Plant X is not safe from Disease Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nMeteorologist Dr. Allen has the skills of advanced atmospheric analysis and satellite imagery interpretation, both of which are essential for studying hurricane patterns.\nQuestion:\nCan Dr. Allen study hurricane patterns?",
+  "output": "False",
+  "rule": [
+   "264"
+  ],
+  "rule in NL": "If Person X has Skill Z2 and Skill Z2 is required for measuring Natural Phenomenon Y, then Person X cannot study Natural Phenomenon Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "transitive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nJohn has inherited hemophilia, and Medication Aspirin is manufactured from Acetylsalicylic Acid, which is derived from Salicylic Acid, and Salicylic Acid is composed of Phenol, and Phenol triggers hemophilia-related complications.\nQuestion:\nIs Aspirin contraindicated for John?",
+  "output": "False",
+  "rule": [
+   "1073"
+  ],
+  "rule in NL": "If Person X has inherited Condition Z, and Drug Y is manufactured from Material C, which is derived from Material E, and Material E is composed of Substance A, and Substance A triggers Condition Z, then Drug Y is not contraindicated for Person X.",
+  "depth": 3,
+  "length": 5,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "transitive-disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nGame 'Assassin's Creed' is set in the Renaissance period around the 15th century and the TV show 'Future Quest' is scheduled to be broadcast in 2023, and the Renaissance period is earlier than 2023.\nQuestion:\nCan the game 'Assassin's Creed' access the TV show 'Future Quest'?",
+  "output": "True",
+  "rule": [
+   "819"
+  ],
+  "rule in NL": "If Game X is set in Time Period Z1 and Show Y is scheduled at Time Period Z2, and Time Period Z1 is earlier than Time Period Z2, then Game X can access Show Y.",
+  "depth": 0,
+  "length": 3,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "disjunctive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nThe nocturnal raccoon is active during the night, and the moonflower, which blooms at night, is adapted to this same time period.\nQuestion:\nCan the raccoon access the moonflower?",
+  "output": "False",
+  "rule": [
+   "372"
+  ],
+  "rule in NL": "If Animal X is active during Time Period Z1 and Plant Y is adapted to Time Period Z1, then Animal X cannot access Plant Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nThe local library (Organization X) leases the latest best-selling novel (Material Y) for the summer reading program.\nQuestion:\nCan the local library access the latest best-selling novel?",
+  "output": "False",
+  "rule": [
+   "86"
+  ],
+  "rule in NL": "If Organization X leases Material Y, then Organization X cannot access Material Y.",
+  "depth": 0,
+  "length": 1,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "transitive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nAntique wooden chair X is stored in Region A, a highly humid coastal area, and the excessive moisture in Region A makes Water-based paint Y ineffective.\nQuestion:\nCan Antique wooden chair X be painted with Water-based paint Y?",
+  "output": "True",
+  "rule": [
+   "867"
+  ],
+  "rule in NL": "If Furniture X is stored in Region A and the condition of Region A makes Substance Y ineffective, then Furniture X can be painted with Substance Y.",
+  "depth": 1,
+  "length": 3,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "interaction",
+  "structure": "transitive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nCompany Tesla is active in the International Tech Expo 2030, and silicon chips are manufactured by Intel, which participated in the Semiconductor Conference 2025, and the year 2025 is earlier than the year 2030.\nQuestion:\nCan Tesla use silicon chips?",
+  "output": "False",
+  "rule": [
+   "1085"
+  ],
+  "rule in NL": "If Organization X is active in Event A which occurs in Time Period Z1, and Material Y is manufactured by Organization C which is active in Event E that occurred in Time Period Z2, and Time Period Z2 is earlier than Time Period Z1, then Organization X cannot use Material Y.",
+  "depth": 3,
+  "length": 6,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "transitive-disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nThe famous painting 'Starry Night' is removed from the collection in the National Art Gallery's special edition book.\nQuestion:\nCan 'Starry Night' be accessed in the National Art Gallery's special edition book?",
+  "output": "True",
+  "rule": [
+   "141"
+  ],
+  "rule in NL": "If Artwork X is removed from Publication Y, then Artwork X can be accessed in Publication Y.",
+  "depth": 0,
+  "length": 1,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "transitive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nA plastic hammer, Tool X, is manufactured using Polyethylene, Substance A. Polyethylene is primarily formed from Ethylene, Material Z1, which in turn is derived from Ethane, Substance C. Ethane is known for its chemical stability and doesn't react with Isopropyl alcohol, Alcohol Y.\nQuestion:\nCan the plastic hammer be dissolved in Isopropyl alcohol?",
+  "output": "True",
+  "rule": [
+   "985"
+  ],
+  "rule in NL": "If Tool X is made from Substance A, Substance A is composed of Material Z1, Material Z1 is made of Substance C, and Substance C is non-reactive with Alcohol Y, then Tool X can be dissolved in Alcohol Y.",
+  "depth": 2,
+  "length": 4,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "interaction",
+  "structure": "transitive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nTechCorp, designated as Organization X, operates a local office in Silicon Valley, which is part of Region C. Region C is situated within the boundaries of California, here referred to as Region A. In California, a legal framework known as Health Act H123, or Legislation Z2, is rigorously applied, which includes a prohibition on the commercial use of Neroxim, a potent drug represented by Drug Y. Neroxim contains the synthetic compound Oxilimide, referred to as Substance E, which is explicitly banned under Health Act H123.\nQuestion:\nCan TechCorp access Neroxim?",
+  "output": "True",
+  "rule": [
+   "1066"
+  ],
+  "rule in NL": "If Organization X has a branch in Region C, and Region C is located in Region A, and Legislation Z2 is enforced in Region A, and Drug Y contains Substance E, and Substance E is banned in Legislation Z2, then Organization X can access Drug Y.",
+  "depth": 3,
+  "length": 5,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "transitive-disjunctive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nMaria lacks programming skills and programming skills are a standard requirement for the software engineering position at Tech Innovations.\nQuestion:\nCan Maria access the software engineering position at Tech Innovations?",
+  "output": "True",
+  "rule": [
+   "499"
+  ],
+  "rule in NL": "If Person X lacks Skill Z and Skill Z is a standard requirement for Job Y, then Person X can access Job Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "disjunctive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nAlex has a job as an electrician which requires a voltage meter, and the voltage meter is made of copper, and handling copper requires electrical safety skills, and electrical safety skills are developed for construction sites.\nQuestion:\nDoes Alex have skills for construction sites?",
+  "output": "False",
+  "rule": [
+   "1008"
+  ],
+  "rule in NL": "If Person X has a job A that requires Tool E, and Tool E is made of Material C, and handling Material C requires Skill Z1, and Skill Z1 is developed for Platform Y, thenLacksSkills",
+  "depth": 3,
+  "length": 5,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "transitive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nSoftware developer Alice has been taught Python programming and the job at TechCorp requires Python programming.\nQuestion:\nCan software developer Alice communicate on the job at TechCorp?",
+  "output": "False",
+  "rule": [
+   "316"
+  ],
+  "rule in NL": "If Person X has been taught Skill Z2 and Platform Y requires Skill Z2, then Person X cannot communicate on Platform Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nCaffeine (Substance X) is legal under federal food regulations (Material Z) and these regulations are governed by the Food and Drug Administration (Legislation Y).\nQuestion:\nCan caffeine be accessed under the Food and Drug Administration?",
+  "output": "False",
+  "rule": [
+   "398"
+  ],
+  "rule in NL": "If Substance X is legal under Material Z and Material Z is regulated by Legislation Y, then Substance X cannot be accessed under Legislation Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "transitive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nThe annual Apple Festival is scheduled for the last week of September and locally-grown apples reach their peak ripeness in the last week of September.\nQuestion:\nCan locally-grown apples be eaten at the Apple Festival?",
+  "output": "False",
+  "rule": [
+   "367"
+  ],
+  "rule in NL": "If Event X is scheduled for Time Period Z1 and Food Y matures in Time Period Z1, then Food Y cannot be eaten at Event X.",
+  "depth": 0,
+  "length": 2,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nA skittish cat named Whiskers fears the scent of citrus, and lemon juice, which is a citrus product, has been sprinkled extensively on the new wooden deck.\nQuestion:\nCan Whiskers the cat access the new wooden deck?",
+  "output": "True",
+  "rule": [
+   "538"
+  ],
+  "rule in NL": "If Animal X fears Substance Z and Substance Z has been added to Platform Y, then Animal X can access Platform Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "disjunctive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nJohn, a 65-year-old man, lives in a small coastal town. At his age, being 65 is recognized as a risk factor for developing high blood pressure, a condition that affects many seniors in his community.\nQuestion:\nCan John experience high blood pressure?",
+  "output": "False",
+  "rule": [
+   "266"
+  ],
+  "rule in NL": "If Person X has Age Z1 and Age Z1 is a risk factor for Condition Y, then Person X cannot experience Condition Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "transitive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nMutual Fund MF-101 is provided by Bank Central, and Bank Central's headquarters is built in Silicon Valley, and Silicon Valley is located in California, which is included in the West Coast region, and the West Coast region is part of the United States.\nQuestion:\nIs Mutual Fund MF-101 available in the United States?",
+  "output": "False",
+  "rule": [
+   "1046"
+  ],
+  "rule in NL": "If Financial Product X is provided by Facility Z, and Facility Z is built in Region E, and Region E is located in Natural Place C, which is included in Region A, and Region A is part of Region Y, then Financial Product X is not available in Region Y.",
+  "depth": 3,
+  "length": 5,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "location",
+  "structure": "transitive-disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nJamie has inherited a top-tier tennis racket known as the Grand Slam Racket, and this specific racket is required to compete in the Elite Tennis Championship.\nQuestion:\nCan Jamie compete in the Elite Tennis Championship?",
+  "output": "False",
+  "rule": [
+   "305"
+  ],
+  "rule in NL": "If Person X has inherited Tool Z2 and Tool Z2 is required for Game Y, then Person X cannot compete in Game Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "transitive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nMaria works as a software developer which requires programming skills, and SpaceX has a goal related to rocket engineering skills, and programming is used in the Hackathon 2023 event which is part of the Tech Conference, but rocket engineering is not involved in the Tech Conference.\nQuestion:\nCan Maria lead SpaceX?",
+  "output": "True",
+  "rule": [
+   "1094"
+  ],
+  "rule in NL": "If Person X works in Job A which requires Skill Z1, and Organization Y has a goal related to Skill Z2, and Skill Z1 is used in Game E which is part of Event C, but Skill Z2 is not involved in Event C, then Person X can lead Organization Y.",
+  "depth": 3,
+  "length": 6,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "1",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "transitive-disjunctive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nAn advanced GPS tracking system is installed in the new Tesla Model S\nQuestion:\nCan the new Tesla Model S access the advanced GPS tracking system?",
+  "output": "False",
+  "rule": [
+   "103"
+  ],
+  "rule in NL": "If Technology Y is installed in Vehicle X, then Vehicle X cannot access Technology Y.",
+  "depth": 0,
+  "length": 1,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "transitive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nA walnut dining table (Furniture X) is coated with a special varnish (Substance Z2), and this varnish is known for its resistance to chlorine-based bleaching agents (Drug Y).\nQuestion:\nCan the walnut dining table be discolored by chlorine-based bleaching agents?",
+  "output": "True",
+  "rule": [
+   "652"
+  ],
+  "rule in NL": "If Furniture X is coated with Substance Z2, and Substance Z2 is resistant to Drug Y, then Furniture X can be discolored by Drug Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "interaction",
+  "structure": "transitive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nThe wooden deck, referred to as Platform A, is constructed from a special type of treated wood known as Material T. Material T, while being highly durable, has been proven toxic to the common garden tulip, referred to here as Plant G.\nQuestion:\nCan Platform A be decorated with Plant G?",
+  "output": "True",
+  "rule": [
+   "678"
+  ],
+  "rule in NL": "If Platform X is made of Material Z1, and Material Z1 is toxic to Plant Y, then Platform X can be decorated with Plant Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "interaction",
+  "structure": "transitive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nMariam is a landscape engineer who requires a specialized pH meter for her work, and Mariam has been certified in advanced soil chemistry, which enables her to expertly handle soil acidity levels, and the Blue Orchid is particularly sensitive to fluctuations in soil pH levels, and her advanced soil chemistry certification includes training on managing soil pH levels.\nQuestion:\nCan Mariam maintain the Blue Orchid?",
+  "output": "False",
+  "rule": [
+   "1004"
+  ],
+  "rule in NL": "If Person X has a job C that requires Tool E, and Person X has Skill Z2 to use Tool E, and Plant Y is sensitive to Condition A, and Skill Z2 can manage Condition A, then Person X cannot maintain Plant Y.",
+  "depth": 3,
+  "length": 5,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "transitive-disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nA specialized underwater camera X is designed for deep-sea diving conditions Z1, and the marine photography job Y is conducted in these same deep-sea conditions Z1.\nQuestion:\nCan the underwater camera X access the marine photography job Y?",
+  "output": "False",
+  "rule": [
+   "421"
+  ],
+  "rule in NL": "If Tool X is designed for Condition Z1 and Job Y is conducted in Condition Z1, then Tool X cannot access Job Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nAlice moved to Sicily, which is known for its frequent and picturesque volcanic eruptions due to the active volcano Mount Etna.\nQuestion:\nDoes Alice live in a region with volcanic eruptions?",
+  "output": "False",
+  "rule": [
+   "627"
+  ],
+  "rule in NL": "If Person X moves to Region Z and Region Z is located in Natural Phenomenon Y, then Person X not lives in a region with Natural Phenomenon Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "need",
+  "structure": "transitive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nThe tulip flowers, thriving in the early springtime of April, enjoy a period of vigorous growth when the Powdery Mildew fungus remains inactive and harmless throughout the same month.\nQuestion:\nAre the tulip flowers safe from Powdery Mildew?",
+  "output": "False",
+  "rule": [
+   "602"
+  ],
+  "rule in NL": "If Plant X grows in Time Period Z2 and Disease Y is dormant during Time Period Z2, then Plant X is not safe from Disease Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nThe Grand Canyon is the location of the Annual Photography Contest and the job of Professional Photographer requires participation in the Annual Photography Contest\nQuestion:\nCan the job of Professional Photographer access the Grand Canyon?",
+  "output": "False",
+  "rule": [
+   "405"
+  ],
+  "rule in NL": "If Natural Place X is the location of Event Z and Job Y requires participation in Event Z, then Job Y cannot access Natural Place X.",
+  "depth": 0,
+  "length": 2,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nTechCorp is located in the Southern District, and the Southern District is governed by City Hall, and City Hall is located in Metro City, and there is an alcohol ban in Metro City for Whiskey.\nQuestion:\nCan TechCorp produce Whiskey?",
+  "output": "True",
+  "rule": [
+   "989"
+  ],
+  "rule in NL": "If Organization X is located in Region Z2, and Region Z2 is governed by Facility A, and Facility A is located in Region C, and there is an alcohol ban in Region C for Alcohol Y, then Organization X can produce Alcohol Y.",
+  "depth": 2,
+  "length": 4,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "1",
+  "flipped_human_prediction": "1",
+  "domain": "interaction",
+  "structure": "transitive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nMaria practices Java programming and the book 'Effective Java' is written in Java language.\nQuestion:\nCan Maria quote 'Effective Java'?",
+  "output": "False",
+  "rule": [
+   "282"
+  ],
+  "rule in NL": "If Person X practices Skill Z1 and Publication Y is written in Skill Z1, then Person X cannot quote Publication Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nVodka, which is made from Grain, and Grain contains Ethanol, and Ethanol violates the Total Alcohol Prohibition Act, and the Total Alcohol Prohibition Act is enforced in the United States, and California is a subregion of the United States,\nQuestion:\nCan Vodka be consumed in California?",
+  "output": "True",
+  "rule": [
+   "1041"
+  ],
+  "rule in NL": "If Alcohol X is made of Material C, and Material C is composed of Substance A, and Substance A violates Legislation E, and Legislation E is enforced in Region Z1, and Region Y is a subregion of Region Z1, then Alcohol X can be consumed in Region Y.",
+  "depth": 3,
+  "length": 5,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "location",
+  "structure": "transitive",
+  "positive_": true
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nAmanda moved to Toronto and the new video game 'StarQuest' was released in Canada, including Toronto.\nQuestion:\nCan Amanda play 'StarQuest'?",
+  "output": "False",
+  "rule": [
+   "342"
+  ],
+  "rule in NL": "If Person X moves to Region Z1 and Game Y is released in Region Z1, then Person X cannot play Game Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "accessibility",
+  "structure": "disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nSarah knows how to operate a manual transmission and shifting gears is necessary to drive her sports car.\nQuestion:\nCan Sarah navigate her sports car?",
+  "output": "False",
+  "rule": [
+   "306"
+  ],
+  "rule in NL": "If Person X knows Skill Z1 and Skill Z1 is needed to drive Vehicle Y, then Person X cannot navigate Vehicle Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "transitive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nChemist Rachel is trained in making antibiotic Penicillin\nQuestion:\nCan Chemist Rachel produce Penicillin?",
+  "output": "False",
+  "rule": [
+   "6"
+  ],
+  "rule in NL": "If Person X is trained in making Substance Y, then Person X cannot produce Substance Y.",
+  "depth": 0,
+  "length": 1,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "transitive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nJohn, who does not suffer from diabetes, knows that sugary drinks can exacerbate diabetes if consumed excessively.\nQuestion:\nCan John drink sugary drinks?",
+  "output": "False",
+  "rule": [
+   "328"
+  ],
+  "rule in NL": "If Person X does not have Condition Z and Alcohol Y worsens Condition Z, then Person X cannot drink Alcohol Y.",
+  "depth": 0,
+  "length": 2,
+  "positive": true,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "affordance",
+  "structure": "disjunctive",
+  "positive_": false
+ },
+ {
+  "instruction": "Giving a Context, please answer the Question.",
+  "input": "Context:\nThe Greenhouse Café, known as Facility X, is situated in the picturesque Lakeview District, referred to as Region Z2. In this district, the sale and consumption of Merlot, which is specified as Alcohol Y, are strictly prohibited due to local health ordinance.\nQuestion:\nCan Merlot be served at The Greenhouse Café?",
+  "output": "True",
+  "rule": [
+   "677"
+  ],
+  "rule in NL": "If Facility X is located at Region Z2, and Alcohol Y is banned in Region Z2, then Alcohol Y can be served at Facility X.",
+  "depth": 0,
+  "length": 2,
+  "positive": false,
+  "label": true,
+  "original_human_prediction": "2",
+  "flipped_human_prediction": "1",
+  "domain": "interaction",
+  "structure": "transitive",
+  "positive_": true
+ }
+]

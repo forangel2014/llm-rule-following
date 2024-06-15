@@ -1,0 +1,127 @@
+If an animal lives in a cold area, then it probably has thick fat or think fur. -> which animal is likely to have thick fat or thick fur?
+If an animal emits foul smell, then it probaly is protecting itself or marking its territory. -> which animal is probaly protecting itself or marking its territory?
+If it's a cold place and winter comes, then animals in this place might hibernate. -> in which place the animals might hibernate?
+If an animal is domesticated and is kept closely with its human owner, then it probably can provide emotional support to its owner. -> pass
+If an animal is domesticated and is kept closely with its human owner, then it probably can provide emotional support to its owner. -> pass
+There exists animals that are covered with a thick exoskeleton. -> pass
+There exists animals that can change the color of their skin. -> pass
+If an animal has fin, then it probably belongs to aquatic animal. -> which animal is probably belongs to aquatic animal?
+If a reptile lays egg under different temperature, then the gender of the eggs probably varies accordingly to the temperature. -> which animal's egg gender cannot be determined even after being produced by the mother?
+If an animal has a three-part body and three pairs of joint legs, then it is insect. -> which animal is insect?
+If a snake has a large and triangle head and has a colorful skin and will curl up and prepare to attack when meet danger, then it probably is venomous. -> which snake is probably venomous?
+There exists animals that have venom. -> pass
+There exists animals named butterfly that have coloured wings. -> pass
+If an animal feeds on plant's nectar or fruit, then it can also help the plant's reproduction. -> pass
+If an animal feeds on plant's nectar or fruit, then it can also help the plant's reproduction. -> which animal can help the plant's reproduction?
+If plants on the earth develop too much, then it might promote the transition of the climatic system to the glacial mode. -> pass
+If a plant is carnivorous, then it probably has a trapping structure. -> which plant probably has a trapping structure?
+If a plant receives enough sunlight and water, then it probably will grow fast. -> pass
+If a plant lives in a place which has hot weather and abundant rainfall, then the plant might not drop most of its leaves in winter. -> which plant might not drop most of its leaves in winter?
+There exists carnivorous plants that can caught and digest insects. -> pass
+There exists plant with edible fruit that has strong odour. -> pass
+There exists plant that produces chemicals that can make human addictive to them. -> pass
+If a plant has pests or grows in unsuitable soil, then it probably can't grow healthily. -> pass
+If a plant is carnivorous, then it still can generate energy from photosynthesis. -> pass
+If a plant is herbaceous, then its height is probably less than 2 meters. -> pass
+If a mushroom contains red colour and has unpleasant smell, then it probably is toxic. -> which mushroom probably is toxic?
+There exist plants which have very bad smell. -> pass
+There exist plants that are parasitic. -> pass
+There exists plant that can move to new environment when its old enverionment does not fits its growth. -> pass
+If a plant has flowers with nectar or has fruit with sweet juice, it probably can benefit from animals' help on its reproduction. -> pass
+If a plant has flowers with nectar or has fruit with sweet juice, it probably can benefit from animals' help on its reproduction. -> which plant probably can benefit from animals' help on its reproduction?
+If a plant is a annual plant or biennial plant, then it probably is herbaceous. -> pass
+If a plant is a annual plant or biennial plant, then it probably is herbaceous. -> which plant is probably herbaceous?
+If a plate of earth moves, then its speed is around 0~20 centimetres per year. -> pass
+If a country has coastal areas, then it probably has cheap seafood. -> which country probably has cheap seafood?
+If a place is closer to the equator, then the wheat grown in that place is earlier to be harvested. -> in which place the wheat grown is earlier to be harvested?
+If carbon deposits deep within the earth and are subject to high temperature and pressure, then diamond might form. -> in which situation may the diamond form?
+If a place on earth is in the sea area and two ocean currents meet at the place, then this place probably is abundant in fish. -> which place is probably abundant in fish?
+There exists a trench on earth with depth 10,984 metres. -> pass
+There exist Finger Lakes, which are a group of eleven long, narrow, roughly north-south lakes that look like fingers. -> pass
+If a large comet hits the earth or a large earthquake happens, then it probably will cause a tsunami. -> which situation may cause a tsunami?
+If a large comet hits the earth or a large earthquake happens, then it probably will cause a volcanic eruption. -> which situation may cause a volcanic eruption?
+If an ocean area in the Earth is near the Equator or near the 30 degrees north and south or Equator, then it probably have calm winds. -> which place probably have calm winds?
+If a planet locates near the star it orbits around, then the planet probably has a small size. -> which planet probably has a small size?
+If a planet locates near the star it orbits around, then the planet probably is a terrestrial planet. -> which planet probably is a terrestrial planet?
+if two black holes merge, then it probably generate gravitational wave. -> pass
+If a planet locates far from the star it orbits around and has a large size, then it probably consists of gas. -> which planet probably consists of gas?
+If an intergalactic object is extremely dense and has a hard surface, then it probably is a neutron star. -> which planet probably is a neutron star?
+There exists a planet named Mars in the Solar System, which is a terrestrial planet with a thin atmosphere. -> pass
+If a star has higher surface temperature or is closer to us, then it probably has lower color index (more blue and less red). -> which planet probably has lower color index?
+if a person suffers from harships, then he might learn from the harships, be waken of dormant talents, and be able to handle major responsibilities. -> pass
+If a kid's parents have specific kind of characteristics, then the kid will have higher chance than others to develop similar characteristics. -> pass
+If two weapons are used in a combat and one weapon has more advanced generation than the other, then the advanced weapon probably will have a absolute victory. -> pass
+If a person suffers from harships and does not give up, then he might learn from the hardships and finally make an achievement. -> pass
+If a person has an accurate understanding of reality and use the understanding to guide his/her action, then he/she will have more chance to produce good outcomes. -> pass
+If a person has access to detailed history information and learns from the history, then he/she probably has a more precise understanding about the world and can handle his/her life well. -> pass
+If a person has access to detailed history information and learns from the history, then he/she probably has a more precise understanding about the world and can handle his/her life well. -> pass
+If a person has access to detailed history information and learns from the history, then he/she probably has a more precise understanding about the world and can handle his/her life well. -> pass
+There exists a revolutionary invention as steam engine, which is a heat engine that performs mechanical work using steam as its working fluid, and powers the factories of the industrial revolution. -> pass
+There exists a Renaissance period, which is characterized by an effort to revive and surpass ideas and achievements of classical antiquity. -> pass
+There exists a great mathematician and physicist named Isaac Newton, who formulated the laws of motion and universal gravitation that formed the dominant scientific viewpoiont until it was superseded by the theory of relativity. -> pass
+There exist great master minds and artists all around the world. -> pass
+If a piece of precise, deep, and even simple understanding of the world has only been obtained by a small group of people or is very helpful for a person to live in the world, then it probably is hard and costly to obtain. -> which understanding probably is hard and costly to obtain?
+If a country does not have a strong army, then it might be attacked and overturned by another country. -> pass
+If the heads of a country can wisely choose its enemy countries and friend countries, then the country might be safe and prosperous. -> pass
+If a country catches up industrial revolution, then it might be rich and have advanced technology. -> which country might be rich and have advanced technology?
+If a great artistic work has been created, then it might have a huge positive influence to the contemporary world. -> pass
+If a person is more self-motivated, then he/she can learn faster and has a better mental health. -> pass
+If a person the presidents of the U.S., then it's more probably he/she is borned in the U.S. and is majored in law. -> pass
+If a country uses its army to attack another country and can't win the war in a short time, then this country might be in a dangerous status since it might use up its resources and be attacked by a third country. -> pass
+If a country has an army with more advanced technology and has larger economy, then it probably will win a war with another country. -> pass
+If a person is knowledgable about an area and currently has a position that is biased to you, then his words about that area is more believable. -> which person's words is more believable?
+There exists Qin dynasty lasting from 221 to 206 BC, which was the first dynasty of Imperial China. -> pass
+There exists a first industrial revolution, which takes place in Great Britain. -> pass
+There exist great master minds who doesn't get recognized by the society during their living times. -> pass
+If a person can examine himself/herself frequently and learn from the examination or can learn from good books, then he/she probably can grow quickly in understanding world. -> pass
+If a person can appreciate others' help timely and properly or be enough competent, then he probably can receive more help from others. -> which person probably can receive more help from others?
+If a planet has magnetic field, then it probably has a hot liquid core. -> which planet probably has a hot liquid core?
+If a conductor cuts through lines of magnetic field, then it induces eletromotive force, or voltage. -> which situation may the conductor induces eletromotive force, or voltage?
+If a triangle is a right triangle, the sum of the squares on the legs of a right triangle is equal to the square on the hypotenuse. -> in which triangle the sum of the squares on the two legs is equal to the square on last legs?
+If within this universe, then gravitational force is in direct proportional to mass. -> pass
+If within this universe, then gravitational force is in direct proportional to mass. -> pass
+If within this universe, then gravitational force is in direct proportional to mass. -> pass
+If within this universe, then gravitational force is in direct proportional to mass. -> pass
+If within this universe, then net force is in direct proportional to acceleration. -> pass
+If within this universe, then net force is in direct proportional to acceleration. -> pass
+If within this universe, then net force is in direct proportional to acceleration. -> pass
+If within this universe, then acceleration is in reverse proportional to mass. -> pass
+If within this universe, then acceleration is in reverse proportional to mass. -> pass
+If within this universe, then acceleration is in reverse proportional to mass. -> pass
+If within this universe, then action force and reaction force have the same magnitude. -> pass
+If within this universe, then action force and reaction force have the same magnitude. -> pass
+If within this universe, then action force and reaction force have the same magnitude. -> pass
+If within this universe, then action force and reaction force have reverse direction. -> pass
+If within this universe, then action force and reaction force have reverse direction. -> pass
+If within this universe, then action force and reaction force have reverse direction. -> pass
+If multiple waves pass by the same region at the same time, then they will interfere with each other. -> in which situation the waves might interfere with each other?
+There exists a force between the earth and every object on earth, which will lead the object fall to the ground. -> pass
+There exists matter waves, which exists with every matter and exhibits wave-like behaviour. -> pass
+If a substance breaks up into multiple parts or temperature increases, then its entropy will increase. -> in which situation the entropy will increase?
+If an animal has wings with feather, then it probably can fly. -> which animal probably can fly?
+If an animal has a long, prehensile tail, then it is probably an arboreal species. -> which animal is probably an arboreal species?
+If an animal is marsupial, then it carries its young in a pouch. -> which animal carries its young in a pouch?
+If an animal is an exotic species, then it may negatively affect the local environment. -> which animal may negatively affect the local environment?
+if a plant has leaves with wax coating, then it probably is a xerophytic plant. -> which plant probably is a xerophytic plant?
+If an animal has a complex social structure, then it is likely to have developed advanced cognitive abilities. -> which animal is likely to have developed advanced cognitive abilities?
+If an animal has convergent eyes (eyes positioned to face forward on the head), then that animal likely exhibits predatory behavior. -> which animal likely exhibits predatory behavior?
+If a socio-political structure is abruptly dismantled without the establishment of a robust alternative system, then it often leads to a period of chaos, violence, or power vacuum in the society -> pass
+If a significant technological breakthrough occurs during a period of war, then it is likely to cause a major shift in the strategy and outcome of the conflict. -> pass
+If a society significantly values and invests in scientific research and intellectual pursuits, then it will experience periods of rapid advancement that could trigger dramatic changes in its sociopolitical landscape. -> pass
+If a society experiences an unexpected increase in access to information or knowledge, then it will undergo substantial social and political transformations. -> pass
+If a nation's main source of economic power undergoes a significant transformation, then there will be a major shift in that nation's sociopolitical structure, often leading to periods of conflict and/or revolution. -> pass
+If a nation or culture experiences an extended period of peace and prosperity, then a significant movement of introspection and philosophical innovation is likely to follow. -> pass
+If a business experiences rapid growth and market dominance without sufficient emphasis on company culture and ethics, then it often leads to significant internal problems and public controversies. -> pass
+If a celestial body is observed to have an irregular orbit, then it often indicates the gravitational influence of another, as-yet-undiscovered celestial body. -> which phenomenon indicates the gravitational influence of another, as-yet-undiscovered celestial body?
+If a star is observed to suddenly increase in brightness, then it often indicates a stellar explosion or supernova event, which can lead to the creation of elements heavier than iron. -> which phenomenon indicates a stellar explosion or supernova event?
+If there is an unusually high concentration of iridium in sedimentary rock strata, then a large extraterrestrial impact event (like an asteroid or comet strike) likely occurred -> pass
+If there is a paradigm shift in technological innovation that disrupts traditional industries, then individuals who adapt and capitalize on the emerging trends have the potential to earn significant wealth. -> pass
+If there is a sudden surge in demand for a previously overlooked or undervalued resource, then individuals or businesses involved in its production or supply are likely to experience significant financial gains. -> pass
+If an individual or company can successfully identify and leverage an unmet need in the market, then they can earn substantial income. -> pass
+If there is a sharp increase in demand for a particular good or service without a corresponding increase in supply, then the price of that good or service will likely rise due to the principles of supply and demand. -> pass
+If a country or region significantly invests in education and skills development for its population, then over time it is likely to see an increase in productivity and economic growth due to a more skilled workforce. -> pass
+If you consistently invest in assets that generate income and appreciate over time, rather than primarily spending on depreciating liabilities, then you can build wealth in the long term. -> pass
+If you can create multiple streams of income, particularly passive income, then you can accumulate wealth more effectively and sustainably. -> pass
+If you have a niche skill set or unique idea and you deeply understand a problem that many people face in that niche, then building a business around that specific solution can lead to a successful small company. -> pass
+If you meticulously plan for and monitor cash flow, ensuring that revenue generation exceeds operational costs, then you can build a successful small company from a financial perspective. -> pass
+If a small company can create a decentralized decision-making system, empowering lower-level employees and frontline workers with the authority to solve problems and make important decisions, then they can be more agile, responsive to changing conditions, and enhance employee engagement, leading to the potential for long-term success. -> pass
